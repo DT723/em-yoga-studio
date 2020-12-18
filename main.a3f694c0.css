@@ -121,6 +121,10 @@
     font-size: 1.25em;
 }
 
+.footerTitle:hover {
+    text-decoration: underline;
+}
+
 .subscribeFooter {
     margin-top: 25px;
 }
@@ -244,4 +248,8 @@
 .yogaColBottom {
     margin-bottom: 15px;
     margin-top: -80px;
+}
+
+.section-container.imgContainer {
+    margin-top: -100px;
 }
