@@ -85,6 +85,7 @@
     font-size: 18px;
     font-weight: bold;
     color: #8f2317;
+    font-style: italic;
 }
 
 .border-section-container {
@@ -169,14 +170,33 @@
 
 .pricing-card.pricing-secondary.pricing-fourth {
     background-color: #12247a;
+    padding-bottom: 103px;
 }
 
 .indicates-required {
     float: right;
 }
 
+.card-container {
+    margin-bottom: 30px;
+}
+
+.section-container {
+    padding-bottom: 0px;
+}
+
+.section-container-home {
+    padding-bottom: 60px;
+}
+
 .section-container.no-padding {
     padding-bottom: 250px;
+}
+
+.banner-container {
+    margin-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 35px;
 }
 
 .row.terms15 {
@@ -186,7 +206,7 @@
     width: 100%;
     gap: 20px;
 }
-    
+
 
 
 #priceTerms{
@@ -198,6 +218,7 @@
 .btn-container {
     display: flex;
     margin-top: 30px;
+    margin-bottom: 30px;
     padding-right: 100px;
     justify-content: center;   
 }
