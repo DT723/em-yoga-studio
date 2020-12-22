@@ -52,7 +52,7 @@
 
 #firstName2 {
     font-family: open sans, 'Poppins';
-    color: #8f2317;
+    color: #2a5529;
     font-size: 4em;
     opacity: 1;
     text-shadow: 1px 1px 4px rgb(62, 61, 63);
@@ -79,6 +79,18 @@
 #titleDescription {
     color: #32225e;
     text-shadow: none;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.eventDescription {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: -12px;
+}
+
+.signature {
+    margin-top: -20px;
 }
 
 .subTitle {
@@ -119,11 +131,15 @@
 }
 
 .footerTitle {
-    font-size: 1.25em;
+    font-size: 16.125px;;
 }
 
 .footerTitle:hover {
     text-decoration: underline;
+}
+
+.footerTitleMid {
+    font-size: 16.125px;
 }
 
 .subscribeFooter {
@@ -136,10 +152,23 @@
 
 .footerClassText {
     font-size: 13px;
+    margin-top: -10px;
 }
 
-.footerClassText {
-    margin-top: -10px;
+.footerLink1 {
+    margin-top: -12px;
+}
+
+.footerLink2 {
+    margin-top: -12px;
+}
+
+.footerLinkMid {
+    padding-top: 10px;
+}
+
+.shareLinks {
+    padding-top: 8px;
 }
 
 .no-padding {
@@ -171,6 +200,10 @@
 .pricing-card.pricing-secondary.pricing-fourth {
     background-color: #12247a;
     padding-bottom: 103px;
+}
+
+.classButtons {
+    margin-left: 50px;
 }
 
 .indicates-required {
