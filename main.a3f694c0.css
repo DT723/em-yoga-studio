@@ -16,19 +16,19 @@
 }
 
 .navbar-fixed-top {
-    background-color: #b39feb;
+    background-color: #a5cab3;;
     height: 80px;
     border-bottom: 0px;
     height: 87px;
 }
 
 .navbar-default .navbar-nav li a {
-    color: #1a237e;
+    color: #0f180f;
     font-size: 1em;
 }
 
 .navbar-default .navbar-nav li a:hover {
-    color: #1a237e;
+    color: #344e38;
     opacity: 0.66;
     text-decoration: underline;
     font-size: 1em;
@@ -44,22 +44,27 @@
     margin: 0px;
 }
 
+.heroTitle {
+    margin-top: 50px;
+    margin-left: -100px;
+}
+
 #firstName1 {
     font-family: open sans, 'Poppins';
-    color: #8f2317;
+    color: #0f180f;
     font-size: 1.25em;
 }
 
 #firstName2 {
     font-family: open sans, 'Poppins';
-    color: #2a5529;
+    color: #a5cab3;
     font-size: 4em;
     opacity: 1;
     text-shadow: 1px 1px 4px rgb(62, 61, 63);
 }
 
 #studioName1 {
-    color: #1a237e;
+    color: #4d5d53;
     font-size: .70em;
     font-family: open sans, 'Poppins';
     font-style: italic;
@@ -77,7 +82,7 @@
 }
 
 #titleDescription {
-    color: #32225e;
+    color: #a5cab3;
     text-shadow: none;
     font-style: italic;
     font-size: 16px;
@@ -131,7 +136,7 @@
 }
 
 .footerTitle {
-    font-size: 16.125px;;
+    font-size: 16.125px;
 }
 
 .footerTitle:hover {
@@ -296,7 +301,7 @@
 }
 
 #navbar-collapse-uarr {
-    background-color: #b39feb;
+    background-color: #a5cab3;;
 }
 
 .yogaColTop {
