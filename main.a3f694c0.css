@@ -16,7 +16,7 @@
 }
 
 .navbar-fixed-top {
-    background-color: #a5cab3;;
+    background-color: #a5cab3;
     height: 80px;
     border-bottom: 0px;
     height: 87px;
@@ -89,10 +89,27 @@
     text-shadow: 1px 1px 4px rgb(3, 17, 1);
 }
 
-.eventDescription {
+.signature {
+    color: #a5cab3;
+}
+
+.white-text-container h2 {
+    text-shadow: none;
+    color: black;
+    font-style: italic;
+}
+
+.white-text-container p {
+    text-shadow: none;
+    color: black;
+    font-style: italic;
+}
+
+.eventDescription2 {
     font-size: 18px;
     font-style: italic;
     margin-top: -12px;
+    text-shadow: none;
 }
 
 .signature {
@@ -102,8 +119,18 @@
 .subTitle {
     font-size: 18px;
     font-weight: bold;
-    color: #8f2317;
+    color: #368353;
     font-style: italic;
+}
+
+.readMore {
+    color: #368353;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.readMore:hover {
+    color: #368353;
 }
 
 .border-section-container {
@@ -116,7 +143,8 @@
 }
 
 .social-round-icon:hover {
-    background-color: rgb(223, 219, 219)
+    background-color: rgb(223, 219, 219);
+    color: #368353; 
 }
 
 .footerContainer {
@@ -214,6 +242,14 @@
 
 .classButtons {
     margin-left: 50px;
+    background-image: linear-gradient(to right, #81cf9f, #4c8b65, #1d442c);
+    opacity: 0.7;
+}
+
+.classButtons:hover {
+    background-image: linear-gradient(to right, #81cf9f, #4c8b65, #1d442c);
+    opacity: 1;
+    
 }
 
 .indicates-required {
@@ -244,7 +280,7 @@
     margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 35px;
-    background-color: #368353;
+    background-color: #a5cab3;
 }
 
 .row.terms15 {
@@ -276,6 +312,16 @@
     height: 50px;
     font-size: 1.25em;
     background-image: linear-gradient(to right, rgb(171, 128, 235), #af6af0, rgb(186, 89, 241));
+}
+
+.homePageBtn {
+    background: #757575;
+    color: white;
+}
+
+.homePageBtn:hover {
+    background: #363636;
+    color: white;
 }
 
 .waiverTitle {
@@ -321,4 +367,9 @@
 
 .section-container.imgContainer {
     margin-top: -100px;
+}
+
+.aboutHeroImg {
+    height: 651px;
+    width: 1896px;
 }
