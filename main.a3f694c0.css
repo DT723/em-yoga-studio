@@ -237,37 +237,63 @@
     border: 2px solid rgb(230, 228, 228);
 }
 
-.cardDescription {
+.cardDescription1 {
+    color: white;
+    font-size: 1.15em;
+}
+
+.cardDescription2 {
+    color: white;
+    font-size: 1.15em;
+}
+
+.cardDescription3 {
+    color: white;
+    font-size: 1.15em;
+}
+
+.cardDescription4 {
+    color: white;
+    font-size: 1.15em;
+    margin-top: 30px;
+}
+
+.cardDescription1 {
     color: white;
     font-size: 1.15em;
 }
 
 .pricing-card.pricing-primary.pricing-first {
-    background-color: #3AA6D0;
+    background-color: #b18a81;
+    height: 336px;
 }
 
 .pricing-card.pricing-info.pricing-second {
-    background-color: #906CD7;
+    background-color: #b1776c;
+    height: 336px;
 }
 
 .pricing-card.pricing-secondary.pricing-third {
-    background-color: #36448a;
+    background-color: #643931;
+    height: 336px;
 }
 
 .pricing-card.pricing-secondary.pricing-fourth {
-    background-color: #12247a;
+    background-color: #572217;
     padding-bottom: 103px;
+    height: 336px;
 }
 
 .classButtons {
     margin-left: 50px;
-    background-image: linear-gradient(to right, #81cf9f, #4c8b65, #1d442c);
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
-    text-shadow: black 1px 1px 4px;
+    text-shadow: black 1px 1px 1px;
+    color: white;
 }
 
 .classButtons:hover {
-    background-image: linear-gradient(to right, #81cf9f, #4c8b65, #1d442c);
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 1;    
 }
 
@@ -305,8 +331,6 @@
     width: 100%;
     gap: 20px;
 }
-
-
 
 #priceTerms{
     background-image: linear-gradient(to right, rgb(171, 128, 235), #af6af0, rgb(186, 89, 241));
