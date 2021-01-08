@@ -89,6 +89,13 @@
     text-shadow: 1px 1px 4px rgb(3, 17, 1);
 }
 
+.col-container1 {
+    margin-left: 130px;
+}
+
+.col-container2 {
+    margin-left: 150px;
+}
 .signature {
     color: #a5cab3;
 }
@@ -123,13 +130,25 @@
     font-style: italic;
 }
 
-.readMore {
+.readMore1 {
     color: #368353;
     font-weight: bold;
     font-style: italic;
+    font-size: 14px;
 }
 
-.readMore:hover {
+.readMore2 {
+    color: #368353;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.readMore1:hover {
+    color: #368353;
+}
+
+.readMore2:hover {
     color: #368353;
 }
 
@@ -249,16 +268,11 @@
 
 .classButtons:hover {
     background-image: linear-gradient(to right, #81cf9f, #4c8b65, #1d442c);
-    opacity: 1;
-    
+    opacity: 1;    
 }
 
 .indicates-required {
     float: right;
-}
-
-.col-container {
-    
 }
 
 .card-container {
