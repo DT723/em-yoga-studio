@@ -17,9 +17,8 @@
 
 .navbar-fixed-top {
     background-color: #a5cab3;
-    height: 80px;
     border-bottom: 0px;
-    height: 87px;
+    height: 90px;
 }
 
 .navbar-default .navbar-nav li a {
@@ -228,6 +227,10 @@
     padding-top: 8px;
 }
 
+.link-like-text:hover {
+    color: black;
+}
+
 .no-padding {
     margin-top: 30px;
 }
@@ -392,7 +395,7 @@
 }
 
 #navbar-collapse-uarr {
-    background-color: #a5cab3;;
+    background-color: #a5cab3;
 }
 
 .yogaColTop {
@@ -404,6 +407,30 @@
     margin-top: -80px;
 }
 
+.yogaContactBtn {
+    font-weight: bold;
+    color: #368353
+}
+
+.yogaContactBtn:hover {
+    font-weight: bold;
+    color: #368353
+}
+
+.yogaSubBtn {
+    font-weight: bold;
+    color: #368353
+}
+
+.yogaSubBtn:hover {
+    font-weight: bold;
+    color: #368353
+}
+
+.aboutYogaImg {
+    margin-left: 195px;
+}
+
 .section-container.imgContainer {
     margin-top: -100px;
 }
@@ -411,4 +438,330 @@
 .aboutHeroImg {
     height: 651px;
     width: 1896px;
+}
+
+/* Media Query */
+/* Tablet Home Landscape*/
+@media screen and (max-width: 1024px) {
+    .nav {
+    margin-right: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #firstName2 {
+    margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .heroTitle {
+    width: 700px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .pull-right {
+     margin-right: 25px;   
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .col-container1 {
+     margin-left: 100px;   
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .col-container2 {
+     margin-right: 60px; 
+     margin-left: 130px;  
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section-container-home { 
+     margin-right: 60px;  
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navbar-right { 
+     justify-content: space-between;; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner-container { 
+     height: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text-center2 { 
+     padding-bottom: -50px;
+     padding-right: 40px;
+     margin-top: -10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .text-center1 { 
+     padding-left: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-container { 
+     margin-left: -90px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .row-center { 
+     margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .section-container-home { 
+     margin-top: -15px;
+     margin-bottom: -15px;
+    }
+}
+
+
+
+/* Tablet Home Portrait*/
+@media screen and (max-width: 768px) {
+    .nav {
+    margin-right: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #firstName2 {
+    margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heroTitle {
+    width: 700px;
+    margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pull-right {
+     margin-right: 25px;   
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-container1 {
+      margin-left: 50px;
+      margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-container2 {
+      margin-left: 70px;
+      padding-left: 10px;
+      margin-right: 65px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerContainerLeft {
+      margin-left: -10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerTitleMid {
+      margin-top: 20px; 
+      margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerLinkMid {
+      padding-bottom: 5px; 
+    }
+}
+
+/* SmartPhone Home Portrait*/
+@media screen and (max-width: 480px) { 
+    .navbar-header { 
+        width: 410px;
+        font-size: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .navbar-toggle { 
+        margin-right: 30px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .firstName2 { 
+        font-size: 11px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .responsePad { 
+        display: flex;
+        width: 410px;
+        flex-wrap: wrap; 
+        margin-left: 108px;
+        font-size: 6px;         
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    #navbar-collapse-uarr { 
+        font-size: 13px; 
+    } 
+} 
+
+@media screen and (max-width: 480px) { 
+    .navbar-nav li a{ 
+       padding: 20px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .titleSmartPhone { 
+        font-size: 30px;
+        padding-left: 20px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .subTitle { 
+        font-size: 15px;
+        padding-left: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .col-container1{ 
+       margin-left: 10px; 
+       width: 370px;
+       padding-right: 15px;
+    } 
+} 
+
+@media screen and (max-width: 480px) { 
+    .col-container2{ 
+        margin-left: 10px; 
+        width: 370px;
+        padding-right: 15px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .fa-container .heartLogo{ 
+        font-size: 30px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .fa-container .commentLogo{ 
+        font-size: 30px; 
+    } 
+}
+
+
+@media screen and (max-width: 480px) { 
+    .eventDescription1{ 
+        font-size: 20px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .eventDescription2{ 
+        font-size: 15px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .homePageBtn{ 
+        font-size: 15px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .banner-container{ 
+        height: 170px;
+        margin-bottom: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .text-center2{ 
+        margin-top: -30px;
+        margin-left: 30px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .footer-container{ 
+        font-size: 10px;
+        padding-left: 15px;
+        padding-top: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .footerTitle{ 
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .footerClassText{ 
+        font-size: 12px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .footerTitleMid{ 
+        font-size: 14px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .shareLinks{ 
+        font-size: 10px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .fa{ 
+        font-size: 16px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .fa-instagram{ 
+        padding-top: 8px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .footerLinkMid{ 
+        font-size: 13px;
+    } 
+}
+
+/* SmartPhone Home Landscape*/
+@media (max-width: 768px) { 
+    .footerLinkMid{ 
+        font-size: 13px;
+    } 
 }
