@@ -594,6 +594,18 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .fa-linkedin {
+      padding-bottom: 9px; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .fa-instagram{
+      padding-left: 2px; 
+    }
+}
+
 
 
 /* Tablet Home Portrait*/
@@ -785,8 +797,20 @@
 
 @media screen and (max-width: 768px) {
     .footerLinkMid {
-      padding-bottom: 5px; 
+      padding-top: -5px; 
     }
+}
+
+@media screen and (max-width: 768px) {
+    .fa-linkedin {
+      padding-bottom: 3px; 
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .fa-instagram{ 
+        padding-top: 8px;
+    } 
 }
 
 /* SmartPhone Home Portrait*/
