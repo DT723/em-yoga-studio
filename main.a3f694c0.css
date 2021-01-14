@@ -336,7 +336,7 @@
 }
 
 #priceTerms{
-    background-image: linear-gradient(to right, rgb(171, 128, 235), #af6af0, rgb(186, 89, 241));
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
     width: 250px;
     height: 300px;
 }
@@ -383,8 +383,33 @@
 }
 
 .zoomBtn {
+    color: black;
+}
+
+.waiverBtn {
+    color: black;
+}
+
+.zoomBtn {
     margin-bottom: 78px;
 }
+
+.waiverChk {
+    color: black;
+}
+
+#waiverBtn {
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
+    opacity: 0.8;
+    text-shadow: black 1px 1px 1px;
+    color: white; 
+}
+
+#waiverBtn:hover {
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
+    opacity: 1;    
+}
+
 
 #position1 {
     margin-left: 150px;
@@ -693,6 +718,18 @@
     .pricing-features {
         width: 400px;
         margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .tipsCard {
+        margin-left: -100px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .waiverCard {
+        margin-left: 0px;
     }
 }
 
