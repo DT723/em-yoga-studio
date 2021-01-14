@@ -487,7 +487,7 @@
 
 @media screen and (max-width: 1024px) {
     .navbar-right { 
-     justify-content: space-between;; 
+     justify-content: space-between; 
     }
 }
 
@@ -530,6 +530,21 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .yogaColTop { 
+     margin-top: 0px;
+     margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .aboutYogaImg { 
+     margin-left: 160px;
+     
+    }
+}
+
+
 
 
 /* Tablet Home Portrait*/
@@ -560,9 +575,11 @@
 
 @media screen and (max-width: 768px) {
     .col-container1 {
-      margin-left: 50px;
-      margin-right: 70px;
+      margin-left: 70px;
+      padding-left: 10px;
+      margin-right: 65px;
     }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -570,6 +587,119 @@
       margin-left: 70px;
       padding-left: 10px;
       margin-right: 65px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .text-center2 {
+        padding-right: 0px;
+        margin-bottom: 10px;
+        margin-top: -15px;
+      
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yogaColTop {
+        margin-top: -15px;     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .thinkAboutImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .timeForChangeImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 375px;
+        margin-top: -190px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .servicesColTop {
+        margin-top: -15px;     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .classButtons {
+        margin-left: 110px;   
+        height: 60px;
+        width: 130px;
+        padding-top: 15px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subContainer {
+        margin-bottom: 0px;
+        height: 500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutImgContainer {
+        height: 550px;
+        width: 725px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionContAbout {
+        padding-top: 30px; 
+    }
+
+@media screen and (max-width: 768px) {
+    .aboutHeroImg {
+        height: 500px;
+        width: 725px;
+        margin-top: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .dreamImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .yearImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 375px;
+        margin-top: -190px; 
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
+        width: 400px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .pricing-features {
+        width: 400px;
+        margin-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subButton {
+        margin-left: 0px;
+        margin-top: 5px;
     }
 }
 
@@ -595,28 +725,24 @@
 /* SmartPhone Home Portrait*/
 @media screen and (max-width: 480px) { 
     .navbar-header { 
-        width: 410px;
         font-size: 15px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .navbar-toggle { 
-        margin-right: 30px;
+        margin-right: 155px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .firstName2 { 
-        font-size: 11px;
+        font-size: 13px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
-    .responsePad { 
-        display: flex;
-        width: 410px;
-        flex-wrap: wrap; 
+    .responsePad {  
         margin-left: 108px;
         font-size: 6px;         
     } 
@@ -635,32 +761,53 @@
 }
 
 @media screen and (max-width: 480px) { 
+    .titleSmartPhone{ 
+        margin-bottom: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .text-center1{ 
+        width: 480px;
+        padding: 0px;
+        margin-left: -18px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
     .titleSmartPhone { 
         font-size: 30px;
-        padding-left: 20px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .subTitle { 
         font-size: 15px;
-        padding-left: 15px;
+        padding-left: 10px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
+    .section-container-spacer{  
+       width: 480px;
+    } 
+} 
+
+@media screen and (max-width: 480px) { 
     .col-container1{ 
-       margin-left: 10px; 
-       width: 370px;
-       padding-right: 15px;
+       margin-left: 40px; 
+       padding-left: 8px;
+       padding-right: 8px;
     } 
 } 
 
 @media screen and (max-width: 480px) { 
     .col-container2{ 
-        margin-left: 10px; 
-        width: 370px;
-        padding-right: 15px; 
+       margin-left: 40px; 
+       padding-left: 8px;
+       padding-right: 8px;
+       margin-right: 0px;
+        
     } 
 }
 
@@ -704,15 +851,16 @@
 
 @media screen and (max-width: 480px) { 
     .text-center2{ 
-        margin-top: -30px;
-        margin-left: 30px;
+        margin-top: -17px;
+        margin-left: 35px;
+        padding-right: 35px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .footer-container{ 
         font-size: 10px;
-        padding-left: 15px;
+        padding-left: 30px;
         padding-top: 15px;
     } 
 }
@@ -760,7 +908,7 @@
 }
 
 /* SmartPhone Home Landscape*/
-@media (max-width: 768px) { 
+@media (min-width: 768px) { 
     .footerLinkMid{ 
         font-size: 13px;
     } 
