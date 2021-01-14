@@ -474,6 +474,12 @@
 }
 
 @media screen and (max-width: 1024px) {
+    #firstName1 {
+    margin-top: 4px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     #firstName2 {
     margin-left: 100px;
     }
@@ -569,6 +575,24 @@
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .classButtons { 
+     margin-left: 24px;     
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .subButton { 
+     margin-left: 0px;     
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .subContainer {
+        margin-bottom: 0px;
+        height: 500px;
+    }
+}
 
 
 
@@ -627,6 +651,12 @@
 @media screen and (max-width: 768px) {
     .yogaColTop {
         margin-top: -15px;     
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aboutYogaImg {
+        margin-left: 180px;     
     }
 }
 
@@ -723,7 +753,7 @@
 
 @media screen and (max-width: 768px) {
     .tipsCard {
-        margin-left: -100px;
+        margin-left: -90px;
     }
 }
 
