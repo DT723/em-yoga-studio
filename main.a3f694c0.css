@@ -817,18 +817,33 @@
 @media screen and (max-width: 480px) { 
     .navbar-header { 
         font-size: 15px;
+        width: 480px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .navbar-toggle { 
-        margin-right: 155px;
+        margin-right: 90px;
+        margin-top: 28px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
-    .firstName2 { 
-        font-size: 13px;
+    #firstName1 { 
+        margin-top: 4px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    #firstName2 { 
+        font-size: 55px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .homeDescription { 
+        font-size: 28px;
+        margin-right: 140px;
     } 
 }
 
@@ -853,21 +868,23 @@
 
 @media screen and (max-width: 480px) { 
     .titleSmartPhone{ 
-        margin-bottom: 15px;
+        margin-bottom: 5px;
+        margin-left: -65px;
+        font-size: 30px;
+        
     } 
 }
+
+@media screen and (max-width: 480px) { 
+    .homeDescription2{ 
+        margin-left: -63px;
+    } 
 
 @media screen and (max-width: 480px) { 
     .text-center1{ 
         width: 480px;
         padding: 0px;
         margin-left: -18px;
-    } 
-}
-
-@media screen and (max-width: 480px) { 
-    .titleSmartPhone { 
-        font-size: 30px;
     } 
 }
 
@@ -886,7 +903,8 @@
 
 @media screen and (max-width: 480px) { 
     .col-container1{ 
-       margin-left: 40px; 
+       margin-left: 60px;
+       margin-right: 10px; 
        padding-left: 8px;
        padding-right: 8px;
     } 
@@ -894,11 +912,68 @@
 
 @media screen and (max-width: 480px) { 
     .col-container2{ 
-       margin-left: 40px; 
+        margin-left: 60px;
+       margin-right: 10px; 
        padding-left: 8px;
        padding-right: 8px;
-       margin-right: 0px;
         
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .yogaTitle{ 
+        font-size: 43px;
+        margin-right: 25px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .yogaColTop{ 
+        margin-top: -30px;
+        margin-left: -5px;
+        padding-right: 65px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutYogaImg{ 
+        height: 200px;
+        margin-left: 43px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .testTitle{ 
+        font-size: 43px;
+        margin-right: 15px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .yogaColBottom{ 
+        margin-top: -50px;
+        margin-left: -5px;
+        padding-right: 65px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .thinkAboutImg{ 
+       height: 109px;
+       width: 178px;
+       margin-top: 10px;
+       margin-left: 0px;
+       padding-left: 5px; 
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .timeForChangeImg{
+        height: 109px;
+        width: 178px; 
+        margin-top: -109px; 
+        margin-left: 215px;  
+        padding-right: 10px;  
     } 
 }
 
@@ -918,12 +993,14 @@
 @media screen and (max-width: 480px) { 
     .eventDescription1{ 
         font-size: 20px; 
+        margin-top: 15px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .eventDescription2{ 
-        font-size: 15px; 
+        font-size: 14px; 
+        
     } 
 }
 
@@ -942,10 +1019,144 @@
 
 @media screen and (max-width: 480px) { 
     .text-center2{ 
-        margin-top: -17px;
+        margin-top: -8px;
         margin-left: 35px;
         padding-right: 35px;
     } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutImgContainer{ 
+        height: 380px;
+        width: 480px;
+        margin-top: 15px;
+        margin-left: -50px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutHeroImg{ 
+        height: 330px;
+        width: 480px;
+        margin-top: 0px;
+        margin-left: 17px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutPara1{ 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 95px; 
+        margin-bottom: 25px; 
+        height: 135px;      
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .dreamImg{ 
+       height: 109px;
+       width: 178px;
+       margin-top: 10px;
+       margin-left: 0px;
+       padding-left: 5px;        
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .yearImg{ 
+        height: 109px;
+        width: 178px; 
+        margin-top: -109px; 
+        margin-left: 215px;  
+        padding-right: 10px;        
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .sectionContAbout{ 
+        margin-top: -25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 5px;
+        
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .serviceTitle{ 
+        padding-right: 80px;
+        width: 480px;
+        
+    } 
+}
+
+@media screen and (max-width: 480px) {
+    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
+        margin-left: 60px;
+        width: 265px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .pricing-features{
+        margin-left: 60px;
+        width: 265px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .classButtons{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .subButton{
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .termTitle{
+        margin-left: 0px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .termH1{
+        margin-left: 0px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .tipsCard{
+        margin-left: -130px;
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .waiverCard{
+        margin-left: 160px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn-container{
+        width: 480px;
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .btn15{
+        background: white;
+        margin-left: 135px;
+    }
 }
 
 @media screen and (max-width: 480px) { 
