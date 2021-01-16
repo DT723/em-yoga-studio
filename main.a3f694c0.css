@@ -434,22 +434,22 @@
 
 .yogaContactBtn {
     font-weight: bold;
-    color: #368353
+    color: #368353;
 }
 
 .yogaContactBtn:hover {
     font-weight: bold;
-    color: #368353
+    color: #368353;
 }
 
 .yogaSubBtn {
     font-weight: bold;
-    color: #368353
+    color: #368353;
 }
 
 .yogaSubBtn:hover {
     font-weight: bold;
-    color: #368353
+    color: #368353;
 }
 
 .aboutYogaImg {
@@ -1210,8 +1210,3 @@
 }
 
 /* SmartPhone Home Landscape*/
-@media (min-width: 768px) { 
-    .footerLinkMid{ 
-        font-size: 13px;
-    } 
-}
