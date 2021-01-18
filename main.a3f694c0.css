@@ -841,6 +841,12 @@
 }
 
 @media screen and (max-width: 480px) { 
+    .heroImgHome { 
+        width: 480px;
+    } 
+}
+
+@media screen and (max-width: 480px) { 
     .homeDescription { 
         font-size: 28px;
         margin-right: 140px;
@@ -892,12 +898,6 @@
     .subTitle { 
         font-size: 15px;
         padding-left: 10px;
-    } 
-}
-
-@media screen and (max-width: 480px) { 
-    .section-container-spacer{  
-       width: 480px;
     } 
 } 
 
@@ -1078,8 +1078,7 @@
         margin-top: -25px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-right: 5px;
-        
+        padding-right: 5px;        
     } 
 }
 
@@ -1208,5 +1207,3 @@
         font-size: 13px;
     } 
 }
-
-/* SmartPhone Home Landscape*/
