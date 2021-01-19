@@ -904,9 +904,9 @@
 @media screen and (max-width: 480px) { 
     .col-container1{ 
        margin-left: 60px;
-       margin-right: 10px; 
+       margin-right: 0px; 
        padding-left: 8px;
-       padding-right: 8px;
+       padding-right: 5px;
     } 
 } 
 
@@ -923,15 +923,16 @@
 @media screen and (max-width: 480px) { 
     .yogaTitle{ 
         font-size: 43px;
-        margin-right: 25px;
+        margin-right: 0px;
+        margin-left: 10px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .yogaColTop{ 
         margin-top: -30px;
-        margin-left: -5px;
-        padding-right: 65px;
+        margin-left: 0px;
+        padding-right: 20px;
     } 
 }
 
@@ -945,15 +946,16 @@
 @media screen and (max-width: 480px) { 
     .testTitle{ 
         font-size: 43px;
-        margin-right: 15px;
+        margin-right: 0px;
+        margin-left: 10px;
     } 
 }
 
 @media screen and (max-width: 480px) { 
     .yogaColBottom{ 
-        margin-top: -50px;
-        margin-left: -5px;
-        padding-right: 65px;
+        margin-top: -55px;
+        margin-left: 0px;
+        padding-right: 20px;
     } 
 }
 
@@ -1031,6 +1033,7 @@
         width: 480px;
         margin-top: 15px;
         margin-left: -50px;
+        margin-bottom: -45px;
     } 
 }
 
@@ -1038,7 +1041,7 @@
     .aboutHeroImg{ 
         height: 330px;
         width: 480px;
-        margin-top: 0px;
+        margin-top: -5px;
         margin-left: 17px;
     } 
 }
@@ -1047,9 +1050,27 @@
     .aboutPara1{ 
         margin-top: -10px;
         margin-left: 0px;
-        padding-right: 95px; 
+        padding-right: 15px; 
         margin-bottom: 25px; 
         height: 135px;      
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutPara2{ 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 15px; 
+        margin-bottom: 25px;      
+    } 
+}
+
+@media screen and (max-width: 480px) { 
+    .aboutPara3{ 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 15px; 
+        margin-bottom: 25px;      
     } 
 }
 
@@ -1085,6 +1106,7 @@
 @media screen and (max-width: 480px) { 
     .serviceTitle{ 
         padding-right: 80px;
+        margin-left: -5px;
         width: 480px;
         
     } 
@@ -1125,8 +1147,16 @@
 
 @media screen and (max-width: 480px) {
     .termH1{
+        margin-left: 45px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .termsDescription{
         margin-left: 0px;
-        padding-right: 10px;
+        padding: 0px;
+        width: 350px;
     }
 }
 
