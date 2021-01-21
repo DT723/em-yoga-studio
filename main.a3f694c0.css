@@ -723,6 +723,7 @@
     .sectionContAbout {
         padding-top: 30px; 
     }
+}
 
 @media screen and (max-width: 768px) {
     .aboutHeroImg {
@@ -840,39 +841,39 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .heroImgHome { 
         width: 480px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .homeDescription { 
         font-size: 28px;
         margin-right: 140px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .responsePad {  
         margin-left: 108px;
         font-size: 6px;         
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     #navbar-collapse-uarr { 
         font-size: 13px; 
     } 
 } 
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .navbar-nav li a{ 
        padding: 20px; 
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .titleSmartPhone{ 
         margin-bottom: 5px;
         margin-left: -65px;
@@ -881,12 +882,13 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .homeDescription2{ 
         margin-left: -63px;
-    } 
+    }
+}    
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .text-center1{ 
         width: 480px;
         padding: 0px;
@@ -894,14 +896,14 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .subTitle { 
         font-size: 15px;
         padding-left: 10px;
     } 
 } 
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .col-container1{ 
        margin-left: 60px;
        margin-right: 0px; 
@@ -910,7 +912,7 @@
     } 
 } 
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .col-container2{ 
         margin-left: 60px;
        margin-right: 10px; 
@@ -920,7 +922,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .yogaTitle{ 
         font-size: 43px;
         margin-right: 0px;
@@ -928,7 +930,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .yogaColTop{ 
         margin-top: -30px;
         margin-left: 0px;
@@ -936,14 +938,14 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutYogaImg{ 
         height: 200px;
         margin-left: 43px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .testTitle{ 
         font-size: 43px;
         margin-right: 0px;
@@ -951,7 +953,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .yogaColBottom{ 
         margin-top: -55px;
         margin-left: 0px;
@@ -959,7 +961,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .thinkAboutImg{ 
        height: 109px;
        width: 178px;
@@ -969,7 +971,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .timeForChangeImg{
         height: 109px;
         width: 178px; 
@@ -985,41 +987,41 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .fa-container .commentLogo{ 
         font-size: 30px; 
     } 
 }
 
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .eventDescription1{ 
         font-size: 20px; 
         margin-top: 15px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .eventDescription2{ 
         font-size: 14px; 
         
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .homePageBtn{ 
         font-size: 15px; 
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .banner-container{ 
         height: 170px;
         margin-bottom: 15px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .text-center2{ 
         margin-top: -8px;
         margin-left: 35px;
@@ -1027,7 +1029,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutImgContainer{ 
         height: 380px;
         width: 480px;
@@ -1037,7 +1039,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutHeroImg{ 
         height: 330px;
         width: 480px;
@@ -1046,7 +1048,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutPara1{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1056,7 +1058,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutPara2{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1065,7 +1067,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .aboutPara3{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1074,7 +1076,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .dreamImg{ 
        height: 109px;
        width: 178px;
@@ -1084,7 +1086,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .yearImg{ 
         height: 109px;
         width: 178px; 
@@ -1094,7 +1096,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .sectionContAbout{ 
         margin-top: -25px;
         margin-left: 0px;
@@ -1103,7 +1105,7 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .serviceTitle{ 
         padding-right: 80px;
         margin-left: -5px;
@@ -1112,47 +1114,47 @@
     } 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         margin-left: 60px;
         width: 265px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .pricing-features{
         margin-left: 60px;
         width: 265px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .classButtons{
         margin-left: 40px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .subButton{
         margin-left: 0px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .termTitle{
         margin-left: 0px;
         padding-right: 60px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .termH1{
         margin-left: 45px;
         padding-right: 5px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .termsDescription{
         margin-left: 0px;
         padding: 0px;
@@ -1160,35 +1162,35 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .tipsCard{
         margin-left: -130px;
         padding-top: 70px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .waiverCard{
         margin-left: 160px;
         padding-top: 30px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .btn-container{
         width: 480px;
         padding-right: 40px;
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 414px) {
     .btn15{
         background: white;
         margin-left: 135px;
     }
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .footer-container{ 
         font-size: 10px;
         padding-left: 30px;
@@ -1196,51 +1198,234 @@
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .footerTitle{ 
         font-size: 14px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .footerClassText{ 
         font-size: 12px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .footerTitleMid{ 
         font-size: 14px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .shareLinks{ 
         font-size: 10px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .fa{ 
         font-size: 16px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .fa-instagram{ 
         padding-top: 8px;
     } 
 }
 
-@media screen and (max-width: 480px) { 
+@media screen and (max-width: 414px) { 
     .footerLinkMid{ 
         font-size: 13px;
     } 
 }
 
 /* SmartPhone landscape*/
-@media only screen and (max-width: 736px) { 
-    #firstName2{
-        font-size: 39px;
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .heroTitle{
+        margin-top: 43px;
     }
-}    
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    #firstName2{
+        font-size: 36px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .homeDescription{
+        font-size: 28px;
+        margin-left: 0px;
+        margin-right: 26px;
+        padding-left: 0px;
+        width: 540px;
+        height: 60px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    #firstName1{
+        margin-top: 5px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .navbar-toggle{
+        margin-right: 23px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .navbar-collapse{
+        margin-top: 0px;
+        height: 340px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .responsiveRow{
+        margin-left: 25px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .responsiveFooter{
+        margin-left: 12px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutHeroImg{
+        margin-top: 9px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-first{
+        margin-left: 153px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-second{
+        margin-left: 153px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-third{
+        margin-left: 153px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-fourth{
+        margin-left: 153px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-features{
+        margin-left: 153px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .classButtons{
+        margin-left: 106px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .responsiveCheck{
+        padding-left: 22px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .subButton{
+        margin-left: 0px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .tipsCard{
+        margin-left: -100px;        
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .waiverCard{
+        margin-left: 0px;
+        padding-right: -30px;       
+    }
+}
+
+@media only screen 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .btn15{
+        margin-right: -103px;
+      
+    }
+}
