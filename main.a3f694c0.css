@@ -378,7 +378,7 @@
     padding: 26px;
 }
 
-.waiverBox: {
+.waiverBox {
     background: white;   
 }
 
@@ -472,7 +472,7 @@
 }
 
 /* Media Query */
-/* Tablet Home Landscape*/
+/* Tablet Ipad Landscape*/
 @media screen and (max-width: 1024px) {
     .nav {
     margin-right: 25px;
@@ -614,7 +614,7 @@
 
 
 
-/* Tablet Home Portrait*/
+/* Tablet Ipad Portrait*/
 @media screen and (max-width: 768px) {
     .nav {
     margin-right: 10px;
@@ -839,7 +839,7 @@
     } 
 }
 
-/* SmartPhone Home Portrait*/
+/* SmartPhone iPhone 6/7/8 Plus Portrait*/
 @media screen and (max-width: 414px) { 
     .navbar-header { 
         font-size: 15px;
@@ -1271,7 +1271,7 @@
     } 
 }
 
-/* SmartPhone landscape*/
+/* SmartPhone iPhone 6/7/8 Plus landscape*/
 @media only screen 
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
@@ -1458,5 +1458,188 @@
     .btn15{
         margin-right: -103px;
       
+    }
+}
+
+/* SmartPhone iPhone X portrait*/
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar-toggle{
+        margin-right: 118px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .heroTitle{
+        margin-top: 160px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .text-center1{
+        margin-left: -35px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .col-container1{
+        margin-left: 30px;
+        margin-right: -30px;
+        padding: 0px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .col-container2{
+        margin-left: 30px;
+        margin-right: -30px;
+        padding: 0px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .text-center2{
+       margin-top: -19px;
+       height: 145px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutYogaImg{
+       margin-left: 22px;
+       
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .testTitle{
+       margin-left: 0px;
+       
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .thinkAboutImg{
+       height: 100px;
+       width: 160px;       
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .timeForChangeImg{
+       height: 100px;
+       width: 160px; 
+       margin-left: 191px;
+       margin-top: -100px;      
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutHeroImg{
+        height: 289px;
+        width: 400px; 
+        margin-left: 30px;     
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutImgContainer{
+        margin-bottom: -90px;      
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutTitle{
+        margin-left: 15px;      
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .dreamImg{
+       height: 100px;
+       width: 160px;       
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .yearImg{
+       height: 100px;
+       width: 160px; 
+       margin-left: 191px;
+       margin-top: -100px;      
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .serviceTitle{
+       margin-top: 15px;
+            
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .servicesCol{
+       margin-left: -18px;
+            
+    }
+}
+
+@media only screen 
+  and (max-device-width: 375px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .termsDescription{
+       margin-left: -12px;
+            
     }
 }
