@@ -378,16 +378,22 @@
     padding: 26px;
 }
 
+.waiverBox: {
+    background: white;   
+}
+
 .waiverBox:hover {
     cursor: pointer;    
 }
 
 .zoomBtn {
     color: black;
+    background: white;
 }
 
 .waiverBtn {
     color: black;
+    background: white;
 }
 
 .zoomBtn {
@@ -1150,33 +1156,6 @@
 @media screen and (max-width: 414px) {
     .classButtons{
         margin-left: 40px;
-    }
-}
-
-@media only screen 
-  and (max-device-width: 414px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .zoomBtn{
-        background-color: white;
-    }
-}
-
-@media only screen 
-  and (max-device-width: 414px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .waiverBtn{
-        background-color: white;
-    }
-}
-
-@media only screen 
-  and (max-device-width: 414px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .waiverBox{
-        background-color: white;
     }
 }
 
