@@ -840,213 +840,308 @@
 }
 
 /* SmartPhone iPhone 6/7/8 Plus Portrait*/
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .navbar-header { 
         font-size: 15px;
         width: 480px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .navbar-toggle { 
         margin-right: 90px;
         margin-top: 28px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #firstName1 { 
         margin-top: 4px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #firstName2 { 
         font-size: 55px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .heroImgHome { 
         width: 480px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .homeDescription { 
         font-size: 28px;
         margin-right: 140px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .responsePad {  
         margin-left: 108px;
-        font-size: 6px;         
-    } 
+        font-size: 6px;
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     #navbar-collapse-uarr { 
-        font-size: 13px; 
-    } 
-} 
-
-@media screen and (max-width: 414px) { 
-    .navbar-nav li a{ 
-       padding: 20px; 
-    } 
+        font-size: 13px;
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar-nav li a{ 
+        padding: 20px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .titleSmartPhone{ 
         margin-bottom: 5px;
         margin-left: -65px;
         font-size: 30px;
-        
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .homeDescription2{ 
         margin-left: -63px;
     }
-}    
+}
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .text-center1{ 
         width: 480px;
         padding: 0px;
         margin-left: -18px;
-    } 
-}
+    }
+} 
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .subTitle { 
         font-size: 15px;
         padding-left: 10px;
-    } 
+    }
 } 
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .col-container1{ 
-       margin-left: 60px;
-       margin-right: 0px; 
-       padding-left: 8px;
-       padding-right: 5px;
-    } 
+        margin-left: 60px;
+        margin-right: 0px; 
+        padding-left: 8px;
+        padding-right: 5px;
+    }
 } 
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .col-container2{ 
         margin-left: 60px;
        margin-right: 10px; 
        padding-left: 8px;
        padding-right: 8px;
-        
-    } 
-}
+    }
+} 
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .yogaTitle{ 
         font-size: 43px;
         margin-right: 0px;
         margin-left: 10px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .yogaColTop{ 
         margin-top: -30px;
         margin-left: 0px;
         padding-right: 20px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .aboutYogaImg{ 
         height: 200px;
         margin-left: 43px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .testTitle{ 
         font-size: 43px;
         margin-right: 0px;
         margin-left: 10px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .yogaColBottom{ 
         margin-top: -55px;
         margin-left: 0px;
         padding-right: 20px;
-    } 
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .thinkAboutImg{ 
-       height: 109px;
-       width: 178px;
-       margin-top: 10px;
-       margin-left: 0px;
-       padding-left: 5px; 
-    } 
+        height: 109px;
+        width: 178px;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .timeForChangeImg{
         height: 109px;
         width: 178px; 
         margin-top: -109px; 
         margin-left: 215px;  
-        padding-right: 10px;  
-    } 
+        padding-right: 10px;
+    }
 }
 
-@media screen and (max-width: 480px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .fa-container .heartLogo{ 
-        font-size: 30px; 
-    } 
+        font-size: 30px;
+    }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
     .fa-container .commentLogo{ 
-        font-size: 30px; 
-    } 
+        font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 414px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .eventDescription1{ 
+        font-size: 20px; 
+        margin-top: 15px;
+    }
 }
 
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .eventDescription1{ 
         font-size: 20px; 
         margin-top: 15px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .eventDescription2{ 
         font-size: 14px; 
         
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .homePageBtn{ 
         font-size: 15px; 
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .banner-container{ 
         height: 170px;
         margin-bottom: 15px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .text-center2{ 
         margin-top: -8px;
         margin-left: 35px;
@@ -1054,7 +1149,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .aboutImgContainer{ 
         height: 380px;
         width: 480px;
@@ -1064,7 +1162,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .aboutHeroImg{ 
         height: 330px;
         width: 480px;
@@ -1073,7 +1174,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .aboutPara1{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1083,7 +1187,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .aboutPara2{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1092,7 +1199,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .aboutPara3{ 
         margin-top: -10px;
         margin-left: 0px;
@@ -1101,7 +1211,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .dreamImg{ 
        height: 109px;
        width: 178px;
@@ -1111,7 +1224,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .yearImg{ 
         height: 109px;
         width: 178px; 
@@ -1121,7 +1237,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .sectionContAbout{ 
         margin-top: -25px;
         margin-left: 0px;
@@ -1130,7 +1249,10 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .serviceTitle{ 
         padding-right: 80px;
         margin-left: -5px;
@@ -1139,47 +1261,68 @@
     } 
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         margin-left: 60px;
         width: 265px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .pricing-features{
         margin-left: 60px;
         width: 265px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .classButtons{
         margin-left: 40px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .subButton{
         margin-left: 0px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .termTitle{
         margin-left: 0px;
         padding-right: 60px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .termH1{
         margin-left: 45px;
         padding-right: 5px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .termsDescription{
         margin-left: 0px;
         padding: 0px;
@@ -1187,35 +1330,50 @@
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .tipsCard{
         margin-left: -130px;
         padding-top: 70px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .waiverCard{
         margin-left: 160px;
         padding-top: 30px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .btn-container{
         width: 480px;
         padding-right: 40px;
     }
 }
 
-@media screen and (max-width: 414px) {
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
     .btn15{
         background: white;
         margin-left: 135px;
     }
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .footer-container{ 
         font-size: 10px;
         padding-left: 30px;
@@ -1223,49 +1381,73 @@
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .responsiveFooter{         
         padding-left: 15px;        
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .footerTitle{ 
         font-size: 14px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .footerClassText{ 
         font-size: 12px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .footerTitleMid{ 
         font-size: 14px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .shareLinks{ 
         font-size: 10px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .fa{ 
         font-size: 16px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .fa-instagram{ 
         padding-top: 8px;
     } 
 }
 
-@media screen and (max-width: 414px) { 
+@media only screen 
+and (max-device-width: 414px) 
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) { 
     .footerLinkMid{ 
         font-size: 13px;
     } 
@@ -1620,7 +1802,7 @@
   and (orientation: portrait) { 
     .serviceTitle{
        margin-top: 15px;
-            
+       margin-left: -14px;           
     }
 }
 
@@ -1629,8 +1811,7 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .servicesCol{
-       margin-left: -18px;
-            
+       margin-left: -18px;            
     }
 }
 
@@ -1639,7 +1820,6 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .termsDescription{
-       margin-left: -12px;
-            
+       margin-left: -12px;            
     }
 }
