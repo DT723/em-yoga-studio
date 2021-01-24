@@ -1647,17 +1647,18 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-toggle{
         margin-right: 118px;
+        margin-top: 40px;
     }
 }
 
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .heroTitle{
         margin-top: 160px;
@@ -1667,17 +1668,17 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center1{
-        margin-left: -35px;
+        margin-left: -22px;
     }
 }
 
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container1{
         margin-left: 30px;
@@ -1689,7 +1690,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2{
         margin-left: 30px;
@@ -1701,7 +1702,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center2{
        margin-top: -19px;
@@ -1712,7 +1713,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutYogaImg{
        margin-left: 22px;
@@ -1723,7 +1724,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .testTitle{
        margin-left: 0px;
@@ -1734,7 +1735,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .thinkAboutImg{
        height: 100px;
@@ -1745,7 +1746,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .timeForChangeImg{
        height: 100px;
@@ -1758,7 +1759,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutHeroImg{
         height: 289px;
@@ -1770,7 +1771,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutImgContainer{
         margin-bottom: -90px;      
@@ -1780,7 +1781,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutTitle{
         margin-left: 15px;      
@@ -1790,7 +1791,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .dreamImg{
        height: 100px;
@@ -1801,7 +1802,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yearImg{
        height: 100px;
@@ -1814,7 +1815,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .serviceTitle{
        margin-top: 15px;
@@ -1825,7 +1826,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .servicesCol{
        margin-left: -18px;            
@@ -1835,7 +1836,7 @@ and (orientation: portrait) {
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .termsDescription{
        margin-left: -12px;            
