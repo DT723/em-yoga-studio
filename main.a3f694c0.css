@@ -2165,8 +2165,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutTitle{
-        margin-left: 15px; 
-        margin-top: 30px;     
+        margin-left: 8px; 
+        margin-top: 75px; 
+           
     }
 }
 
@@ -2176,8 +2177,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .dreamImg{
-       height: 100px;
-       width: 160px;       
+      height: 100px;
+      width: 160px;
+      margin-left: 15px;       
     }
 }
 
@@ -2187,10 +2189,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yearImg{
-       height: 100px;
-       width: 160px; 
-       margin-left: 191px;
-       margin-top: -100px;      
+      height: 100px;
+      width: 160px; 
+      margin-left: 205px;
+      margin-top: -100px;      
     }
 }
 
@@ -2201,7 +2203,7 @@
   and (orientation: portrait) { 
     .serviceTitle{
        margin-top: 15px;
-       margin-left: -14px;           
+       margin-left: 10px;         
     }
 }
 
@@ -2211,7 +2213,72 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .servicesCol{
-       margin-left: -18px;            
+       margin-left: 0px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .classButtons{
+       margin-left: 57px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-first{
+        margin-left: 52px;
+        width: 280px;       
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-second{
+      margin-left: 52px;
+      width: 280px;        
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-third{
+      margin-left: 52px;
+      width: 280px;        
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-fourth{
+      margin-left: 52px;
+      width: 280px;        
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-features{
+      margin-left: 52px;
+      width: 280px;        
     }
 }
 
@@ -2222,6 +2289,68 @@
   and (orientation: portrait) { 
     .termsDescription{
        margin-left: -12px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .termH1{
+       margin-top: -12px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .tipsCard{
+       margin-left: -130px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .waiverCard{
+       margin-left: 135px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .btn15{
+       margin-left: 180px;          
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .subButton{
+       margin-left: 0px; 
+       margin-top: 5px;         
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .subContainer{
+       padding-bottom: 0px;    
+       margin-bottom: -90px;      
     }
 }
 
