@@ -2057,6 +2057,7 @@
     .homePageBtn{
        font-size: 15px;
        padding: 10px 14px;
+    }   
 }
 
 @media only screen 
@@ -2068,6 +2069,17 @@
        margin-bottom: 0px;
        padding-top: 28px;
        padding-bottom: 15px;
+    }   
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .yogaTitle{
+       margin-top: -17px;       
+    }
 }
 
 @media only screen 
@@ -2076,8 +2088,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutYogaImg{
-       margin-left: 22px;
-       
+       margin-left: 13px;       
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .coachTitle{
+       margin-top: -17px;       
     }
 }
 
@@ -2087,8 +2108,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .testTitle{
-       margin-left: 0px;
-       
+       margin-left: 0px;       
     }
 }
 
@@ -2099,7 +2119,8 @@
   and (orientation: portrait) { 
     .thinkAboutImg{
        height: 100px;
-       width: 160px;       
+       width: 160px;
+       margin-left: 15px;       
     }
 }
 
@@ -2111,7 +2132,7 @@
     .timeForChangeImg{
        height: 100px;
        width: 160px; 
-       margin-left: 191px;
+       margin-left: 205px;
        margin-top: -100px;      
     }
 }
@@ -2123,8 +2144,8 @@
   and (orientation: portrait) { 
     .aboutHeroImg{
         height: 289px;
-        width: 400px; 
-        margin-left: 30px;     
+        width: 414px; 
+        margin-top: 8px;     
     }
 }
 
@@ -2144,7 +2165,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutTitle{
-        margin-left: 15px;      
+        margin-left: 15px; 
+        margin-top: 30px;     
     }
 }
 
@@ -2200,5 +2222,98 @@
   and (orientation: portrait) { 
     .termsDescription{
        margin-left: -12px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveFooter{
+       margin-left: -83px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerTitle1{
+       margin-left: -5px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerClassText1{
+       margin-left: -6px; 
+       margin-top: -8px;           
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerTitle{
+       margin-left: 5px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerClassText{
+       margin-left: 5px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerTitleMid{
+       margin-left: 5px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerLinkMid{
+       margin-left: 5px;            
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .shareLinks{
+       padding-left: 5px;  
+       margin-bottom: 7px;          
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerContainerMid{
+       padding-top: 5px; 
+       padding-bottom: 5px;           
     }
 }
