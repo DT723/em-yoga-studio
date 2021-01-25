@@ -473,68 +473,113 @@
 
 /* Media Query */
 /* Tablet Ipad Landscape*/
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .nav {
     margin-right: 25px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #firstName1 {
     margin-top: 4px;
+    padding-top: 28px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #firstName2 {
     margin-left: 100px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .heroTitle {
     width: 700px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .pull-right {
      margin-right: 25px;   
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .col-container1 {
      margin-left: 100px;   
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .col-container2 {
      margin-right: 60px; 
      margin-left: 130px;  
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .section-container-home { 
      margin-right: 60px;  
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .navbar-right { 
      justify-content: space-between; 
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .banner-container { 
      height: 200px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .text-center2 { 
      padding-bottom: -50px;
      padding-right: 40px;
@@ -542,71 +587,115 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .text-center1 { 
      padding-left: 10px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footer-container { 
      margin-left: -90px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .row-center { 
      margin-top: -15px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .section-container-home { 
      margin-top: -15px;
      margin-bottom: -15px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .yogaColTop { 
      margin-top: 0px;
      margin-bottom: 20px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .aboutYogaImg { 
      margin-left: 160px;
      
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .classButtons { 
      margin-left: 24px;     
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .subButton { 
      margin-left: 0px;     
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .subContainer {
         margin-bottom: 0px;
         height: 500px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .fa-linkedin {
       padding-bottom: 9px; 
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .fa-instagram{
       padding-left: 2px; 
     }
@@ -615,32 +704,53 @@
 
 
 /* Tablet Ipad Portrait*/
-@media screen and (max-width: 768px) {
-    .nav {
-    margin-right: 10px;
+
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .nav { 
+        margin-right: 10px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #firstName2 {
     margin-left: 100px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .heroTitle {
     width: 700px;
     margin-top: 150px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .pull-right {
      margin-right: 25px;   
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .col-container1 {
       margin-left: 70px;
       padding-left: 10px;
@@ -649,7 +759,11 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .col-container2 {
       margin-left: 70px;
       padding-left: 10px;
@@ -657,7 +771,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .text-center2 {
         padding-right: 0px;
         margin-bottom: 10px;
@@ -666,19 +784,31 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .yogaColTop {
         margin-top: -15px;     
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .aboutYogaImg {
         margin-left: 180px;     
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .thinkAboutImg {
         width: 300px;
         height: 190px; 
@@ -686,7 +816,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .timeForChangeImg {
         width: 300px;
         height: 190px; 
@@ -695,13 +829,21 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .servicesColTop {
         margin-top: -15px;     
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .classButtons {
         margin-left: 110px;   
         height: 60px;
@@ -711,27 +853,43 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .subContainer {
         margin-bottom: 0px;
         height: 500px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .aboutImgContainer {
         height: 550px;
         width: 725px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .sectionContAbout {
         padding-top: 30px; 
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .aboutHeroImg {
         height: 500px;
         width: 725px;
@@ -739,7 +897,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .dreamImg {
         width: 300px;
         height: 190px; 
@@ -747,7 +909,11 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .yearImg {
         width: 300px;
         height: 190px; 
@@ -756,84 +922,136 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 400px;
         margin-left: 160px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .pricing-features {
         width: 400px;
         margin-left: 160px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .tipsCard {
         margin-left: -90px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .waiverCard {
         margin-left: 0px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .subButton {
         margin-left: 0px;
         margin-top: 5px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .subContent {
       padding-top: 15px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .responsiveFooter {
       margin-left: -35px;
       padding-top: 5px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footerContainerLeft {
       margin-left: -10px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footerContainerMid {
       padding-bottom: 10px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footerTitleMid {
       margin-top: 20px; 
       margin-bottom: 5px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footerLinkMid {
       padding-top: -5px; 
     }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .fa-linkedin {
       padding-bottom: 3px; 
     }
 }
 
-@media screen and (max-width: 480px) { 
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
     .fa-instagram{ 
         padding-top: 8px;
     } 
@@ -843,7 +1061,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-header { 
         font-size: 15px;
@@ -854,7 +1072,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-toggle { 
         margin-right: 90px;
@@ -865,7 +1083,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #firstName1 { 
         margin-top: 4px;
@@ -875,7 +1093,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #firstName2 { 
         font-size: 55px;
@@ -885,7 +1103,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .heroImgHome { 
         width: 480px;
@@ -895,7 +1113,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription { 
         font-size: 28px;
@@ -906,7 +1124,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .responsePad {  
         margin-left: 108px;
@@ -917,7 +1135,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #navbar-collapse-uarr { 
         font-size: 13px;
@@ -927,7 +1145,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-nav li a{ 
         padding: 20px;
@@ -937,7 +1155,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .titleSmartPhone{ 
         margin-bottom: 5px;
@@ -949,7 +1167,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription2{ 
         margin-left: -63px;
@@ -959,7 +1177,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center1{ 
         width: 480px;
@@ -971,7 +1189,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .subTitle { 
         font-size: 15px;
@@ -982,7 +1200,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container1{ 
         margin-left: 60px;
@@ -995,7 +1213,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2{ 
         margin-left: 60px;
@@ -1008,7 +1226,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yogaTitle{ 
         font-size: 43px;
@@ -1020,7 +1238,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yogaColTop{ 
         margin-top: -30px;
@@ -1032,7 +1250,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutYogaImg{ 
         height: 200px;
@@ -1043,7 +1261,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .testTitle{ 
         font-size: 43px;
@@ -1055,7 +1273,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yogaColBottom{ 
         margin-top: -55px;
@@ -1067,7 +1285,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .thinkAboutImg{ 
         height: 109px;
@@ -1081,7 +1299,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .timeForChangeImg{
         height: 109px;
@@ -1095,7 +1313,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .fa-container .heartLogo{ 
         font-size: 30px;
@@ -1105,7 +1323,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .fa-container .commentLogo{ 
         font-size: 30px;
@@ -1115,7 +1333,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .eventDescription1{ 
         font-size: 20px; 
@@ -1127,7 +1345,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .eventDescription1{ 
         font-size: 20px; 
@@ -1138,7 +1356,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .eventDescription2{ 
         font-size: 14px; 
@@ -1149,7 +1367,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homePageBtn{ 
         font-size: 15px; 
@@ -1159,7 +1377,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .banner-container{ 
         height: 170px;
@@ -1170,7 +1388,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center2{ 
         margin-top: -8px;
@@ -1182,7 +1400,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutImgContainer{ 
         height: 380px;
@@ -1196,7 +1414,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutHeroImg{ 
         height: 330px;
@@ -1209,7 +1427,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutPara1{ 
         margin-top: -10px;
@@ -1223,7 +1441,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutPara2{ 
         margin-top: -10px;
@@ -1236,7 +1454,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutPara3{ 
         margin-top: -10px;
@@ -1249,7 +1467,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .dreamImg{ 
        height: 109px;
@@ -1263,7 +1481,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yearImg{ 
         height: 109px;
@@ -1277,7 +1495,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .sectionContAbout{ 
         margin-top: -25px;
@@ -1290,7 +1508,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .serviceTitle{ 
         padding-right: 80px;
@@ -1303,7 +1521,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         margin-left: 60px;
@@ -1314,7 +1532,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features{
         margin-left: 60px;
@@ -1325,7 +1543,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons{
         margin-left: 40px;
@@ -1335,7 +1553,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subButton{
         margin-left: 0px;
@@ -1345,7 +1563,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termTitle{
         margin-left: 0px;
@@ -1356,7 +1574,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termH1{
         margin-left: 45px;
@@ -1367,7 +1585,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termsDescription{
         margin-left: 0px;
@@ -1379,7 +1597,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .tipsCard{
         margin-left: -130px;
@@ -1390,7 +1608,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverCard{
         margin-left: 160px;
@@ -1401,7 +1619,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .btn-container{
         width: 480px;
@@ -1412,7 +1630,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .btn15{
         background: white;
@@ -1423,7 +1641,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footer-container{ 
         font-size: 10px;
@@ -1435,7 +1653,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .responsiveFooter{         
         padding-left: 15px;        
@@ -1445,7 +1663,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerTitle{ 
         font-size: 14px;
@@ -1455,7 +1673,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerClassText{ 
         font-size: 12px;
@@ -1465,7 +1683,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerTitleMid{ 
         font-size: 14px;
@@ -1475,7 +1693,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .shareLinks{ 
         font-size: 10px;
@@ -1485,7 +1703,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .fa{ 
         font-size: 16px;
@@ -1495,7 +1713,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .fa-instagram{ 
         padding-top: 8px;
@@ -1505,7 +1723,7 @@
 @media only screen 
   and (device-width: 414px)
   and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerLinkMid{ 
         font-size: 13px;
@@ -1514,8 +1732,9 @@
 
 /* SmartPhone iPhone 6/7/8 Plus landscape*/
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .heroTitle{
         margin-top: 43px;
@@ -1523,8 +1742,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     #firstName2{
         font-size: 36px;
@@ -1532,8 +1752,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .homeDescription{
         font-size: 28px;
@@ -1546,8 +1767,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     #firstName1{
         margin-top: 5px;
@@ -1555,8 +1777,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .navbar-toggle{
         margin-right: 23px;
@@ -1565,8 +1788,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .navbar-collapse{
         margin-top: 0px;
@@ -1575,8 +1799,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .responsiveRow{
         margin-left: 25px;        
@@ -1584,8 +1809,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .responsiveFooter{
         margin-left: 12px;        
@@ -1593,8 +1819,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .aboutHeroImg{
         margin-top: 9px;        
@@ -1602,8 +1829,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-first{
         margin-left: 153px;        
@@ -1611,8 +1839,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-second{
         margin-left: 153px;        
@@ -1620,8 +1849,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-third{
         margin-left: 153px;        
@@ -1629,8 +1859,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-fourth{
         margin-left: 153px;        
@@ -1638,8 +1869,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-features{
         margin-left: 153px;        
@@ -1647,8 +1879,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .classButtons{
         margin-left: 106px;        
@@ -1656,8 +1889,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .responsiveCheck{
         padding-left: 22px;        
@@ -1665,8 +1899,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .subButton{
         margin-left: 0px;        
@@ -1674,8 +1909,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .tipsCard{
         margin-left: -100px;        
@@ -1683,8 +1919,9 @@
 }
 
 @media only screen 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .waiverCard{
         margin-left: 0px;
@@ -1693,24 +1930,25 @@
 }
 
 @media only screen  
-  and (device-width: 414px)
+  and (device-width: 736px)
+  and (device-height: 414px)
   and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 3)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .btn15{
         margin-right: -103px;      
     }
 }
 
-/* SmartPhone iPhone XI portrait */
+/* SmartPhone iPhone 11 portrait */
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-toggle{
-        margin-right: 108px;
-        margin-top: 26px;
+        margin-right: 28px;
+        margin-top: 24px;
     }
 }
 
@@ -1729,8 +1967,30 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    #firstName2{
+        margin-left: 108px;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .homeDescription{
+        margin-top: -34px;
+        margin-left: 108px;
+        font-size: 28px;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
     .text-center1{
-        margin-left: -22px;
+        margin-left: -8px;
     }
 }
 
@@ -1740,8 +2000,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container1{
-        margin-left: 30px;
-        margin-right: -30px;
+        margin-left: 15px;
+        margin-right: 13px;
         padding: 0px;
     }
 }
@@ -1752,9 +2012,29 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2{
-        margin-left: 30px;
-        margin-right: -30px;
-        padding: 0px;
+      margin-left: 15px;
+      margin-right: 13px;
+      padding: 0px;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .eventDescription1{
+       font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .eventDescription2{
+      font-size: 15px;
     }
 }
 
@@ -1767,6 +2047,27 @@
        margin-top: -19px;
        height: 145px;
     }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .homePageBtn{
+       font-size: 15px;
+       padding: 10px 14px;
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .banner-container{
+       margin-bottom: 0px;
+       padding-top: 28px;
+       padding-bottom: 15px;
 }
 
 @media only screen 
