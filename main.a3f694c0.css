@@ -335,13 +335,13 @@
     gap: 20px;
 }
 
-#priceTerms1{
+.tipsCard{
     background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
     width: 250px;
     height: 300px;
 }
 
-#priceTerms2{
+.waiverCard{
   background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
   width: 250px;
   height: 300px;
