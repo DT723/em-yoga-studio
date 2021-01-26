@@ -339,12 +339,15 @@
     background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
     width: 250px;
     height: 300px;
+    margin-bottom: 20px;
+    margin-right: -70px;
 }
 
 .waiverCard{
   background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
   width: 250px;
   height: 300px;
+  margin-top: 20px;
 }
 
 .btn-container {
@@ -424,11 +427,11 @@
 
 
 #position1 {
-    margin-left: 150px;
+    margin-left: 190px;
 }
 
 #position2 {
-    margin-right: 50px;  
+    margin-left: -75px;  
 }
 
 #navbar-collapse-uarr {
