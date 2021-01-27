@@ -2360,7 +2360,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .termH1{
-        margin-left: 33px;        
+        margin-left: 10px;        
     }
 }
 
@@ -2381,7 +2381,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .tipsCard{
-      width: 270px;        
+      width: 270px; 
+      margin-left: -150px;      
     }
 }
 
@@ -2391,7 +2392,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .waiverCard{
-      width: 270px;        
+      width: 270px; 
+      margin-left: 150px;     
     }
 }
 
