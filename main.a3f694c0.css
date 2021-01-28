@@ -693,6 +693,16 @@
     }
 }
 
+@media only screen 
+  and (device-width: 1199px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .classButtons {
+     margin-left: 24px;     
+    }
+}
+
 
 @media only screen 
   and (device-width: 1024px)
