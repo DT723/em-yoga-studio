@@ -2380,9 +2380,30 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    #position1{
+        margin-left: 323px;        
+    }
+}
+
+@media only screen 
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #position2{
+        margin-left: 223px;        
+    }
+}
+
+@media only screen 
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
     .tipsCard{
-      width: 270px; 
-      margin-left: -150px;      
+      width: 270px;
+      margin-bottom: 27px; 
+      padding-top: 80px;   
     }
 }
 
@@ -2392,8 +2413,18 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .waiverCard{
-      width: 270px; 
-      margin-left: 150px;     
+      width: 270px;
+      padding-top: 60px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .btn15{
+      margin-right: 287px;    
     }
 }
 
