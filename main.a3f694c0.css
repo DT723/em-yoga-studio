@@ -689,7 +689,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .classButtons {
-     margin-left: 24px;     
+     margin-left: 23px;     
     }
 }
 
@@ -989,6 +989,16 @@
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 400px;
         margin-left: 160px;
+    }
+}
+
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .classButtons {
+        margin-left: 103px;
     }
 }
 
