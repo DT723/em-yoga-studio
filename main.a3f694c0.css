@@ -784,17 +784,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #firstName2 {
-    margin-left: 100px;
-    }
-}
-
-@media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .heroTitle {
-    width: 700px;
+    margin-left: 30px;
     margin-top: 150px;
     }
 }
@@ -804,8 +794,9 @@
   and (device-height: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .pull-right {
-     margin-right: 25px;   
+    .homeDescription {
+    width: 600px;
+    margin-right: 87px;
     }
 }
 
@@ -1244,7 +1235,7 @@
   and (orientation: portrait) { 
     #firstName2 { 
         font-size: 45px;
-        margin-left: 100px;
+        margin-left: 10px;
         margin-top: 110px;
     }
 }
@@ -1265,9 +1256,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription { 
-        font-size: 23px;
-        margin-right: 95px;
-        margin-left: 0px;
+        font-size: 27px;
+        margin-right: 88px;
+        margin-left: 20px;
         width: 350px;
     }
 }
@@ -1950,15 +1941,6 @@
 }
 
 /* SmartPhone iPhone 6/7/8 Plus landscape*/
-@media only screen 
-  and (device-width: 736px)
-  and (device-height: 414px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .heroTitle{
-        margin-top: 43px;
-    }
-}
 
 @media only screen 
   and (device-width: 736px)
@@ -1967,7 +1949,7 @@
   and (orientation: landscape) { 
     #firstName2{
         font-size: 36px;
-        margin-left: 140px;
+        margin-left: 40px;
     }
 }
 
@@ -2489,18 +2471,10 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .heroTitle{
-        margin-top: 160px;
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
     #firstName2{
-        margin-left: 108px;
+      font-size: 55px;
+      margin-left: 20px;
+      margin-top: 140px;
     }
 }
 
@@ -2511,8 +2485,8 @@
   and (orientation: portrait) { 
     .homeDescription{
         margin-top: -34px;
-        margin-left: 108px;
-        font-size: 28px;
+        margin-left: 20px;
+        font-size: 27px;
     }
 }
 
