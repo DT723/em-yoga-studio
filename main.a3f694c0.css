@@ -43,10 +43,10 @@
     margin: 0px;
 }
 
-.heroTitle {
+/* .heroTitle {
     margin-top: 50px;
     margin-left: -100px;
-}
+} */
 
 #firstName1 {
     font-family: open sans, 'Poppins';
@@ -505,7 +505,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #firstName2 {
-    margin-left: 100px;
+    margin-left: 27px;
+    margin-top: 43px;
     }
 }
 
@@ -514,19 +515,9 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .heroTitle {
+    .homeDescription {
     width: 700px;
-    margin-left: 0px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pull-right {
-     margin-right: 25px;   
+    margin-right: -273px;
     }
 }
 
@@ -717,7 +708,7 @@
   and (orientation: landscape) {
     .subContainer {
         margin-bottom: 0px;
-        height: 500px;
+        height: 6;
     }
 }
 
