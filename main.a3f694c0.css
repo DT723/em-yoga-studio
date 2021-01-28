@@ -206,6 +206,19 @@
     height: 622px;
 }
 
+.subButton {
+  background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
+    opacity: 0.8;
+    text-shadow: black 1px 1px 1px;
+    color: white;
+    background-color: white;
+}
+
+.subButton:hover {
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
+    opacity: 1;    
+}
+
 .footerClassText {
     font-size: 13px;
     margin-top: -10px;
@@ -710,7 +723,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .subButton { 
-     margin-left: 0px;     
+      font-size: 16px;
+      margin-left: 0px;     
     }
 }
 
@@ -1110,6 +1124,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subButton {
+        font-size: 19px;
         margin-left: 0px;
         margin-top: 5px;
     }
