@@ -288,6 +288,7 @@
 }
 
 .classButtons {
+    width: 108px;
     margin-left: 50px;
     background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
@@ -682,25 +683,16 @@
     }
 }
 
-/* @media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .classButtons { 
-     margin-left: 24px;     
-    }
-} */
-
 @media only screen 
   and (device-width: 1024px)
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .signUpBtn { 
+    .classButtons {
      margin-left: 24px;     
     }
 }
+
 
 @media only screen 
   and (device-width: 1024px)
@@ -913,7 +905,7 @@
     .classButtons {
         margin-left: 110px;   
         height: 60px;
-        width: 130px;
+        width: 140px;
         padding-top: 15px;
         font-size: 18px;
     }
@@ -1677,7 +1669,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
-        margin-left: 60px;
+        margin-left: 65px;
         width: 265px;
     }
 }
@@ -1699,7 +1691,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons{
-        margin-left: 40px;
+        margin-left: 50px;
     }
 }
 
@@ -2315,7 +2307,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .classButtons{
-        margin-left: 50px;        
+      width: 112px;  
+      margin-left: 50px;        
     }
 }
 
