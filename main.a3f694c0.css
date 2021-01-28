@@ -499,7 +499,7 @@
     }
 }
 
-@media only screen 
+/* @media only screen 
   and (device-width: 1024px)
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -507,7 +507,7 @@
     #firstName2 {
     margin-left: 100px;
     }
-}
+} */
 
 @media only screen 
   and (device-width: 1024px)
@@ -516,6 +516,18 @@
   and (orientation: landscape) {
     .heroTitle {
     width: 700px;
+    margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #homeHeroDescription {
+    width: 900px;
+    margin-right: -231px;
     }
 }
 
