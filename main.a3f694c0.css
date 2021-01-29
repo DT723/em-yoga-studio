@@ -43,11 +43,6 @@
     margin: 0px;
 }
 
-/* .heroTitle {
-    margin-top: 50px;
-    margin-left: -100px;
-} */
-
 #firstName1 {
     font-family: open sans, 'Poppins';
     color: #0f180f;
@@ -367,14 +362,9 @@
     justify-content: center;   
 }
 
-/* .btn.btn-primary.btn15 {
-    width: 150px;
-    height: 50px;
-    font-size: 1.25em;
-    background-image: linear-gradient(to right, rgb(171, 128, 235), #af6af0, rgb(186, 89, 241));
-    background: white;
-    margin-left: 188px;
-} */
+.btn15 {
+  margin-left: 197px;
+}
 
 .homePageBtn {
     background: #757575;
@@ -428,7 +418,7 @@
     background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
     text-shadow: black 1px 1px 1px;
-    color: white; 
+    color: white;
 }
 
 #waiverBtn:hover {
@@ -436,6 +426,9 @@
     opacity: 1;    
 }
 
+.btn-primary {
+  background-color: white;
+}
 
 #position1 {
     margin-left: 190px;
@@ -1111,7 +1104,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .tipsCard {
-        margin-left: -30px;
+        margin-left: 0px;
     }
 }
 
@@ -1142,7 +1135,18 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverCard {
-        margin-left: 235px;
+        margin-left: 266px;
+    }
+}
+
+@media only screen 
+  and (device-width: 768px)
+  and (device-height: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .btn15 {
+        margin-left: 140px;
+        margin-bottom: 70px;
     }
 }
 
