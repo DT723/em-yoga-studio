@@ -299,6 +299,10 @@
     box-shadow: 3px 3px 8px black;
 }
 
+.pricing-features {
+  margin-top: 9px;
+}
+
 .classButtons {
     width: 108px;
     margin-left: 50px;
