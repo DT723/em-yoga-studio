@@ -277,22 +277,26 @@
 .pricing-card.pricing-primary.pricing-first {
     background-color: #b18a81;
     height: 336px;
+    box-shadow: 3px 3px 8px black;
 }
 
 .pricing-card.pricing-info.pricing-second {
     background-color: #b1776c;
     height: 336px;
+    box-shadow: 3px 3px 8px black;
 }
 
 .pricing-card.pricing-secondary.pricing-third {
     background-color: #643931;
     height: 336px;
+    box-shadow: 3px 3px 8px black;
 }
 
 .pricing-card.pricing-secondary.pricing-fourth {
     background-color: #572217;
     padding-bottom: 103px;
     height: 336px;
+    box-shadow: 3px 3px 8px black;
 }
 
 .classButtons {
@@ -672,8 +676,8 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .tipsCard { 
-     margin-left: -40px;
+    .waiverTitle { 
+     margin-top: 0px;
      
     }
 }
@@ -683,9 +687,8 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .waiverTitle { 
-     margin-top: 0px;
-     
+    .waiverCard { 
+     margin-right: -90px; 
     }
 }
 
@@ -716,7 +719,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .cardRow {
-     margin-left: -55px;     
+     margin-left: -53px;     
     }
 }
 
@@ -725,11 +728,54 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
-    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth{
-      width: 204px;
+    .pricing-card.pricing-primary.pricing-first{
       height: 300px;
-      margin-left: 27px; 
-      box-shadow: 3px 3px 8px black;    
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+/* @media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+    .pricing-first{
+      width: 204px;
+      margin-left: 27px;    
+    }
+} */
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+    .pricing-second{
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+    .pricing-third{
+      width: 204px;
+      margin-left: 27px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
+    .pricing-fourth{
+      width: 204px;
+      margin-left: 27px;    
     }
 }
 
@@ -1104,7 +1150,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .tipsCard {
-        margin-left: 0px;
+        margin-left: 10px;
     }
 }
 
@@ -1135,7 +1181,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverCard {
-        margin-left: 266px;
+        margin-left: 276px;
     }
 }
 
@@ -1145,7 +1191,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .btn15 {
-        margin-left: 140px;
+        margin-left: 150px;
         margin-bottom: 70px;
     }
 }
