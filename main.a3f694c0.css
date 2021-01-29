@@ -691,8 +691,18 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .btn15 { 
-     margin-right: -71px;
+     margin-right: 117px;
      
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-first {
+     margin-left: 23px;     
     }
 }
 
@@ -703,6 +713,85 @@
   and (orientation: landscape) {
     .classButtons {
      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .cardRow {
+     margin-left: -50px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-first{
+      width: 204px;
+      height: 300px;
+      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-second{
+      width: 210px;
+      height: 300px;
+      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-third{
+      width: 210px;
+      height: 300px;
+      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-fourth{
+      width: 210px;
+      height: 300px;
+      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-features{
+      width: 210px;
+      margin-left: 23px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .cardTitlePricing{
+      margin-top: 23px;     
     }
 }
 
