@@ -668,7 +668,7 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .termH1{ 
+    .termH1 { 
      margin-left: 10px;
      
     }
@@ -701,16 +701,6 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .pricing-first {
-     margin-left: 23px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
     .classButtons {
      margin-left: 23px;     
     }
@@ -731,10 +721,11 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .pricing-first{
+    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth{
       width: 204px;
       height: 300px;
-      margin-left: 23px;     
+      margin-left: 23px; 
+      box-shadow: 3px 3px 8px black;    
     }
 }
 
@@ -743,43 +734,8 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .pricing-second{
-      width: 210px;
-      height: 300px;
-      margin-left: 23px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-third{
-      width: 210px;
-      height: 300px;
-      margin-left: 23px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-fourth{
-      width: 210px;
-      height: 300px;
-      margin-left: 23px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-features{
+    .pricing-features {
+      margin-top: 9px;
       width: 210px;
       margin-left: 23px;     
     }
@@ -790,7 +746,7 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .cardTitlePricing{
+    .cardTitlePricing {
       margin-top: 23px;     
     }
 }
@@ -843,7 +799,7 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .fa-instagram{
+    .fa-instagram {
       padding-left: 2px; 
     }
 }
@@ -1092,6 +1048,7 @@
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 300px;
         margin-left: 210px;
+        box-shadow: 3px 3px 8px black;
     }
 }
 
@@ -1111,6 +1068,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
+        margin-top: 9px;
         width: 300px;
         margin-left: 210px;
     }
@@ -1307,7 +1265,7 @@
   and (device-height: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .fa-instagram{ 
+    .fa-instagram { 
         padding-top: 8px;
     } 
 }
@@ -1406,7 +1364,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .navbar-nav li a{ 
+    .navbar-nav li a { 
         padding: 20px;
     }
 }
@@ -1416,7 +1374,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .titleSmartPhone{ 
+    .titleSmartPhone { 
         margin-bottom: 5px;
         margin-left: -65px;
         font-size: 30px;
@@ -1428,7 +1386,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .homeDescription2{ 
+    .homeDescription2 { 
         margin-left: -63px;
     }
 }
@@ -1438,7 +1396,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .text-center1{ 
+    .text-center1 { 
         width: 480px;
         padding: 0px;
         margin-left: -18px;
@@ -1461,7 +1419,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .col-container1{ 
+    .col-container1 { 
         margin-left: 31px;
         margin-right: 20px; 
         padding-left: 8px;
@@ -1474,7 +1432,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .col-container2{ 
+    .col-container2 { 
        margin-left: 31px;
        margin-right: 20px; 
        padding-left: 8px;
@@ -1487,7 +1445,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yogaTitle{ 
+    .yogaTitle { 
         font-size: 43px;
         margin-right: 0px;
         margin-left: 10px;
@@ -1499,7 +1457,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yogaColTop{ 
+    .yogaColTop { 
         margin-top: -30px;
         margin-left: 0px;
         padding-right: 20px;
@@ -1511,7 +1469,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutYogaImg{ 
+    .aboutYogaImg { 
         height: 200px;
         margin-left: 43px;
     }
@@ -1522,7 +1480,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .testTitle{ 
+    .testTitle { 
         font-size: 43px;
         margin-right: 0px;
         margin-left: 10px;
@@ -1534,7 +1492,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yogaColBottom{ 
+    .yogaColBottom { 
         margin-top: -55px;
         margin-left: 0px;
         padding-right: 20px;
@@ -1546,7 +1504,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .thinkAboutImg{ 
+    .thinkAboutImg { 
         height: 109px;
         width: 178px;
         margin-top: 10px;
@@ -1560,7 +1518,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .timeForChangeImg{
+    .timeForChangeImg {
         height: 109px;
         width: 178px; 
         margin-top: -109px; 
@@ -1574,7 +1532,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .fa-container .heartLogo{ 
+    .fa-container, .heartLogo { 
         font-size: 30px;
     }
 }
@@ -1584,7 +1542,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .fa-container .commentLogo{ 
+    .fa-container, .commentLogo { 
         font-size: 30px;
     }
 }
@@ -1594,7 +1552,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .eventDescription1{ 
+    .eventDescription1 { 
         font-size: 20px; 
         margin-top: 15px;
     }
@@ -1606,7 +1564,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .eventDescription1{ 
+    .eventDescription1 { 
         font-size: 20px; 
         margin-top: 15px;
     } 
@@ -1617,7 +1575,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .eventDescription2{ 
+    .eventDescription2 { 
         font-size: 14px; 
         
     } 
@@ -1628,7 +1586,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .homePageBtn{ 
+    .homePageBtn { 
         font-size: 15px; 
     } 
 }
@@ -1638,7 +1596,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .banner-container{ 
+    .banner-container { 
         height: 170px;
         margin-bottom: 15px;
     } 
@@ -1649,7 +1607,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .text-center2{ 
+    .text-center2 {  
         margin-top: -8px;
         margin-left: 35px;
         padding-right: 35px;
@@ -1661,7 +1619,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutImgContainer{ 
+    .aboutImgContainer { 
         height: 380px;
         width: 480px;
         margin-top: 15px;
@@ -1675,7 +1633,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutHeroImg{ 
+    .aboutHeroImg { 
         height: 330px;
         width: 480px;
         margin-top: -5px;
@@ -1688,7 +1646,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutPara1{ 
+    .aboutPara1 { 
         margin-top: -10px;
         margin-left: 0px;
         padding-right: 15px; 
@@ -1702,7 +1660,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutPara2{ 
+    .aboutPara2 { 
         margin-top: -10px;
         margin-left: 0px;
         padding-right: 15px; 
@@ -1715,7 +1673,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutPara3{ 
+    .aboutPara3 { 
         margin-top: -10px;
         margin-left: 0px;
         padding-right: 15px; 
@@ -1728,7 +1686,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .dreamImg{ 
+    .dreamImg { 
        height: 109px;
        width: 178px;
        margin-top: 10px;
@@ -1742,7 +1700,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yearImg{ 
+    .yearImg { 
         height: 109px;
         width: 178px; 
         margin-top: -109px; 
@@ -1756,7 +1714,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .sectionContAbout{ 
+    .sectionContAbout { 
         margin-top: -25px;
         margin-left: 0px;
         margin-right: 0px;
@@ -1769,7 +1727,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .serviceTitle{ 
+    .serviceTitle { 
         padding-right: 80px;
         margin-left: -5px;
         width: 480px;
@@ -1785,6 +1743,7 @@
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         margin-left: 65px;
         width: 265px;
+        box-shadow: 3px 3px 8px black;
     }
 }
 
@@ -1793,8 +1752,9 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .pricing-features{
-        margin-left: 60px;
+    .pricing-features {
+        margin-top: 9px;
+        margin-left: 65px;
         width: 265px;
     }
 }
@@ -1804,7 +1764,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .classButtons{
+    .classButtons {
         margin-left: 50px;
     }
 }
@@ -1814,7 +1774,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .subButton{
+    .subButton {
         margin-left: 0px;
     }
 }
@@ -1824,7 +1784,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .termTitle{
+    .termTitle {
         margin-left: 0px;
         padding-right: 60px;
     }
@@ -1835,7 +1795,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .termH1{
+    .termH1 {
         margin-left: 45px;
         padding-right: 5px;
     }
@@ -1846,7 +1806,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .termsDescription{
+    .termsDescription {
         margin-left: 0px;
         padding: 0px;
         width: 350px;
@@ -1858,7 +1818,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .tipsCard{
+    .tipsCard {
         margin-left: -119px;
         padding-top: 70px;
         width: 250px;
@@ -1870,7 +1830,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverCard{
+    .waiverCard {
         margin-left: 147px;
         padding-top: 30px;
         width: 250px;
@@ -1882,7 +1842,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverTitle{
+    .waiverTitle {
        margin-top: 35px;
     }    
 }
@@ -1892,7 +1852,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverBtn{
+    .waiverBtn {
         margin-top: 10px;
     }
 }
@@ -1902,7 +1862,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverChk{
+    .waiverChk {
         margin-top: 10px;
     }
 }
@@ -1912,7 +1872,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .btn-container{
+    .btn-container {
         width: 480px;
         padding-right: 40px;
     }
@@ -1923,7 +1883,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .btn15{
+    .btn15 {
         background: white;
         margin-right: 79px;
     }
@@ -1934,7 +1894,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footer-container{ 
+    .footer-container { 
         font-size: 10px;
         padding-left: 5px;
         padding-top: 15px;
@@ -1947,7 +1907,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerContainerMid{ 
+    .footerContainerMid { 
         padding-top: 3px;
     } 
 }
@@ -1957,7 +1917,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .responsiveFooter{         
+    .responsiveFooter {         
         padding-left: 0px;     
     } 
 }
@@ -1967,7 +1927,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitle{ 
+    .footerTitle { 
         font-size: 16px;
     } 
 }
@@ -1977,7 +1937,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitle1{ 
+    .footerTitle1 { 
         font-size: 16px;
         margin-bottom: 4px;
     } 
@@ -1988,7 +1948,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerClassText{ 
+    .footerClassText { 
         font-size: 12px;
     } 
 }
@@ -1998,7 +1958,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerContainerLeft{ 
+    .footerContainerLeft { 
         margin-left: -10px;
     } 
 }
@@ -2008,7 +1968,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitleMid{ 
+    .footerTitleMid { 
         font-size: 14px;
         margin-top: 15px;
     } 
@@ -2019,7 +1979,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .shareLinks{ 
+    .shareLinks { 
         font-size: 10px;
         padding-top: 2px;
     } 
@@ -2030,7 +1990,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .fa{ 
+    .fa { 
         font-size: 16px;
     } 
 }
@@ -2040,7 +2000,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .fa-instagram{ 
+    .fa-instagram { 
         padding-top: 8px;
     } 
 }
@@ -2050,7 +2010,7 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerLinkMid{ 
+    .footerLinkMid { 
         font-size: 13px;
         margin-bottom: 5px;
         padding-bottom: 10px;
@@ -2064,7 +2024,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #firstName2{
+    #firstName2 {
         font-size: 36px;
         margin-left: 40px;
     }
@@ -2075,7 +2035,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .homeDescription{
+    .homeDescription {
         font-size: 28px;
         margin-right: 5px;
         padding-left: 0px;
@@ -2089,7 +2049,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #firstName1{
+    #firstName1 {
         margin-top: 5px;
     }
 }
@@ -2099,7 +2059,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .navbar-toggle{
+    .navbar-toggle {
         margin-right: 23px;
         margin-top: 25px;
     }
@@ -2110,7 +2070,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .navbar-collapse{
+    .navbar-collapse {
         margin-top: 0px;
         height: 340px;
     }
@@ -2121,7 +2081,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .text-center1{
+    .text-center1 {
         margin-right: 35px;
     }
 }
@@ -2131,7 +2091,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .col-container1{
+    .col-container1 {
         margin-right: 40px;
         margin-left: 40px;
     }
@@ -2142,7 +2102,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .col-container2{
+    .col-container2 {
       margin-right: 40px;
       margin-left: 40px;
     }
@@ -2153,7 +2113,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .text-center2{
+    .text-center2 {
         margin-left: 15px;
     }
 }
@@ -2163,7 +2123,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveRow{
+    .responsiveRow {
         margin-left: 25px;        
     }
 }
@@ -2173,7 +2133,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveFooter{
+    .responsiveFooter {
         margin-left: -70px;  
         width: 700px;      
     }
@@ -2184,7 +2144,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerContainerMid{
+    .footerContainerMid {
         padding-top: 10px;      
     }
 }
@@ -2194,7 +2154,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerContainerLeft{
+    .footerContainerLeft {
         margin-left: -10px;      
     }
 }
@@ -2204,7 +2164,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerClassText1{
+    .footerClassText1 {
         margin-top: -7px;      
     }
 }
@@ -2214,7 +2174,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .servicesFooter{
+    .servicesFooter {
         padding-top: 10px;     
     }
 }
@@ -2224,7 +2184,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutYogaPara1{
+    .aboutYogaPara1 {
         margin-left: 30px;
         margin-right: 30px;       
     }
@@ -2235,7 +2195,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutYogaPara4{
+    .aboutYogaPara4 {
         margin-left: 30px;
         margin-right: 30px;       
     }
@@ -2246,7 +2206,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutYogaImg{
+    .aboutYogaImg {
         margin-left: 180px;        
     }
 }
@@ -2256,7 +2216,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutHeroImg{
+    .aboutHeroImg {
         margin-top: 9px;        
     }
 }
@@ -2266,7 +2226,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .coachPara3{
+    .coachPara3 {
         margin-left: 30px;
         margin-right: 30px;
         padding-bottom: 25px;       
@@ -2278,7 +2238,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .coachPara4{
+    .coachPara4 {
         margin-left: 30px;
         margin-right: 30px;       
     }
@@ -2289,7 +2249,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .thinkAboutImg{
+    .thinkAboutImg {
         height: 200px;
         width: 250px; 
         margin-left: 70px;     
@@ -2301,7 +2261,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .timeForChangeImg{
+    .timeForChangeImg {
       height: 200px;
       width: 250px;
       margin-left: 380px;
@@ -2314,7 +2274,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutPara1{
+    .aboutPara1 {
       margin-left: 30px;
       margin-right: 30px;        
     }
@@ -2325,7 +2285,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .aboutPara4{
+    .aboutPara4 {
       margin-left: 30px;
       padding-right: 75px;        
     }
@@ -2336,7 +2296,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .dreamImg{
+    .dreamImg {
         height: 200px;
         width: 250px; 
         margin-left: 70px;     
@@ -2348,7 +2308,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .yearImg{
+    .yearImg {
       height: 200px;
       width: 250px;
       margin-left: 380px;
@@ -2361,10 +2321,11 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .pricing-first{
+    .pricing-first {
         margin-left: 153px; 
         height: 300px;
-        width: 270px;       
+        width: 270px;
+        box-shadow: 3px 3px 8px black;    
     }
 }
 
@@ -2373,34 +2334,11 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .pricing-second{
-        margin-left: 153px;
-        height: 300px;
-        width: 270px; 
-    }
-}
-
-@media only screen 
-  and (device-width: 736px)
-  and (device-height: 414px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .pricing-third{
-        margin-left: 153px;
-        height: 300px;
-        width: 270px;    
-    }
-}
-
-@media only screen 
-  and (device-width: 736px)
-  and (device-height: 414px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .pricing-fourth{
+    .pricing-second {
         margin-left: 153px;
         height: 300px;
         width: 270px;
+        box-shadow: 3px 3px 8px black;
     }
 }
 
@@ -2409,7 +2347,34 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .pricing-features{
+    .pricing-third {
+        margin-left: 153px;
+        height: 300px;
+        width: 270px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-fourth { 
+        margin-left: 153px;
+        height: 300px;
+        width: 270px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (device-width: 736px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-features {
+        margin-top: 9px;
         margin-left: 153px; 
         width: 270px;       
     }
@@ -2420,7 +2385,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .classButtons{
+    .classButtons {
       width: 112px;  
       margin-left: 50px;        
     }
@@ -2431,7 +2396,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .servicesCol{
+    .servicesCol {
         margin-left: 65px;        
     }
 }
@@ -2441,7 +2406,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .serviceTitle{
+    .serviceTitle {
         margin-left: -60px;        
     }
 }
@@ -2451,7 +2416,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .termH1{
+    .termH1 {
         margin-left: 10px;        
     }
 }
@@ -2461,7 +2426,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .termsDescription{
+    .termsDescription {
         margin-left: 40px;
         margin-right: 30px;        
     }
@@ -2472,7 +2437,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #position1{
+    #position1 {
         margin-left: 323px;        
     }
 }
@@ -2482,7 +2447,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #position2{
+    #position2 { 
         margin-left: 223px;        
     }
 }
@@ -2492,7 +2457,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .tipsCard{
+    .tipsCard {
       width: 270px;
       margin-bottom: 27px; 
       padding-top: 80px;   
@@ -2504,7 +2469,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .waiverCard{
+    .waiverCard {
       width: 270px;
       padding-top: 60px;     
     }
@@ -2515,7 +2480,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .btn15{
+    .btn15 {
       margin-right: 287px;    
     }
 }
@@ -2525,7 +2490,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveCheck{
+    .responsiveCheck {
         padding-left: 22px;        
     }
 }
@@ -2535,7 +2500,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .subButton{
+    .subButton {
         margin-left: 0px;        
     }
 }
@@ -2545,7 +2510,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .tipsCard{
+    .tipsCard {
         margin-left: -100px;        
     }
 }
@@ -2555,7 +2520,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .waiverCard{
+    .waiverCard {
         margin-left: 0px;
         padding-right: -30px;       
     }
@@ -2567,7 +2532,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .btn15{
+    .btn15 {
         margin-right: -103px;      
     }
 }
@@ -2578,7 +2543,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .navbar-toggle{
+    .navbar-toggle {
         margin-right: 28px;
         margin-top: 24px;
     }
@@ -2589,7 +2554,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    #firstName2{
+    #firstName2 {
       font-size: 55px;
       margin-left: 20px;
       margin-top: 140px;
@@ -2601,7 +2566,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .homeDescription{
+    .homeDescription {
         margin-top: -34px;
         margin-left: 20px;
         font-size: 27px;
@@ -2613,7 +2578,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .text-center1{
+    .text-center1 {
         margin-left: -8px;
     }
 }
@@ -2623,7 +2588,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .col-container1{
+    .col-container1 {
         margin-left: 15px;
         margin-right: 13px;
         padding: 0px;
@@ -2635,7 +2600,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .col-container2{
+    .col-container2 {
       margin-left: 15px;
       margin-right: 13px;
       padding: 0px;
@@ -2647,7 +2612,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .eventDescription1{
+    .eventDescription1 {
        font-size: 30px;
     }
 }
@@ -2657,7 +2622,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .eventDescription2{
+    .eventDescription2 {
       font-size: 15px;
     }
 }
@@ -2667,7 +2632,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .text-center2{
+    .text-center2 {
        margin-top: -19px;
        height: 145px;
     }
@@ -2678,7 +2643,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .homePageBtn{
+    .homePageBtn {
        font-size: 15px;
        padding: 10px 14px;
     }   
@@ -2689,7 +2654,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .banner-container{
+    .banner-container {
        margin-bottom: 0px;
        padding-top: 28px;
        padding-bottom: 15px;
@@ -2701,7 +2666,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yogaTitle{
+    .yogaTitle {
        margin-top: -17px;       
     }
 }
@@ -2711,7 +2676,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutYogaImg{
+    .aboutYogaImg {
        margin-left: 13px;       
     }
 }
@@ -2721,7 +2686,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .coachTitle{
+    .coachTitle {
        margin-top: -17px;       
     }
 }
@@ -2731,7 +2696,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .testTitle{
+    .testTitle {
        margin-left: 0px;       
     }
 }
@@ -2741,7 +2706,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .thinkAboutImg{
+    .thinkAboutImg {
        height: 100px;
        width: 160px;
        margin-left: 15px;       
@@ -2753,7 +2718,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .timeForChangeImg{
+    .timeForChangeImg {
        height: 100px;
        width: 160px; 
        margin-left: 205px;
@@ -2766,7 +2731,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutHeroImg{
+    .aboutHeroImg {
         height: 289px;
         width: 414px; 
         margin-top: 8px;     
@@ -2778,7 +2743,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutImgContainer{
+    .aboutImgContainer {
         margin-bottom: -90px;      
     }
 }
@@ -2788,7 +2753,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutTitle{
+    .aboutTitle {
         margin-left: 8px; 
         margin-top: 75px; 
            
@@ -2800,7 +2765,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .dreamImg{
+    .dreamImg {
       height: 100px;
       width: 160px;
       margin-left: 15px;       
@@ -2812,7 +2777,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .yearImg{
+    .yearImg {
       height: 100px;
       width: 160px; 
       margin-left: 205px;
@@ -2825,7 +2790,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .serviceTitle{
+    .serviceTitle {
        margin-top: 15px;
        margin-left: -8px;         
     }
@@ -2836,7 +2801,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .servicesCol{
+    .servicesCol {
        margin-left: 18px;            
     }
 }
@@ -2846,7 +2811,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .classButtons{
+    .classButtons {
        margin-left: 43px;            
     }
 }
@@ -2856,9 +2821,10 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .pricing-first{
+    .pricing-first {
         margin-left: 52px;
-        width: 250px;      
+        width: 250px;
+        box-shadow: 3px 3px 8px black;
     }
 }
 
@@ -2867,7 +2833,44 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .pricing-second{
+    .pricing-second {
+      margin-left: 52px;
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-third {
+      margin-left: 52px;
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-fourth {
+      margin-left: 52px;
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (device-width: 414px)
+  and (device-height: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-features {
+      margin-top: 9px;
       margin-left: 52px;
       width: 250px;        
     }
@@ -2878,40 +2881,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .pricing-third{
-      margin-left: 52px;
-      width: 250px;        
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .pricing-fourth{
-      margin-left: 52px;
-      width: 250px;        
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .pricing-features{
-      margin-left: 52px;
-      width: 250px;        
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .termsDescription{
+    .termsDescription {
        margin-left: -12px;            
     }
 }
@@ -2921,7 +2891,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .termH1{
+    .termH1 {
        margin-top: -12px;            
     }
 }
@@ -2931,7 +2901,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .tipsCard{
+    .tipsCard {
        margin-left: -125px;           
     }
 }
@@ -2941,7 +2911,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .zoomTitle{
+    .zoomTitle {
        font-size: 30px;   
        margin-top: 40px;       
     }
@@ -2952,7 +2922,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .zoomBtn{   
+    .zoomBtn {   
        margin-top: 8px;       
     }
 }
@@ -2962,7 +2932,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .waiverCard{
+    .waiverCard {
        margin-left: 140px;            
     }
 }
@@ -2972,7 +2942,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .btn15{
+    .btn15 {
        margin-left: 175px;          
     }
 }
@@ -2982,7 +2952,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .subButton{
+    .subButton {
        margin-left: 0px; 
        margin-top: 5px;         
     }
@@ -2993,7 +2963,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .subContainer{
+    .subContainer {
        padding-bottom: 0px;    
        margin-bottom: -90px;      
     }
@@ -3004,7 +2974,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .responsiveFooter{
+    .responsiveFooter {
        margin-left: -83px;            
     }
 }
@@ -3014,7 +2984,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitle1{
+    .footerTitle1 {
        margin-left: -5px;            
     }
 }
@@ -3024,7 +2994,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerClassText1{
+    .footerClassText1 {
        margin-left: -6px; 
        margin-top: -8px;           
     }
@@ -3035,7 +3005,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitle{
+    .footerTitle {
        margin-left: 5px;            
     }
 }
@@ -3045,7 +3015,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerClassText{
+    .footerClassText {
        margin-left: 5px;            
     }
 }
@@ -3055,7 +3025,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerTitleMid{
+    .footerTitleMid {
        margin-left: 5px;            
     }
 }
@@ -3065,7 +3035,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerLinkMid{
+    .footerLinkMid {
        margin-left: 5px;            
     }
 }
@@ -3075,7 +3045,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .shareLinks{
+    .shareLinks {
        padding-left: 5px;  
        margin-bottom: 7px;          
     }
@@ -3086,7 +3056,7 @@
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .footerContainerMid{
+    .footerContainerMid {
        padding-top: 5px; 
        padding-bottom: 5px;           
     }
