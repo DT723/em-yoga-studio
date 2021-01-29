@@ -781,9 +781,38 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .pricing-features {
-      margin-top: 9px;
       width: 204px;
       margin-left: 27px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing15 {
+      margin-top: 32px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing50 {
+      margin-top: 13px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 1024px)
+  and (device-height: 768px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing85 {
+      margin-top: -17px;     
     }
 }
 
@@ -1094,7 +1123,6 @@
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 300px;
         margin-left: 210px;
-        box-shadow: 3px 3px 8px black;
     }
 }
 
@@ -1114,7 +1142,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
-        margin-top: 9px;
         width: 300px;
         margin-left: 210px;
     }
@@ -1810,7 +1837,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
-        margin-top: 9px;
         margin-left: 65px;
         width: 265px;
     }
@@ -2431,7 +2457,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-features {
-        margin-top: 9px;
         margin-left: 153px; 
         width: 270px;       
     }
@@ -2927,7 +2952,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-features {
-      margin-top: 9px;
       margin-left: 52px;
       width: 250px;        
     }
