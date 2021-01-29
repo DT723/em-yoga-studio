@@ -367,14 +367,14 @@
     justify-content: center;   
 }
 
-.btn.btn-primary.btn15 {
+/* .btn.btn-primary.btn15 {
     width: 150px;
     height: 50px;
     font-size: 1.25em;
     background-image: linear-gradient(to right, rgb(171, 128, 235), #af6af0, rgb(186, 89, 241));
     background: white;
     margin-left: 188px;
-}
+} */
 
 .homePageBtn {
     background: #757575;
@@ -708,12 +708,12 @@
 }
 
 @media only screen 
-  and (device-width: 2048px)
-  and (device-height: 1536px)
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
     .classButtons {
-     margin-left: 50px;     
+     margin-left: 23px;     
     }
 }
 
@@ -728,8 +728,8 @@
 }
 
 @media only screen 
-  and (device-width: 2048px)
-  and (device-height: 1536px)
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth{
