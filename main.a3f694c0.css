@@ -722,7 +722,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .cardRow {
-     margin-left: -50px;     
+     margin-left: -55px;     
     }
 }
 
@@ -1090,8 +1090,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
-        width: 400px;
-        margin-left: 160px;
+        width: 300px;
+        margin-left: 210px;
     }
 }
 
@@ -1101,7 +1101,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons {
-        margin-left: 103px;
+        margin-left: 50px;
     }
 }
 
@@ -1111,8 +1111,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
-        width: 400px;
-        margin-left: 160px;
+        width: 300px;
+        margin-left: 210px;
     }
 }
 
