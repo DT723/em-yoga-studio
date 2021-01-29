@@ -730,7 +730,7 @@
   and (orientation: landscape) {
     .pricing-card.pricing-primary.pricing-first {
       height: 320px;
-      width: 204px;
+      width: 160px;
       margin-left: 27px;    
     }
 }
