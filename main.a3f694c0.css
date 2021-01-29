@@ -712,7 +712,7 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
-    .classButtons {
+    .btn.btn-primary.classButtons {
      margin-left: 23px;     
     }
 }
