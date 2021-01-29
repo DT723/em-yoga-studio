@@ -690,8 +690,8 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .btn15 { 
-     margin-right: 117px;
+    .waiverTitle { 
+     margin-top: 0px;
      
     }
 }
@@ -701,8 +701,19 @@
   and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    .btn15 { 
+     margin-right: 117px;
+     
+    }
+}
+
+@media only screen 
+  and (device-width: 2048px)
+  and (device-height: 1536px)
+  and (-webkit-min-device-pixel-ratio: 1)
+  and (orientation: landscape) {
     .classButtons {
-     margin-left: 23px;     
+     margin-left: 50px;     
     }
 }
 
@@ -717,14 +728,14 @@
 }
 
 @media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
+  and (device-width: 2048px)
+  and (device-height: 1536px)
+  and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth{
       width: 204px;
       height: 300px;
-      margin-left: 23px; 
+      margin-left: 27px; 
       box-shadow: 3px 3px 8px black;    
     }
 }
