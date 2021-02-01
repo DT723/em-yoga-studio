@@ -300,6 +300,8 @@
 }
 
 .pricing-features {
+  display: flex;
+  justify-content: center;
   margin-top: 9px;
 }
 
@@ -777,8 +779,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .pricing-features {
-      display: flex;
-      justify-content: center;
       width: 204px;
       margin-left: 27px;     
     }
@@ -1140,8 +1140,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
-        display: flex;
-        justify-content: center;
         width: 300px;
         margin-left: 210px;
     }
