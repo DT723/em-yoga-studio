@@ -308,7 +308,7 @@
 
 .classButtons {
     width: 108px;
-    margin-left: 50px;
+    margin-left: 0px;
     background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
     text-shadow: black 1px 1px 1px;
