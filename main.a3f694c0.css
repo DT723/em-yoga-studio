@@ -302,7 +302,6 @@
 .pricing-features {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 9px;
 }
 
@@ -3097,5 +3096,17 @@
     .footerContainerMid {
        padding-top: 5px; 
        padding-bottom: 5px;           
+    }
+}
+
+/* SmartPhone iPhone 11 Landscape */
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .navbar-right {
+        margin-right: -100px;
     }
 }
