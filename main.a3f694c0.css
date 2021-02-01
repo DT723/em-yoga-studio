@@ -709,7 +709,7 @@
   and (-webkit-min-device-pixel-ratio: 1)
   and (orientation: landscape) {
     .classButtons {
-     margin-left: 23px;     
+     margin-left: 0px;     
     }
 }
 
@@ -777,6 +777,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .pricing-features {
+      display: flex;
+      justify-content: center;
       width: 204px;
       margin-left: 27px;     
     }
@@ -1128,7 +1130,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
@@ -1138,6 +1140,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
+        display: flex;
+        justify-content: center;
         width: 300px;
         margin-left: 210px;
     }
@@ -2202,7 +2206,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveRow {
+    .responsive {
         margin-left: 25px;        
     }
 }
