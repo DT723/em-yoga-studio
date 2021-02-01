@@ -302,13 +302,11 @@
 .pricing-features {
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 9px;
 }
 
 .classButtons {
     width: 108px;
-    margin-left: 0px;
     background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
     text-shadow: black 1px 1px 1px;
@@ -1026,8 +1024,7 @@
   and (device-height: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .classButtons {
-        margin-left: 0px;   
+    .classButtons {  
         height: 60px;
         width: 140px;
         padding-top: 15px;
@@ -1113,16 +1110,6 @@
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 300px;
         margin-left: 210px;
-    }
-}
-
-@media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .classButtons {
-        margin-left: 0px;
     }
 }
 
@@ -1837,16 +1824,6 @@
   and (device-height: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .classButtons {
-        margin-left: 0px;
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 736px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
     .subButton {
         margin-left: 0px;
     }
@@ -2458,8 +2435,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .classButtons {
-      width: 112px;  
-      margin-left: 0px;        
+      width: 112px;         
     }
 }
 
@@ -2875,16 +2851,6 @@
   and (orientation: portrait) { 
     .servicesCol {
        margin-left: 18px;            
-    }
-}
-
-@media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .classButtons {
-       margin-left: 0px;            
     }
 }
 
