@@ -3107,6 +3107,38 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .navbar-right {
-        margin-right: -100px;
+        margin-right: -70px;
     }
 }
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #firstName1{
+        margin-left: -30px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #firstName2{
+        margin-left: -30px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .homeDescription{
+        width: 600px;
+        margin-right: 147px;
+    }
+}
+
