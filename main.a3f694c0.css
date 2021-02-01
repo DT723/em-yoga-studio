@@ -706,15 +706,6 @@
     }
 }
 
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .classButtons {
-     margin-left: 0px;     
-    }
-}
 
 @media only screen 
   and (device-width: 1024px)
@@ -1036,7 +1027,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons {
-        margin-left: 110px;   
+        margin-left: 0px;   
         height: 60px;
         width: 140px;
         padding-top: 15px;
@@ -1847,7 +1838,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons {
-        margin-left: 50px;
+        margin-left: 0px;
     }
 }
 
@@ -2468,7 +2459,7 @@
   and (orientation: landscape) { 
     .classButtons {
       width: 112px;  
-      margin-left: 50px;        
+      margin-left: 0px;        
     }
 }
 
@@ -2893,7 +2884,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .classButtons {
-       margin-left: 43px;            
+       margin-left: 0px;            
     }
 }
 
