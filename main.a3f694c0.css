@@ -3117,7 +3117,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .navbar-right {
-        margin-right: -70px;
+        margin-right: -50px;
     }
 }
 
@@ -3126,8 +3126,8 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #firstName1{
-        margin-left: -30px;
+    #firstName1 {
+        margin-left: -35px;
     }
 }
 
@@ -3136,7 +3136,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #firstName2{
+    #firstName2 {
         margin-left: 0px;
         color: red;
     }
@@ -3147,7 +3147,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .homeDescription{
+    .homeDescription {
         width: 700px;
         margin-right: 17px;
     }
@@ -3158,7 +3158,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .contHeroFlex{
+    .contHeroFlex {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -3170,7 +3170,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveRow{
+    .responsiveRow {
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -3183,7 +3183,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .col-container1{
+    .col-container1 {
         margin-left: 0px;
         padding-left: 55px;
         padding-right: 55px;
@@ -3195,7 +3195,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .col-container2{
+    .col-container2 {
         margin-left: 0px;
         padding-left: 55px;
         padding-right: 55px;
@@ -3207,7 +3207,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerContainerLeft{
+    .footerContainerLeft { 
         margin-left: -120px;
     }
 }
@@ -3217,7 +3217,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerContainerMid{
+    .footerContainerMid {
         margin-left: -109px;
     }
 }
@@ -3227,7 +3227,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerContainerRight{
+    .footerContainerRight {
         margin-left: -109px;
     }
 }
@@ -3237,7 +3237,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerClassText1{
+    .footerClassText1 {
         margin-top: -12px;
     }
 }
@@ -3247,7 +3247,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .shareLinks{
+    .shareLinks {
         margin-top: -12px;
     }
 }
@@ -3257,7 +3257,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerTitleMid{
+    .footerTitleMid {
         margin-top: 25px;
     }
 }
@@ -3267,7 +3267,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .footerTitle{
+    .footerTitle {
         margin-top: 25px;
     }
 }
@@ -3277,7 +3277,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .thinkAboutImg{
+    .thinkAboutImg {
         height: 240px;
         width: 340px;
         padding: 8px;
@@ -3290,7 +3290,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .timeForChangeImg{
+    .timeForChangeImg {
         height: 240px;
         width: 340px;
         padding: 8px;
@@ -3304,7 +3304,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .yogaColTop{
+    .yogaColTop { 
        margin-bottom: 20px;
     }
 }
