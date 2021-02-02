@@ -3138,6 +3138,7 @@
   and (orientation: landscape) { 
     #firstName2{
         margin-left: 0px;
+        color: red;
     }
 }  
 
