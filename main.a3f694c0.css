@@ -3137,7 +3137,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     #firstName2{
-        margin-left: -30px;
+        margin-left: 0px;
     }
 }  
 
@@ -3147,8 +3147,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .homeDescription{
-        width: 600px;
-        margin-right: 147px;
+        width: 0px;;
+        margin-right: 0px;
     }
 }
 
