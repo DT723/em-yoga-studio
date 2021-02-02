@@ -3157,7 +3157,7 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .titleRow{
+    .heroTitle{
         display: flex;
         justify-content: center;
         flex-direction: column;
