@@ -3241,6 +3241,101 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    .servicesCol {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;           
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-primary.pricing-first {
+       height: 300px;
+       width: 400px;  
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-info.pricing-second {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-third {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-fourth {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-features {
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .termsHead {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center; 
+       margin: 0px;
+       padding: 0px;          
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .terms15 {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       margin: 0px;         
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
     .footerContainerLeft { 
         margin-left: -120px;
     }
