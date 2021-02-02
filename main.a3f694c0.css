@@ -3246,3 +3246,40 @@
         margin-top: 25px;
     }
 }
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .thinkAboutImg{
+        height: 240px;
+        width: 340px;
+        padding: 8px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .timeForChangeImg{
+        height: 240px;
+        width: 340px;
+        padding: 8px;
+        margin-left: 363px;
+        margin-top: -240px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yogaColTop{
+       margin-bottom: 20px;
+    }
+}
