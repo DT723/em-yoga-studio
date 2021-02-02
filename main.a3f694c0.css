@@ -3138,7 +3138,6 @@
   and (orientation: landscape) { 
     #firstName2 {
         margin-left: 0px;
-        color: red;
     }
 }  
 
@@ -3199,6 +3198,51 @@
         margin-left: 0px;
         padding-left: 55px;
         padding-right: 55px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dreamImg {
+      height: 200px;
+      width: 270px;
+      margin-left: 50px;       
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yearImg {
+      height: 200px;
+      width: 270px; 
+      margin-left: 395px;
+      margin-top: -200px;      
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutPara1 {
+      margin-bottom: 50px;      
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutPara2 {
+      margin-top: 30px;      
     }
 }
 
