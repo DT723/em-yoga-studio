@@ -92,6 +92,7 @@
 }
 .signature {
     color: #a5cab3;
+    margin-top: -20px;
 }
 
 .white-text-container h2 {
@@ -111,10 +112,6 @@
     font-style: italic;
     margin-top: -12px;
     text-shadow: none;
-}
-
-.signature {
-    margin-top: -20px;
 }
 
 .subTitle {
@@ -156,14 +153,14 @@
 }
 
 .social-round-icon:hover {
-    background-color: rgb(223, 219, 219);
+    background-color: rgb(252, 250, 250);
     color: #368353; 
 }
 
-.footerContainer {
+/* .footerContainer {
     justify-content: space-between;
     
-}
+} */
 
 .footerContainerRight {
     padding-left: 80px;
@@ -183,6 +180,19 @@
 
 .footerTitle:hover {
     text-decoration: underline;
+}
+
+.footerTitle1 {
+  font-size: 16.125px;
+}
+
+.footerTitle1:hover {
+  text-decoration: underline;
+}
+
+.footerClassText1 {
+  font-size: 13px;
+  margin-top: -7px;
 }
 
 .footerTitleMid {
