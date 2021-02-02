@@ -3157,10 +3157,19 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .contHeroFlex {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    .containerFlex {
+      display: flex;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .titleRow {
+      flex-direction: row;
+      justify-content: flex-start; 
     }
 }
 
