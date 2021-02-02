@@ -3136,6 +3136,19 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    .heroTitle{
+      display: flex; 
+      justify-content: center;
+      flex-direction: column;
+    }
+}
+
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
     #firstName2{
         margin-left: -30px;
     }
