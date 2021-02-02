@@ -3148,18 +3148,7 @@
   and (orientation: landscape) { 
     .homeDescription{
         width: 700px;
-    }
-}
-
-@media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .heroTitle{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
+        margin-right: 17px;
     }
 }
 
@@ -3174,7 +3163,6 @@
         justify-content: flex-start;
     }
 }
-
 
 @media only screen 
   and (device-width: 896px)
