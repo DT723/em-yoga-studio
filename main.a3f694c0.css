@@ -84,11 +84,11 @@
 }
 
 .col-container1 {
-    margin-left: 0px;
+    margin-left: 95px;
 }
 
 .col-container2 {
-    margin-left: 0px;
+    margin-left: 200px;
 }
 .signature {
     color: #a5cab3;
@@ -3139,7 +3139,7 @@
     #firstName2{
         margin-left: -30px;
     }
-}
+}  
 
 @media only screen 
   and (device-width: 896px)
@@ -3157,10 +3157,49 @@
   and (device-height: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    .titleRow{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
     .responsiveRow{
         display: flex;
         justify-content: center;
         flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .col-container1{
+        margin-left: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
+    }
+}
+
+@media only screen 
+  and (device-width: 896px)
+  and (device-height: 414px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .col-container2{
+        margin-left: 0px;
+        padding-left: 55px;
+        padding-right: 55px;
     }
 }
 
