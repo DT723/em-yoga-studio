@@ -2595,6 +2595,7 @@
 }
 
 /* SmartPhone iPhone 11 portrait */
+
 @media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
@@ -2607,14 +2608,25 @@
 }
 
 @media only screen 
+  and (min-width: 414px)
+  and (max-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .titleRow {
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       margin-top: 90px; 
+    }
+}
+
+@media only screen 
   and (device-width: 414px)
   and (device-height: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #firstName2 {
       font-size: 55px;
-      margin-left: 20px;
-      margin-top: 140px;
     }
 }
 
@@ -2624,8 +2636,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription {
-        margin-top: -34px;
-        margin-left: 20px;
         font-size: 27px;
     }
 }
@@ -2641,8 +2651,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container1 {
@@ -2653,8 +2663,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-width: 414px)
+  and (max-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2 {
@@ -3111,8 +3121,8 @@
 /* SmartPhone iPhone 11 Landscape */
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .navbar-right {
@@ -3121,20 +3131,20 @@
 }
 
 @media only screen 
-  and (max-width: 896px)
-  and (min-width: 414px)
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     #firstName1 {
        margin-left: -35px;
+       padding-top: 29px;
     }
 }
 
 @media only screen 
-  and (max-width: 896px)
-  and (min-width: 414px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
     .titleRow {
        display: flex;
        flex-direction: row;
@@ -3143,8 +3153,8 @@
 }
 
 @media only screen 
-  and (max-width: 896px)
-  and (min-width: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .responsiveRow {
@@ -3156,8 +3166,8 @@
 }
 
 @media only screen 
-  and (max-width: 896px)
-  and (min-width: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container1 {
@@ -3168,8 +3178,8 @@
 }
 
 @media only screen 
-  and (max-width: 896px)
-  and (min-width: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container2 {
@@ -3180,8 +3190,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .dreamImg {
@@ -3192,8 +3202,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .yearImg {
@@ -3205,8 +3215,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .aboutPara1 {
@@ -3215,8 +3225,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .aboutPara2 {
@@ -3225,8 +3235,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .servicesCol {
@@ -3238,8 +3248,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-card.pricing-primary.pricing-first {
@@ -3249,8 +3259,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-card.pricing-info.pricing-second {
@@ -3260,8 +3270,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-card.pricing-secondary.pricing-third {
@@ -3271,8 +3281,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-card.pricing-secondary.pricing-fourth {
@@ -3282,8 +3292,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .pricing-features {
@@ -3292,8 +3302,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .termsHead {
@@ -3307,8 +3317,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .terms15 {
@@ -3320,8 +3330,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerLeft { 
@@ -3330,8 +3340,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerMid {
@@ -3340,8 +3350,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerRight {
@@ -3350,8 +3360,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerClassText1 {
@@ -3360,8 +3370,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .shareLinks {
@@ -3370,8 +3380,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerTitleMid {
@@ -3380,8 +3390,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerTitle {
@@ -3390,8 +3400,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .thinkAboutImg {
@@ -3403,8 +3413,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .timeForChangeImg {
@@ -3417,8 +3427,8 @@
 }
 
 @media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .yogaColTop { 
