@@ -3121,8 +3121,8 @@
 }
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px)
+  and (max-width: 896px)
+  and (min-width: 414px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     #firstName1 {
@@ -3131,8 +3131,8 @@
 }
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px) 
+  and (max-width: 896px)
+  and (min-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .titleRow {
@@ -3143,8 +3143,8 @@
 }
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px) 
+  and (max-width: 896px)
+  and (min-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .responsiveRow {
@@ -3156,8 +3156,8 @@
 }
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px) 
+  and (max-width: 896px)
+  and (min-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container1 {
@@ -3168,8 +3168,8 @@
 }
 
 @media only screen 
-  and (min-width: 896px)
-  and (max-width: 414px) 
+  and (max-width: 896px)
+  and (min-width: 414px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container2 {
