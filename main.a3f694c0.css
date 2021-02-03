@@ -3131,17 +3131,6 @@
     }
 }
 
-@media only screen 
-  and (device-width: 896px)
-  and (device-height: 414px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .containerFlex {
-       display: flex;
-       flex-direction: row;
-       justify-content: flex-start; 
-    }
-}
 
 @media only screen 
   and (device-width: 896px)
@@ -3149,6 +3138,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .titleRow {
+       display: flex;
        flex-direction: row;
        justify-content: flex-start; 
     }
