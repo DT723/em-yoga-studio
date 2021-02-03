@@ -3311,7 +3311,7 @@
        justify-content: center;
        flex-direction: column;
        align-items: center; 
-       margin: 0px;
+       margin-top: -20px;
        padding: 0px;          
     }
 }
@@ -3323,9 +3323,62 @@
   and (orientation: landscape) { 
     .terms15 {
        display: flex;
-       justify-content: center;
-       flex-direction: column;
-       margin: 0px;         
+       align-items: center;
+       flex-direction: column; 
+       margin-top: 35px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .tipsCard {
+      margin-right: 245px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverCard {
+      margin-top: 30px; 
+      margin-right: 23px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverTitle {
+      margin-top: -11px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-primary.pricing-first.tipsCard {
+       height: 250px;
+       width: 300px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-fourth.waiverCard {
+       height: 250px;
+       width: 300px;  
     }
 }
 
