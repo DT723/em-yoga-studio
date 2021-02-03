@@ -3335,7 +3335,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerLeft { 
-        margin-left: -120px;
+        margin-left: -130px;
     }
 }
 
@@ -3345,7 +3345,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerMid {
-        margin-left: -109px;
+        margin-left: -120px;
     }
 }
 
@@ -3355,7 +3355,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerContainerRight {
-        margin-left: -109px;
+        margin-left: -120px;
     }
 }
 
