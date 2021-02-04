@@ -2597,19 +2597,30 @@
 /* SmartPhone iPhone 11 portrait */
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-toggle {
-        margin-right: 28px;
+        margin-right: 20px;
         margin-top: 24px;
     }
 }
 
 @media only screen 
-  and (min-width: 414px)
-  and (max-width: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #firstName1 {
+        margin-left: 5px;
+        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .titleRow {
@@ -2621,8 +2632,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #firstName2 {
@@ -2631,8 +2642,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription {
@@ -2641,8 +2652,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center1 {
@@ -2663,8 +2674,8 @@
 }
 
 @media only screen 
-  and (min-width: 414px)
-  and (max-width: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2 {
@@ -2675,8 +2686,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .eventDescription1 {
@@ -2685,8 +2696,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .eventDescription2 {
@@ -2695,8 +2706,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center2 {
@@ -2706,8 +2717,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homePageBtn {
@@ -2717,8 +2728,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .banner-container {
@@ -2729,8 +2740,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yogaTitle {
@@ -2739,8 +2750,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutYogaImg {
@@ -2749,8 +2760,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .coachTitle {
@@ -2759,8 +2770,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .testTitle {
@@ -2769,8 +2780,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .thinkAboutImg {
@@ -2781,8 +2792,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .timeForChangeImg {
@@ -2794,8 +2805,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutHeroImg {
@@ -2806,8 +2817,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutImgContainer {
@@ -2816,8 +2827,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutTitle {
@@ -2828,8 +2839,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .dreamImg {
@@ -2840,8 +2851,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .yearImg {
@@ -2853,8 +2864,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .serviceTitle {
@@ -2864,8 +2875,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .servicesCol {
@@ -2874,8 +2885,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-first {
@@ -2886,8 +2897,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-second {
@@ -2898,8 +2909,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-third {
@@ -2910,8 +2921,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-fourth {
@@ -2922,8 +2933,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .pricing-features {
@@ -2933,8 +2944,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .termsDescription {
@@ -2943,8 +2954,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .termH1 {
@@ -2953,8 +2964,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .tipsCard {
@@ -2963,8 +2974,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .zoomTitle {
@@ -2974,8 +2985,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .zoomBtn {   
@@ -2984,8 +2995,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .waiverCard {
@@ -2994,8 +3005,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .btn15 {
@@ -3004,8 +3015,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .subButton {
@@ -3015,8 +3026,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .subContainer {
@@ -3026,8 +3037,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .responsiveFooter {
@@ -3036,8 +3047,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerTitle1 {
@@ -3046,8 +3057,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerClassText1 {
@@ -3057,8 +3068,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerTitle {
@@ -3067,8 +3078,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerClassText {
@@ -3077,8 +3088,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerTitleMid {
@@ -3087,8 +3098,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerLinkMid {
@@ -3097,8 +3108,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .shareLinks {
@@ -3108,8 +3119,8 @@
 }
 
 @media only screen 
-  and (device-width: 414px)
-  and (device-height: 896px) 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerContainerMid {
@@ -3186,6 +3197,17 @@
        margin-left: 0px;
        padding-left: 55px;
        padding-right: 55px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutHeroImg {
+       height: 500px;
+
     }
 }
 
