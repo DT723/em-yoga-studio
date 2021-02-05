@@ -1018,7 +1018,8 @@
   and (orientation: landscape) {
     .responsiveRow {
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      flex-wrap: wrap;
       width: 1024px;
     }
 }
@@ -1029,7 +1030,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container1 {
-   
+      margin-left: 107px;
     }
 }
 
@@ -1039,7 +1040,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container2 {
-      
+      margin-left: 130px;
     }
 }
 
