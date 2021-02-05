@@ -814,6 +814,7 @@
   and (orientation: portrait) {
     .waiverTitle {
         font-size: 35px;
+        margin-top: 0px;
     }
 }
 
@@ -845,8 +846,9 @@
   and (orientation: portrait) {
     #waiverBtn {
         font-size: 18px;
-        margin-left: 0px;
+        margin-left: 5px;
         margin-bottom: 40px;
+        margin-top: 15px;
     }
 }
 
@@ -1010,8 +1012,8 @@
 }
 
 @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (min-device-width: 1024px)
+  and (max-device-width: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container1 {
@@ -1020,8 +1022,8 @@
 }
 
 @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (min-device-width: 1024px)
+  and (max-device-width: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container2 {
@@ -1537,7 +1539,8 @@
     .thinkAboutImg {
        height: 100px;
        width: 160px;
-       margin-left: 15px;       
+       margin-left: 15px;
+       margin-top: 20px;       
     }
 }
 
