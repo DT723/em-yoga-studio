@@ -1031,7 +1031,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .text-center1 {
-      
+      margin-left: 45px;
+      margin-top: 0px;
     } 
 }
 
@@ -1042,6 +1043,7 @@
   and (orientation: landscape) {
     .col-container1 {
       flex: 1;
+      margin-top: -18px;
     }
 }
 
@@ -1052,6 +1054,7 @@
   and (orientation: landscape) {
     .col-container2 {
       flex: 1;
+
     }
 }
 
@@ -1115,17 +1118,6 @@
   and (orientation: landscape) {
     .row-center { 
      margin-top: -15px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .section-container-home { 
-     margin-top: -15px;
-     margin-bottom: -15px;
     }
 }
 
@@ -1936,8 +1928,8 @@
     .responsiveRow {
        display: flex;
        justify-content: center;
+       align-items: center;
        flex-direction: column;
-       justify-content: flex-start;
     }
 }
 
