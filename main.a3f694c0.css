@@ -499,391 +499,13 @@
     width: 1896px;
 }
 
+
 /* Media Query */
-/* Tablet Ipad Landscape*/
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .nav {
-    margin-right: 25px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    #firstName1 {
-    margin-top: 4px;
-    padding-top: 27
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    #firstName2 {
-    margin-left: 27px;
-    margin-top: 43px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .homeDescription {
-    width: 700px;
-    margin-right: -273px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .col-container1 {
-     margin-left: 120px;   
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .col-container2 {
-     margin-right: 60px; 
-     margin-left: 130px;  
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .section-container-home { 
-     margin-right: 60px;  
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .navbar-right { 
-     justify-content: space-between;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .banner-container { 
-     height: 200px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .text-center2 { 
-     padding-bottom: -50px;
-     padding-right: 40px;
-     margin-top: -10px;
-     margin-left: 30px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .text-center1 { 
-     margin-left: 70px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .footer-container { 
-     margin-left: -90px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .row-center { 
-     margin-top: -15px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .section-container-home { 
-     margin-top: -15px;
-     margin-bottom: -15px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .yogaColTop { 
-     margin-top: 0px;
-     margin-bottom: 20px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .aboutYogaImg { 
-     margin-left: 160px;
-     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .termH1 { 
-     margin-left: 10px;
-     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .waiverTitle { 
-     margin-top: 0px;
-     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .waiverCard { 
-     margin-right: -90px; 
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .btn15 { 
-     margin-right: 117px;
-     
-    }
-}
-
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .cardRow {
-     margin-left: -53px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .pricing-card.pricing-primary.pricing-first {
-      height: 320px;
-      width: 204px;
-      margin-left: 27px;    
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .pricing-card.pricing-info.pricing-second {
-      height: 320px;
-      width: 204px;
-      margin-left: 27px;    
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .pricing-card.pricing-secondary.pricing-third {
-      height: 320px;
-      width: 204px;
-      margin-left: 27px;    
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 1)
-  and (orientation: landscape) {
-    .pricing-card.pricing-secondary.pricing-fourth {
-      height: 320px;
-      width: 204px;
-      margin-left: 27px;    
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-features {
-      width: 204px;
-      margin-left: 27px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing15 {
-      margin-top: 32px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing50 {
-      margin-top: 13px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing85 {
-      margin-top: -17px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .cardTitlePricing {
-      margin-top: 17px;     
-    }
-}
-
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .subButton { 
-      font-size: 16px;
-      margin-left: 0px;     
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .subContainer {
-        margin-bottom: 0px;
-        height: 6;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .responsiveFooter {
-        width: 900px;
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .fa-linkedin {
-      padding-bottom: 9px; 
-    }
-}
-
-@media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .fa-instagram {
-      padding-left: 2px; 
-    }
-}
-
-
-
 /* Tablet Ipad Portrait*/
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .nav { 
@@ -892,8 +514,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-right { 
@@ -903,8 +525,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #firstName1 {
@@ -914,8 +536,8 @@
 
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #firstName2 {
@@ -925,8 +547,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .homeDescription {
@@ -936,8 +558,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .col-container1 {
@@ -949,8 +571,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .col-container2 {
@@ -961,54 +583,54 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .text-center2 {
         padding-right: 0px;
-        margin-bottom: 10px;
-        margin-top: -15px;
+        margin-bottom: 0px;
+        margin-top: 25px;
       
     }
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .yogaColTop {
         margin-top: -15px; 
-        padding-bottom: 40px;    
+        padding-bottom: 20px;    
     }
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .aboutYogaImg {
-        margin-left: 180px;     
+        padding-left: 168px; 
     }
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .thinkAboutImg {
         width: 300px;
         height: 190px; 
-        margin-left: 40px;
+        margin-left: px;
     }
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .timeForChangeImg {
@@ -1020,8 +642,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .servicesColTop {
@@ -1030,8 +652,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .classButtons {  
@@ -1043,8 +665,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subContainer {
@@ -1054,8 +676,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .aboutImgContainer {
@@ -1065,8 +687,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .sectionContAbout {
@@ -1075,8 +697,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .aboutHeroImg {
@@ -1088,8 +710,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .dreamImg {
@@ -1100,8 +722,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .yearImg {
@@ -1113,8 +735,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
@@ -1124,8 +746,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .pricing-features {
@@ -1135,8 +757,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termH1 {
@@ -1145,8 +767,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termsDescription {
@@ -1155,8 +777,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .tipsCard {
@@ -1165,8 +787,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .zoomTitle {
@@ -1176,8 +798,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverTitle {
@@ -1186,8 +808,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverCard {
@@ -1196,8 +818,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .btn15 {
@@ -1207,8 +829,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .zoomBtn {
@@ -1217,8 +839,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverBtn {
@@ -1227,8 +849,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subButton {
@@ -1239,8 +861,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverChk {
@@ -1249,8 +871,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverBox {
@@ -1260,8 +882,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subContent {
@@ -1270,8 +892,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .responsiveFooter {
@@ -1281,18 +903,18 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerContainerLeft {
-      margin-left: -10px;
+      margin-left: 0px;
     }
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerContainerMid {
@@ -1301,8 +923,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerTitleMid {
@@ -1312,8 +934,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerLinkMid {
@@ -1322,8 +944,8 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .fa-linkedin {
@@ -1332,14 +954,392 @@
 }
 
 @media only screen 
-  and (device-width: 768px)
-  and (device-height: 1024px)
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .fa-instagram { 
         padding-top: 8px;
     } 
 }
+
+/* Tablet Ipad Landscape*/
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .nav {
+    margin-right: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #firstName1 {
+    margin-top: 4px;
+    padding-top: 27
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #firstName2 {
+    margin-left: 27px;
+    margin-top: 43px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .homeDescription {
+    width: 700px;
+    margin-right: -273px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .col-container1 {
+     margin-left: 120px;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .col-container2 {
+     margin-right: 60px; 
+     margin-left: 130px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .section-container-home { 
+     margin-right: 60px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .navbar-right { 
+     justify-content: space-between;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .banner-container { 
+     height: 200px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .text-center2 { 
+     padding-bottom: -50px;
+     padding-right: 40px;
+     margin-top: -10px;
+     margin-left: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .text-center1 { 
+     margin-left: 70px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footer-container { 
+     margin-left: -90px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .row-center { 
+     margin-top: -15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .section-container-home { 
+     margin-top: -15px;
+     margin-bottom: -15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .yogaColTop { 
+     margin-top: 0px;
+     margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .aboutYogaImg { 
+     margin-left: 160px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .termH1 { 
+     margin-left: 10px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .waiverTitle { 
+     margin-top: 0px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .waiverCard { 
+     margin-right: -90px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .btn15 { 
+     margin-right: 117px;
+     
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .cardRow {
+     margin-left: -53px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-card.pricing-primary.pricing-first {
+      height: 320px;
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-card.pricing-info.pricing-second {
+      height: 320px;
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-card.pricing-secondary.pricing-third {
+      height: 320px;
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-card.pricing-secondary.pricing-fourth {
+      height: 320px;
+      width: 204px;
+      margin-left: 27px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-features {
+      width: 204px;
+      margin-left: 27px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing15 {
+      margin-top: 32px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing50 {
+      margin-top: 13px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing85 {
+      margin-top: -17px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .cardTitlePricing {
+      margin-top: 17px;     
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .subButton { 
+      font-size: 16px;
+      margin-left: 0px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .subContainer {
+        margin-bottom: 0px;
+        height: 6;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .responsiveFooter {
+        width: 900px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .fa-linkedin {
+      padding-bottom: 9px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .fa-instagram {
+      padding-left: 2px; 
+    }
+}
+
 
 /* SmartPhone iPhone 11 portrait */
 
@@ -1439,6 +1439,7 @@
   and (orientation: portrait) { 
     .eventDescription1 {
        font-size: 30px;
+       margin-top: -50px;
     }
 }
 
@@ -1458,7 +1459,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .text-center2 {
-       margin-top: -19px;
        height: 145px;
     }
 }
@@ -1481,8 +1481,8 @@
   and (orientation: portrait) { 
     .banner-container {
        margin-bottom: 0px;
-       padding-top: 28px;
-       padding-bottom: 15px;
+       padding-top: 60px;
+       padding-bottom: 20px;
     }   
 }
 
