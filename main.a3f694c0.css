@@ -1022,8 +1022,8 @@
 }
 
 @media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
+  and (min-device-width: 768px)
+  and (max-device-height: 1023.9px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol1 {
@@ -1032,8 +1032,8 @@
 }
 
 @media only screen 
-  and (device-width: 1024px)
-  and (device-height: 768px)
+  and (min-device-width: 768px)
+  and (max-device-height: 1023.9px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol2 {
