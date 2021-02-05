@@ -1031,7 +1031,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .text-center1 {
-      margin-left: 70px;
+      
     } 
 }
 
@@ -1041,8 +1041,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container1 {
-      /* margin-left: 120px;
-      margin-top: -30px; */
+      flex: 1;
     }
 }
 
@@ -1052,8 +1051,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container2 {
-      /* margin-left: 140px;
-      margin-top: 20px; */
+      flex: 1;
     }
 }
 
