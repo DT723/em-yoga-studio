@@ -968,7 +968,7 @@
 }
 
 /* Tablet Ipad Landscape*/
-/* @media only screen 
+@media only screen 
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -1021,9 +1021,9 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-height: 1023px)
+@media all 
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol1 {
@@ -1031,9 +1031,9 @@
     }
 }
 
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-height: 1023px)
+@media all
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol2 {
@@ -1341,7 +1341,7 @@
     .fa-instagram {
       padding-left: 2px; 
     }
-} */
+}
 
 
 /* SmartPhone iPhone 11 portrait */
