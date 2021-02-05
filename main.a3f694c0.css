@@ -1021,22 +1021,22 @@
     }
 }
 
-@media all 
-  and (device-width: 1024px)
-  and (device-height: 768px)
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    #yogaCol1 {
+    .col-container1 {
      margin-left: 110px;   
     }
 }
 
-@media all
-  and (device-width: 1024px)
-  and (device-height: 768px)
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    #yogaCol2 {
+    .col-container2 {
      margin-right: 0px; 
      margin-left: 120px;  
     }
