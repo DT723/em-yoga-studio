@@ -1022,8 +1022,8 @@
 }
 
 @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol1 {
@@ -1032,8 +1032,8 @@
 }
 
 @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (device-width: 1024px)
+  and (device-height: 768px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #yogaCol2 {
@@ -1176,8 +1176,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .btn15 { 
-     margin-right: 117px;
-     
+     margin-right: 117px;     
     }
 }
 
