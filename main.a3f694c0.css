@@ -621,10 +621,10 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .thinkAboutImg {
+    #thinkImg {
         width: 300px;
         height: 190px; 
-        margin-left: px;
+        margin-left: 37px;
     }
 }
 
@@ -633,10 +633,10 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .timeForChangeImg {
+    #changeImg {
         width: 300px;
         height: 190px; 
-        margin-left: 375px;
+        margin-left: 380px;
         margin-top: -190px; 
     }
 }
@@ -647,7 +647,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .servicesColTop {
-        margin-top: -15px;     
+        margin-top: -15px;
+        margin-left: -10px;     
     }
 }
 
@@ -701,7 +702,7 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .aboutHeroImg {
+    #heroAbout {
         height: 500px;
         width: 725px;
         margin-top: 9px;
@@ -714,7 +715,7 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .dreamImg {
+    #dream {
         width: 300px;
         height: 190px; 
         margin-left: 40px;
@@ -726,11 +727,22 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .yearImg {
+    #year {
         width: 300px;
         height: 190px; 
         margin-left: 375px;
         margin-top: -190px; 
+    }
+}
+
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .cardRow {
+        margin-left: 153px;
     }
 }
 
@@ -741,7 +753,6 @@
   and (orientation: portrait) {
     .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
         width: 300px;
-        margin-left: 210px;
     }
 }
 
@@ -752,7 +763,6 @@
   and (orientation: portrait) {
     .pricing-features {
         width: 300px;
-        margin-left: 210px;
     }
 }
 
@@ -762,7 +772,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termH1 {
-        margin-left: -27px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .terms15 {
+        margin-left: 155px;
     }
 }
 
@@ -773,16 +793,6 @@
   and (orientation: portrait) {
     .termsDescription {
         font-size: 18px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .tipsCard {
-        margin-left: 10px;
     }
 }
 
@@ -812,18 +822,8 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverCard {
-        margin-left: 276px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
     .btn15 {
-        margin-left: 150px;
+        margin-left: 90px;
         margin-bottom: 70px;
     }
 }
@@ -843,8 +843,10 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .waiverBtn {
+    #waiverBtn {
         font-size: 18px;
+        margin-left: 0px;
+        margin-bottom: 40px;
     }
 }
 
