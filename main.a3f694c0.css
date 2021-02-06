@@ -1018,11 +1018,10 @@
   and (orientation: landscape) {
     .responsiveRow {
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      margin: 20px;
+      flex-direction: row;
+      flex-wrap: wrap;
     } 
 }
 
@@ -1047,8 +1046,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container1 {
-      flex: 1;
-      margin-top: -18px;
+      margin-left: 0px;
+      padding-left: 55px;
+      padding-right: 55px;
     }
 }
 
@@ -1058,7 +1058,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container2 {
-      flex: 1;
+      margin-left: 0px;
+      padding-left: 55px;
+      padding-right: 55px;
+
 
     }
 }
