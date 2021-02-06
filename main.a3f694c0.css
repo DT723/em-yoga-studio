@@ -89,6 +89,7 @@
 
 .col-container2 {
     margin-left: 200px;
+    margin-top: -5px;
 }
 .signature {
     color: #a5cab3;
@@ -1019,7 +1020,6 @@
     .responsiveRow {
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-direction: row;
       flex-wrap: wrap;
     } 
@@ -1040,13 +1040,13 @@
     } 
 }
 
-/* @media only screen 
+@media only screen 
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container1 {
-      margin-left: 0px;
+      margin-left: -20px;
       padding-left: 0px;
       padding-right: 0px;
     }
@@ -1058,13 +1058,11 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .col-container2 {
-      margin-left: 0px;
+      margin-left: 100px;
       padding-left: 0px;
       padding-right: 0px;
-
-
     }
-} */
+}
 
 @media only screen 
   and (min-device-width: 768px)
