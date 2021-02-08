@@ -357,17 +357,24 @@
     margin-left: -30px;
 }
 
+.terms15 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .tipsCard{
-    background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
-    width: 250px;
-    margin-bottom: 20px;
-    margin-left: 55px;
+  background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
+  width: 250px;
+  margin-bottom: 0px;
+  margin-left: 20px;
 }
 
 .waiverCard{
   background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
   width: 250px;
-  margin-left: 100px;
+  margin-left: 50px;
 }
 
 .btn-container {
@@ -376,10 +383,6 @@
     margin-bottom: 30px;
     padding-right: 100px;
     justify-content: center;   
-}
-
-.btn15 {
-  margin-left: 197px;
 }
 
 .homePageBtn {
@@ -440,14 +443,6 @@
 #waiverBtn:hover {
     background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 1;    
-}
-
-#position1 {
-    margin-left: 190px;
-}
-
-#position2 {
-    margin-left: -75px;  
 }
 
 #navbar-collapse-uarr {
@@ -820,17 +815,6 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .btn15 {
-        margin-left: 90px;
-        margin-bottom: 70px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
     .zoomBtn {
         font-size: 18px;
     }
@@ -842,8 +826,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #waiverBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-size: 18px;
-        margin-left: 5px;
         margin-bottom: 40px;
         margin-top: 15px;
     }
@@ -1007,35 +993,6 @@
     margin-right: -273px;
     }
 }
-
-/* @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .responsiveRow {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      flex-wrap: wrap;
-      align-content: center;
-    } 
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .text-center1 {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-content: center;
-      margin-top: 0px;
-    } 
-} */
 
 @media only screen 
   and (min-device-width: 768px)
@@ -1350,11 +1307,12 @@
   and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .titleRow {
+    .heroTitle {
        display: flex;
        flex-direction: row;
-       justify-content: flex-start;
-       margin-top: 90px; 
+       flex-wrap: wrap;
+       margin-top: 120px;
+       height: 500px;
     }
 }
 
@@ -1365,6 +1323,7 @@
   and (orientation: portrait) { 
     #firstName2 {
       font-size: 55px;
+      margin-top: 120px;
     }
 }
 
@@ -1375,6 +1334,7 @@
   and (orientation: portrait) { 
     .homeDescription {
         font-size: 27px;
+        margin-top: -160px;
     }
 }
 
@@ -1678,7 +1638,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .termsDescription {
-       margin-left: -12px;            
+       margin-left: 0px;            
     }
 }
 
@@ -1688,7 +1648,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .termH1 {
-       margin-top: -12px;            
+       margin-top: -12px;
+       margin-left: 0px;            
     }
 }
 
@@ -1698,7 +1659,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .tipsCard {
-       margin-left: -125px;           
+      margin-bottom: 25px; 
+      margin-left: -8px;px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .terms15{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;           
     }
 }
 
@@ -1729,7 +1704,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .waiverCard {
-       margin-left: 140px;            
+       margin-left: 16px;            
     }
 }
 
@@ -1738,8 +1713,8 @@
   and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .btn15 {
-       margin-left: 175px;          
+    #waiverBtn {
+       margin-left: 85px;          
     }
 }
 
@@ -1888,20 +1863,27 @@
     .titleRow {
        display: flex;
        flex-direction: row;
-       justify-content: flex-start; 
+       margin-top: -90px;
     }
 }
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveRow {
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       flex-direction: column;
+    #firstName2 {
+       margin-left: -35px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .homeDescription {
+       margin-left: -35px;
     }
 }
 
@@ -1911,9 +1893,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container1 {
-       margin-left: 0px;
-       padding-left: 55px;
-       padding-right: 55px;
+       padding-left: 50px;
+       padding-right: 50px;
     }
 }
 
@@ -1923,9 +1904,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container2 {
-       margin-left: 0px;
-       padding-left: 55px;
-       padding-right: 55px;
+       margin-left: -19px;
+       padding-left: 50px;
+       padding-right: 50px;
     }
 }
 
@@ -2057,13 +2038,12 @@
   and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .termsHead {
+    .termTitle{
        display: flex;
        justify-content: center;
        flex-direction: column;
        align-items: center; 
-       margin-top: -20px;
-       padding: 0px;          
+       margin-top: -20px;         
     }
 }
 
@@ -2075,8 +2055,9 @@
     .terms15 {
        display: flex;
        align-items: center;
-       flex-direction: column; 
-       margin-top: 35px;       
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: nowrap;   
     }
 }
 
@@ -2086,7 +2067,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .tipsCard {
-      margin-right: 245px;          
+      margin-top: 0px; 
+
     }
 }
 
@@ -2096,8 +2078,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .waiverCard {
-      margin-top: 30px; 
-      margin-right: 23px;         
+       margin-top: 0px;
     }
 }
 
@@ -2107,7 +2088,27 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .waiverTitle {
-      margin-top: -11px;          
+      margin-top: 0px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverChk {
+      margin-top: -20px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .zoomTitle {
+      margin-top: 50px;          
     }
 }
 
@@ -3525,8 +3526,8 @@ and (min-device-width: 414px)
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
-    .btn15 {
-      margin-left: 0px;    
+    #waiverBtn {
+      margin-left: 40px;    
     }
 }
 
@@ -3568,16 +3569,6 @@ and (min-device-width: 414px)
     .waiverCard {
         margin-left: 0px;
         padding-right: -30px;       
-    }
-}
-
-@media only screen  
-  and (min-device-width: 414px)
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .btn15 {
-        margin-right: -103px;      
     }
 }
 
