@@ -636,11 +636,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .servicesCol {
-       display: flex;
-       justify-content: center;
-       flex-direction: column;
-       flex-wrap: nowrap;
-       align-items: center;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-first {
+      margin-right: 60px;
     }
 }
 
@@ -785,7 +795,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .waiverCard {
-        margin-top: 80px;
+      margin-top: 0px;
+      margin-bottom: 0px;
     }
 }
 
@@ -795,7 +806,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #waiverBtn {
-        margin: 0px;
+        margin-left: 60px;
     }
 }
 
@@ -814,13 +825,22 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .tipsCard {
+      margin: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .terms15 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 18px;
-        margin-bottom: 40px;
-        margin-top: 15px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
     }
 }
 
@@ -971,8 +991,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #firstName2 {
-    margin-top: 0x;
-   
+      font-size: 57
     }
 }
 
@@ -982,7 +1001,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .homeDescription{
-      font-size: 
+      font-size: 30px;
     }
 }
 
@@ -1126,7 +1145,8 @@
     .servicesCol {
        display: flex;
        justify-content: center;
-       flex-direction: column;
+       flex-direction: row;
+       flex-wrap: wrap;
        align-items: center;
        margin-left: 45px;           
     }
