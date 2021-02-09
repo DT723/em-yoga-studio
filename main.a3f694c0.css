@@ -507,8 +507,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .navbar-right { 
-        font-size: 16px;
-        margin-right: -20px;
+       font-size: 16px;
+       margin-right: -20px;
     }
 }
 
@@ -518,7 +518,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #firstName1 {
-    padding-top: 30px;
+      padding-top: 30px;
     }
 }
 
@@ -529,9 +529,20 @@
   and (orientation: portrait) {
     .heroTitle {
       display: flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: flex-start;
       flex-direction: row;
+      margin-top: -40px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .heroDescription {
+      font-size: 30px;
     }
 }
 
@@ -959,6 +970,27 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    #firstName2 {
+    margin-top: 0x;
+   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .homeDescription{
+      font-size: 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
     .col-container1 {
       margin-left: -20px;
       margin-top: -4px;
@@ -1280,10 +1312,10 @@
   and (orientation: portrait) { 
     .heroTitle {
        display: flex;
-       flex-direction: row;
+       justify-content: flex-start;
+       align-items: flex-start;
+       flex-direction: column;
        flex-wrap: wrap;
-       margin-top: 120px;
-       height: 500px;
     }
 }
 
@@ -1294,7 +1326,7 @@
   and (orientation: portrait) { 
     #firstName2 {
       font-size: 50px;
-      margin-top: 120px;
+      margin-top: 220px; 
     }
 }
 
@@ -1305,7 +1337,6 @@
   and (orientation: portrait) { 
     .homeDescription {
         font-size: 25px;
-        margin-top: -160px;
     }
 }
 
