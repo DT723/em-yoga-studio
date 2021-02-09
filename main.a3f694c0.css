@@ -722,7 +722,8 @@
      flex-direction: row;
      flex-wrap: nowrap;
      align-items: flex-end;
-     justify-content: center; 
+     justify-content: center;
+     justify-content: space-evenly; 
     }
 }
 
@@ -733,7 +734,6 @@
   and (orientation: portrait) {
     .yearImg { 
      height: 260px;
-     width: 200px;
      
     }
 }
@@ -743,8 +743,8 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .DreamImg { 
-     margin-right: -30px;
+    .dreamImg { 
+      height: 260px;
      
     }
 }
@@ -1121,6 +1121,27 @@
      flex-wrap: nowrap;
      align-items: center;
      justify-content: center; 
+     justify-content: space-evenly;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .dreamImg { 
+      height: 193px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .yearImg { 
+      height: 193px;
     }
 }
 
