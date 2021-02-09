@@ -46,41 +46,25 @@
 #firstName1 {
     font-family: open sans, 'Poppins';
     color: #0f180f;
-    font-size: 1.25em;
+    font-size: 17px;
 }
 
 #firstName2 {
     font-family: open sans, 'Poppins';
     color: #a5cab3;
-    font-size: 4em;
+    font-size: 60px;
     opacity: 1;
     text-shadow: 1px 1px 4px rgb(3, 17, 1);
+    margin-top: 60px;
 }
 
-#studioName1 {
-    color: #4d5d53;
-    font-size: .70em;
-    font-family: open sans, 'Poppins';
-    font-style: italic;
-    font-weight: bold;
-    padding-left: 5px;
-}
-
-#studioName2 {
-    color: #1a237e;
-    font-size: .70em;
-    font-family: open sans, 'Poppins';
-    font-style: italic;
-    font-weight: bold;
-    padding-left: 11px;
-}
-
-#titleDescription {
-    color: #a5cab3;
-    text-shadow: none;
-    font-style: italic;
-    font-size: 16px;
-    text-shadow: 1px 1px 4px rgb(3, 17, 1);
+.homeDescription {
+  color: #a5cab3;
+  font-size: 35px;
+  opacity: 1;
+  text-shadow: 1px 1px 4px rgb(3, 17, 1);
+  margin-right: -47px;
+  width: 600px;
 }
 
 .responsiveRow {
@@ -538,6 +522,19 @@
     }
 }
 
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .titleRow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
 
 @media only screen 
   and (min-device-width: 768px)
@@ -545,8 +542,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #firstName2 {
-    margin-left: 30px;
-    margin-top: 150px;
+      margin: 0px;
+      font-size: 0px;
     }
 }
 
@@ -556,8 +553,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .homeDescription {
-    width: 600px;
-    margin-right: 87px;
+      margin: 0px;
+      width: 600px;
+      font-size: 0px;
+    
     }
 }
 
@@ -654,6 +653,7 @@
        display: flex;
        justify-content: center;
        flex-direction: column;
+       flex-wrap: nowrap;
        align-items: center;
     }
 }
@@ -1327,7 +1327,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     #firstName2 {
-      font-size: 55px;
+      font-size: 50px;
       margin-top: 120px;
     }
 }
@@ -1338,7 +1338,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .homeDescription {
-        font-size: 27px;
+        font-size: 25px;
         margin-top: -160px;
     }
 }
@@ -1882,6 +1882,7 @@
   and (orientation: landscape) { 
     #firstName2 {
        margin-left: -35px;
+       font-size: 50px;
     }
 }
 
@@ -1892,6 +1893,7 @@
   and (orientation: landscape) { 
     .homeDescription {
        margin-left: -35px;
+       font-size: 28px;
     }
 }
 
@@ -1983,7 +1985,7 @@
        display: flex;
        justify-content: center;
        flex-direction: column;
-       align-items: center;           
+       align-items: center;        
     }
 }
 
@@ -2281,7 +2283,6 @@
        display: flex;
        flex-direction: row;
        justify-content: flex-start;
-       margin-top: 90px;
     }
 }
 
