@@ -1146,11 +1146,11 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .servicesCol {
-       display: flex;
-       justify-content: center;
-       flex-direction: row;
-       flex-wrap: wrap;
-       align-items: center;          
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row; 
+      flex-wrap: wrap;         
     }
 }
 
@@ -1161,7 +1161,8 @@
   and (orientation: landscape) {
     .pricing-card.pricing-primary.pricing-first {
       height: 320px;
-      width: 204px;   
+      width: 204px; 
+      flex: 25%;  
     }
 }
 
@@ -1172,7 +1173,8 @@
   and (orientation: landscape) {
     .pricing-card.pricing-info.pricing-second {
       height: 320px;
-      width: 204px;   
+      width: 204px;
+      flex: 25%;
     }
 }
 
@@ -1183,7 +1185,8 @@
   and (orientation: landscape) {
     .pricing-card.pricing-secondary.pricing-third {
       height: 320px;
-      width: 204px;  
+      width: 204px;
+      flex: 25%;
     }
 }
 
@@ -1194,7 +1197,8 @@
   and (orientation: landscape) {
     .pricing-card.pricing-secondary.pricing-fourth {
       height: 320px;
-      width: 204px;   
+      width: 204px;
+      flex: 25%;
     }
 }
 
