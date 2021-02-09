@@ -1134,8 +1134,8 @@
     .servicesCol {
        display: flex;
        justify-content: center;
-       flex-direction: column;
-       flex-wrap: nowrap;
+       flex-direction: row;
+       flex-wrap: wrap;
        align-items: center;          
     }
 }
