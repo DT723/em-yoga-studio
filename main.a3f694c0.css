@@ -1126,17 +1126,6 @@
     }
 }
 
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .cardRow {
-     margin-left: -53px;     
-    }
-}
-
 @media only screen 
   and (min-device-width: 768px)
   and (max-device-width: 1024px) 
@@ -1145,10 +1134,9 @@
     .servicesCol {
        display: flex;
        justify-content: center;
-       flex-direction: row;
-       flex-wrap: wrap;
-       align-items: center;
-       margin-left: 45px;           
+       flex-direction: column;
+       flex-wrap: nowrap;
+       align-items: center;          
     }
 }
 
@@ -1233,7 +1221,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .pricing85 {
-      margin-top: -17px;     
+      margin-top: -19px;     
     }
 }
 
