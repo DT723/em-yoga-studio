@@ -338,7 +338,7 @@
     float: right;
 }
 
-.card-container {
+.servicesCol {
     margin-bottom: 30px;
 }
 
@@ -647,12 +647,14 @@
 
 @media only screen 
   and (min-device-width: 768px)
-  and (max-device-width: 1024px)
+  and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .servicesColTop {
-        margin-top: -15px;
-        margin-left: -10px;     
+  and (orientation: portrait) { 
+    .servicesCol {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;
     }
 }
 
@@ -739,27 +741,6 @@
     }
 }
 
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .cardRow {
-        margin-left: 153px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
-        width: 300px;
-    }
-}
-
 @media only screen 
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
@@ -776,16 +757,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .termH1 {
-        margin-left: 0px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .terms15 {
         margin-left: 0px;
     }
 }
@@ -1158,7 +1129,8 @@
        display: flex;
        justify-content: center;
        flex-direction: column;
-       align-items: center;           
+       align-items: center;
+       margin-left: 45px;           
     }
 }
 
@@ -1169,8 +1141,7 @@
   and (orientation: landscape) {
     .pricing-card.pricing-primary.pricing-first {
       height: 320px;
-      width: 204px;
-      margin-left: 27px;    
+      width: 204px;   
     }
 }
 
@@ -1181,8 +1152,7 @@
   and (orientation: landscape) {
     .pricing-card.pricing-info.pricing-second {
       height: 320px;
-      width: 204px;
-      margin-left: 27px;    
+      width: 204px;   
     }
 }
 
@@ -1193,8 +1163,7 @@
   and (orientation: landscape) {
     .pricing-card.pricing-secondary.pricing-third {
       height: 320px;
-      width: 204px;
-      margin-left: 27px;    
+      width: 204px;  
     }
 }
 
@@ -1205,8 +1174,7 @@
   and (orientation: landscape) {
     .pricing-card.pricing-secondary.pricing-fourth {
       height: 320px;
-      width: 204px;
-      margin-left: 27px;    
+      width: 204px;   
     }
 }
 
@@ -1217,7 +1185,7 @@
   and (orientation: landscape) {
     .pricing-features {
       width: 204px;
-      margin-left: 27px;     
+      margin-left: 0px;     
     }
 }
 
