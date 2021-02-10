@@ -1198,7 +1198,7 @@
       justify-content: space-evenly;
       flex-direction: row;
       align-items: center;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
     }
 }
 
