@@ -197,7 +197,11 @@
 }
 
 .subContainer {
-    height: 622px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 500px;
 }
 
 .subButton {
@@ -1317,7 +1321,7 @@
   and (orientation: landscape) {
     .subContainer {
       display:flex;
-      justify-content: flex-start;
+      justify-content: center;
       align-items: flex-start;
       width: 1024px;
       height: 400px;    
@@ -1816,8 +1820,11 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .subContainer {
-       padding-bottom: 0px;    
-       margin-left: -10px;     
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 414px;
+      height: 600px;    
     }
 }
 
@@ -1827,7 +1834,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .responsiveFooter {
-       margin-left: -83px;            
+       margin-left: -71px;            
     }
 }
 
@@ -2245,10 +2252,14 @@
   and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .subContainer{
-      height: 500px;
-      width: 896px; 
-      margin: 0 0 0 -75px;
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 896px;
+      height: 500px; 
+      margin-left: -39px;   
+    }
 }
 
 @media only screen 
@@ -3006,6 +3017,20 @@
 
 @media only screen 
   and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 414px;
+      height: 600px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
@@ -3687,9 +3712,12 @@ and (min-device-width: 414px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
     .subContainer {
-        height: 550px;
-        width: 736px;
-        margin-left: 0px;     
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 736px;
+      height: 600px; 
+      margin-left: 0px; 
     }
 }
 
