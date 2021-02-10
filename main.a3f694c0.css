@@ -146,11 +146,6 @@
     color: #368353; 
 }
 
-/* .footerContainer {
-    justify-content: space-between;
-    
-} */
-
 .footerContainerRight {
     padding-left: 80px;
 }
@@ -205,7 +200,7 @@
 }
 
 .subButton {
-  background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
+    background-image: linear-gradient(to right, #b18a81, #b1776c, #572217);
     opacity: 0.8;
     text-shadow: black 1px 1px 1px;
     color: white;
@@ -240,10 +235,6 @@
 
 .link-like-text:hover {
     color: black;
-}
-
-.no-padding {
-    margin-top: 30px;
 }
 
 .form-control {
@@ -335,10 +326,6 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;   
-}
-
-.section-container.no-padding {
-    padding-bottom: 250px;
 }
 
 .banner-container {
@@ -1322,7 +1309,7 @@
     .subContainer {
       display:flex;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
       width: 1024px;
       height: 400px;    
     }
