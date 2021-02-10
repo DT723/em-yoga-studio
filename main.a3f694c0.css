@@ -1319,7 +1319,8 @@
       display:flex;
       justify-content: center;
       align-items: flex-start;
-      margin-bottom: -120px;       
+      width: 1024px;
+      height: 400px;    
     }
 }
 
