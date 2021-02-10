@@ -892,7 +892,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .subContent {
-      padding-top: 15px;
+      margin-left: -9px;
     }
 }
 
@@ -1336,8 +1336,6 @@
       display:flex;
       justify-content: center;
       align-items: flex-start;
-      width: 1024px;
-      height: 600px;
       margin-bottom: -120px;       
     }
 }
