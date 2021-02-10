@@ -242,28 +242,7 @@
     border: 2px solid rgb(230, 228, 228);
 }
 
-.cardDescription1 {
-    color: white;
-    font-size: 1.15em;
-}
-
-.cardDescription2 {
-    color: white;
-    font-size: 1.15em;
-}
-
-.cardDescription3 {
-    color: white;
-    font-size: 1.15em;
-}
-
-.cardDescription4 {
-    color: white;
-    font-size: 1.15em;
-    margin-top: 30px;
-}
-
-.cardDescription1 {
+.cardDescription {
     color: white;
     font-size: 1.15em;
 }
@@ -300,7 +279,6 @@
   align-items: center;
   width: 208.94px;
   margin-top: 5px;
-  margin-left: 2px;
 }
 
 .classButtons {
@@ -354,7 +332,6 @@
   background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
   width: 250px;
   margin-bottom: 0px;
-  margin-left: 20px;
 }
 
 .waiverCard{
@@ -1178,7 +1155,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #waiverBtn { 
-     margin-left: 20px;     
+     margin-left: 60px;     
     }
 }
 
@@ -1198,50 +1175,6 @@
     }
 }
 
-/* @media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-card.pricing-primary.pricing-first {
-      height: 320px;
-      width: 204px; 
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-card.pricing-info.pricing-second {
-      height: 320px;
-      width: 204px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-card.pricing-secondary.pricing-third {
-      height: 320px;
-      width: 204px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing-card.pricing-secondary.pricing-fourth {
-      height: 320px;
-      width: 204px;
-    }
-} */
-
 @media only screen 
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
@@ -1257,38 +1190,8 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .pricing15 {
-      margin-top: 32px;     
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing50 {
-      margin-top: 13px;     
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .pricing85 {
-      margin-top: -19px;     
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
     .cardTitlePricing {
-      margin-top: 17px;     
+      margin-top: 0px;     
     }
 }
 
