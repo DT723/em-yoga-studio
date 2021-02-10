@@ -1334,7 +1334,8 @@
   and (orientation: landscape) {
     .subContainer {
         width: 1024px;
-        margin-bottom: -200px;
+        height: 600px;
+        margin-bottom: -120px;       
     }
 }
 
