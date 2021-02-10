@@ -1317,7 +1317,7 @@
   and (orientation: landscape) {
     .subContainer {
       display:flex;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: flex-start;
       width: 1024px;
       height: 400px;    
