@@ -1192,9 +1192,10 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .servicesCol {
+    .cardRow {
       display: flex;
       justify-content: center;
+      justify-content: space-evenly;
       flex-direction: row;
       align-items: center;
       flex-wrap: wrap;
