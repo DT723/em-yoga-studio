@@ -349,7 +349,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
 }
 
 .tipsCard{
@@ -1160,6 +1160,20 @@
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .terms15 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: nowrap;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .waiverTitle { 
      margin-top: 0px;
@@ -1173,7 +1187,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .waiverCard { 
-     margin-right: -90px; 
+     margin-right: 0px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .tipsCard { 
+     margin-top: -3px; 
     }
 }
 
@@ -1183,7 +1207,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     #waiverBtn { 
-     margin-left: -18px;     
+     margin-left: 20px;     
     }
 }
 
@@ -1192,11 +1216,11 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .card-container {
+    .servicesCol {
       display: flex;
       justify-content: center;
       justify-content: space-evenly;
-      flex-direction: row;
+      flex-direction: column;
       align-items: center;
       flex-wrap: nowrap;
     }
