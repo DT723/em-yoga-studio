@@ -193,7 +193,7 @@
 
 .subContainer {
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 1250px;
     height: 500px;
@@ -850,10 +850,10 @@
   and (orientation: portrait) {
     .subContainer {
       display:flex;
-      justify-content: center;
-      align-items: flex-start;
+      justify-content: flex-start;
+      align-items: center;
       width: 768px;
-      height: 600px;      
+      height: 700px;      
     }
 }
 
@@ -1214,7 +1214,7 @@
     .subContainer {
       display:flex;
       justify-content: center;
-      align-items: center;
+      align-items: flex-start;
       width: 1024px;
       height: 500px;    
     }
@@ -2146,11 +2146,10 @@
   and (orientation: landscape) { 
     .subContainer {
       display:flex;
-      justify-content: center;
-      align-items: flex-start; 
+      justify-content: flex-start;
+      align-items: center; 
       width: 896px;
-      height: 500px; 
-      margin-left: -39px;   
+      height: 500px;   
     }
 }
 
