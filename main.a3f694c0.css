@@ -1336,7 +1336,7 @@
   and (orientation: portrait) { 
     .eventDescription1 {
        font-size: 30px;
-       margin-top: -50px;
+       margin-top: -27px;
     }
 }
 
@@ -2119,7 +2119,7 @@
       display: flex;
       width: 896px;
       height: 530px;
-      margin-left: -55px;
+      margin-left: -22px;
       margin-top: 60px;
     }
 }
@@ -2875,7 +2875,7 @@
       display: flex;
       width: 414px;
       height: 500px;
-      margin-left: -48px;
+      margin-left: -55px;
       margin-top: 60px;
     }
 }
