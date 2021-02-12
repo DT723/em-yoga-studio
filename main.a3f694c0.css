@@ -151,7 +151,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100vw;
   margin-left: 55px;
   margin-top: 110px;
@@ -1229,6 +1229,17 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    .footerFlex {
+      justify-content: center;
+      margin-left: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
     .footerLeftText1 {
       margin-top: -27px;
       margin-left: 0px;
@@ -1358,6 +1369,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .col-container2 {
+      margin-top: 30px;
       margin-left: 15px;
       margin-right: 13px;
       padding: 0px;
@@ -1744,11 +1756,50 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .footerFlex {
+      margin-left: -65px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerMarginTop {
+      margin-top: 15px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .footerLeftText1 {
-      margin-top: -27px;
+      margin-top: -25px;
       margin-left: 0px;
-      font-size: 13px;
-      
+      font-size: 13px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerTitleMid {
+      margin-top: 25px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLinkMid {
+      margin-bottom: 25px;    
     }
 }
 
@@ -1759,7 +1810,9 @@
   and (orientation: portrait) { 
     .shareLinks {
        padding-left: 5px;  
-       margin-bottom: 7px;          
+       margin-bottom: 7px;
+       margin-left: -8px;
+       margin-top: -6px;
     }
 }
 
@@ -2115,6 +2168,16 @@
       width: 896px;
       height: 500px;
       margin-left:  -37px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerFlex {
+      margin-left: 0px;      
     }
 }
 
@@ -2862,9 +2925,20 @@
 
 @media only screen 
   and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerFlex {
+      margin-left: -73px; 
+      margin-top: 70px;    
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
+  and (orientation: portrait) {
     .footerLeftText1 {
       margin-top: -27px;
       margin-left: 0px;
@@ -2898,7 +2972,6 @@
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) { 
     .footerTitleMid { 
-        font-size: 14px;
         margin-top: 15px;
     } 
 }
@@ -3429,4 +3502,15 @@ and (min-device-width: 414px)
       margin-left: 0px; 
     }
 }
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerFlex {
+      margin-left: -218px; 
+       
+    }
+} 
 
