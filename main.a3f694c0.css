@@ -840,13 +840,11 @@
   and (orientation: portrait) {
     .footerFlex {
       display: flex;
-      justify-content: flex-start;
-      align-items: center;
+      justify-content: center;
+      align-content: flex-start;
       flex-direction: column;
-      justify-content: space-evenly;
       width: 768px;
-      margin-left: 50px;
-      padding-top: -30px;
+      margin-left: 0px;
       height: 700px;
     }
 }
@@ -856,7 +854,10 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .footerClassText1 {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 5px;
+      font-size: 13px;
       
     }
 }
@@ -1177,9 +1178,27 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .responsiveFooter {
-      width: 1024px;
-      margin-left: -60px;
+    .footerFlex {
+      display: flex;
+      align-content: center;
+      flex-direction: column;
+      justify-content: center;
+      width: 768px;
+      margin-left: 47px;
+      height: 250px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;
+      
     }
 }
 
@@ -1282,6 +1301,19 @@
         margin-left: 15px;
         margin-right: 13px;
         padding: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveRow {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
     }
 }
 
@@ -1674,52 +1706,31 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .responsiveFooter {
-       margin-left: -71px;            
+  and (orientation: portrait) {
+    .footerFlex {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: row;
+      justify-content: center;
+      width: 414px;
+      height: 530px;
+      margin-left: -55px;
+      margin-top: 60px;
     }
 }
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerClassText1 {
-       margin-left: -6px; 
-       margin-top: -8px;           
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerTitle {
-       margin-left: 5px;            
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerClassText {
-       margin-left: 5px;            
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerTitleMid {
-       margin-left: 5px;            
+  and (orientation: portrait) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;
+      
     }
 }
 
@@ -1741,17 +1752,6 @@
     .shareLinks {
        padding-left: 5px;  
        margin-bottom: 7px;          
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerContainerMid {
-       padding-top: 5px; 
-       padding-bottom: 5px;           
     }
 }
 
@@ -1817,9 +1817,23 @@
   and (max-device-width: 896px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    .responsiveRow {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
     .col-container1 {
        padding-left: 50px;
        padding-right: 50px;
+       margin-left: 20px;
     }
 }
 
@@ -1829,9 +1843,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .col-container2 {
-       margin-left: -19px;
-       padding-left: 50px;
-       padding-right: 50px;
+       margin-left: 60px;
+       padding-left: 10px;
+       padding-right: 10px;
     }
 }
 
@@ -2098,54 +2112,30 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .responsiveFooter { 
-      margin: 0px;
-    }
-  }    
-
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .footerContainerLeft { 
-        margin-left: -110px;
+  and (orientation: landscape) {
+    .footerFlex {
+      display: flex;
+      width: 896px;
+      height: 530px;
+      margin-left: -55px;
+      margin-top: 60px;
     }
 }
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .footerContainerMid {
-        margin-left: -100px;
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;
+      
     }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .footerContainerRight {
-        margin-left: -100px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .footerClassText1 {
-        margin-top: -12px;
-    }
-}
+} 
 
 @media only screen 
   and (min-device-width: 414px)
@@ -2879,22 +2869,28 @@
 @media only screen 
   and (min-device-width: 414px)
   and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerContainerMid { 
-        padding-top: 3px;
-    } 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .footerFlex {
+      display: flex;
+      width: 414px;
+      height: 500px;
+      margin-left: -48px;
+      margin-top: 60px;
+    }
 }
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .responsiveFooter {         
-        padding-left: 0px;     
-    } 
-}
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;      
+    }
+} 
 
 @media only screen 
   and (min-device-width: 414px)
@@ -2913,26 +2909,6 @@
   and (orientation: portrait) { 
     .footerClassText { 
         font-size: 12px;
-    } 
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .footerContainerLeft { 
-        margin-left: 0px;
-    } 
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .footerContainerRight { 
-        margin-top: -15px;
     } 
 }
 
@@ -3065,6 +3041,43 @@
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) { 
+    .responsiveRow {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .col-container1 {  
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 30px;
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .col-container2 { 
+       padding-left: 20px;
+       padding-right: 20px;
+       margin-top: 40px;
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
     .text-center1 {
         margin-right: 0px;
     }
@@ -3114,66 +3127,29 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 736px) 
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .responsiveFooter {
-        margin-left: -70px;  
-        width: 700px;      
+  and (orientation: landscape) {
+    .footerFlex {
+      display: flex;
+      width: 414px;
+      height: 600px;
+      margin-left: -48px;
+      margin-top: 60px;
     }
 }
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 736px) 
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .footerContainerMid {
-        padding-top: 10px;
-        margin-top: -13px;      
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;      
     }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .footerContainerRight {
-        padding-top: 0px;
-        margin-top: -13px;      
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .footerContainerLeft {
-        margin-left: -109px;      
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .footerClassText1 {
-        margin-top: -7px;      
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    .servicesFooter {
-        padding-top: 10px;     
-    }
-}
+} 
 
 @media only screen 
   and (min-device-width: 414px)
