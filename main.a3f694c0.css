@@ -152,8 +152,8 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100%;
-  margin-left: 100px;
+  width: 100vw;
+  margin-left: 55px;
   margin-top: 110px;
 }
 
@@ -850,11 +850,21 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerFlex {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: row;
-      width: 100%;      
+      margin-top: 45px;
+      margin-left: 0px;
+      margin-bottom: 20px; 
+      height: 650px;  
+      padding-top: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerMarginTop {
+      margin-top: -60px;
     }
 }
 
@@ -875,8 +885,40 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    .footerTitleMid {
+      margin-top: 23px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .shareLinks{
+      margin-left: -6px;
+      margin-top: -10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLinkMid{
+      margin-bottom: 24px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     .fa-linkedin {
-      padding-bottom: 3px; 
+      padding-bottom: 3px;
+      padding-left: 1px;
     }
 }
 
@@ -1179,22 +1221,6 @@
       align-items: flex-start;
       width: 1024px;
       height: 500px;    
-    }
-}
-
-@media only screen 
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .footerFlex {
-      display: flex;
-      align-content: center;
-      flex-direction: column;
-      justify-content: center;
-      width: 768px;
-      margin-left: 47px;
-      height: 250px;
     }
 }
 
@@ -1718,38 +1744,11 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .footerFlex {
-      display: flex;
-      align-items: flex-start;
-      flex-direction: row;
-      justify-content: center;
-      width: 414px;
-      height: 530px;
-      margin-left: -55px;
-      margin-top: 60px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
     .footerLeftText1 {
       margin-top: -27px;
       margin-left: 0px;
       font-size: 13px;
       
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px) 
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerLinkMid {
-       margin-left: 5px;            
     }
 }
 
@@ -2116,20 +2115,6 @@
       width: 896px;
       height: 500px;
       margin-left:  -37px;  
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .footerFlex {
-      display: flex;
-      width: 896px;
-      height: 530px;
-      margin-left: -22px;
-      margin-top: 60px;
     }
 }
 
@@ -2877,20 +2862,6 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-    .footerFlex {
-      display: flex;
-      width: 414px;
-      height: 500px;
-      margin-left: -55px;
-      margin-top: 60px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
@@ -2960,18 +2931,6 @@
   and (orientation: portrait) { 
     .fa-instagram { 
         padding-top: 8px;
-    } 
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .footerLinkMid { 
-        font-size: 13px;
-        margin-bottom: 5px;
-        padding-bottom: 10px;
     } 
 }
 
@@ -3109,20 +3068,6 @@
   and (orientation: landscape) { 
     .responsive {
         margin-left: 25px;        
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) {
-    .footerFlex {
-      display: flex;
-      width: 414px;
-      height: 600px;
-      margin-left: -48px;
-      margin-top: 60px;
     }
 }
 
