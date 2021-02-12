@@ -507,6 +507,7 @@
        justify-content: center;
        align-items: center;
        flex-direction: row;
+       width: 768px;
     }
 }
 
@@ -516,9 +517,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .col-container1 {
-      margin-left: 70px;
-      padding-left: 10px;
-      margin-right: 65px;
+      padding-left: 40px;
+      padding-right: 40px;
+      
     }
 
 }
@@ -528,10 +529,8 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .col-container2 {
-      margin-left: 70px;
-      padding-left: 10px;
-      margin-right: 65px;
+    .col-container2 {     
+      margin-right: 50px;   
     }
 }
 
@@ -854,10 +853,9 @@
     .footerFlex {
       display: flex;
       justify-content: center;
-      align-content: flex-start;
+      align-content: center;
       flex-direction: column;
       width: 768px;
-      margin-left: 0px;
       height: 700px;
     }
 }
