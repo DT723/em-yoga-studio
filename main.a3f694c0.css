@@ -74,6 +74,16 @@
   justify-content: center;
 }
 
+.col-container1 {
+  flex: 1;
+  padding: 0 50px;
+} 
+
+.col-container2 {
+  flex: 1;
+  padding: 0 50px;
+}
+
 .signature {
     color: #a5cab3;
     margin-top: -20px;
@@ -498,7 +508,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .responsiveRow {
-      justify-content: center;
+      flex-direction: column;
     }
 }
 
@@ -642,8 +652,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .yearImg { 
-     height: 260px;
-     
+     height: 260px;     
     }
 }
 
@@ -653,8 +662,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .dreamImg { 
-      height: 260px;
-     
+      height: 260px;     
     }
 }
 
@@ -817,12 +825,9 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .footerFlex {
-      margin-top: 45px;
-      margin-left: 0px;
-      margin-bottom: 20px; 
-      height: 650px;  
-      padding-top: 0px;
+    .footerFlex {      
+      height: 650px;
+      margin-left: -8px;  
     }
 }
 
@@ -943,6 +948,16 @@
   and (orientation: landscape) {
     .homeDescription{
       font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .col-container1{
+      margin-left: 10px;
     }
 }
 
@@ -1256,6 +1271,16 @@
   and (orientation: portrait) { 
     .homeDescription {
         font-size: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveRow {
+        flex-direction: column;
     }
 }
 
@@ -1640,7 +1665,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerFlex {
-      margin-left: -65px;
+      padding-left: 59px;
+      
     }
 }
 
@@ -1724,7 +1750,7 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 1896px)
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .heroTitle {
@@ -1758,10 +1784,10 @@
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px) 
+  and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responsiveRow {
+    .responsiveRow{
        flex-direction: column;
     }
 }
@@ -2213,28 +2239,6 @@
   and (orientation: portrait) { 
     .navbar-nav li a { 
         padding: 20px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .titleSmartPhone { 
-        margin-bottom: 5px;
-        margin-left: -65px;
-        font-size: 30px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    .homeDescription2 { 
-        margin-left: -63px;
     }
 }
 
@@ -2735,14 +2739,14 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerFlex {
-      margin-left: -73px; 
-      margin-top: 70px;    
+      margin-top: 70px;
+      margin-left: -95px;    
     }
 } 
 
 @media only screen 
   and (min-device-width: 414px)
-  and (max-device-width: 896px)
+  and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerLeftText1 {
