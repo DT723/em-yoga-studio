@@ -956,8 +956,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .responsiveRow {
-      margin-left: -30px;
-      width: 100vw;
+      display: flex;
+      flex-direction: row;
     }
 }
 
@@ -1177,7 +1177,7 @@
   and (orientation: landscape) {
     .footerFlex {
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       width: 100vw;
