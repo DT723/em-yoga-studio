@@ -70,7 +70,7 @@
 .responsiveRow {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
 }
 
@@ -1180,6 +1180,7 @@
       justify-content: center;
       align-items: center;
       width: 100vw;
+      margin-left: 20px;
       }
 }
 
