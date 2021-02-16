@@ -1177,8 +1177,6 @@
   and (orientation: landscape) {
     .footerFlex {
       justify-content: center;
-      flex-direction: row;
-      align-items: center;
     }
 }
 
@@ -2060,9 +2058,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .footerFlex {
-      margin-left: 0px; 
-      flex-direction: column;
-      align-items: center;     
+      margin-left: 3px;
     }
 }
 
