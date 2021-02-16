@@ -1174,9 +1174,12 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .footerFlexContent {
+    .footerFlex {
+      display: flex;
       justify-content: center;
-    }
+      align-items: center;
+      width: 100vw;
+      }
 }
 
 @media only screen 
