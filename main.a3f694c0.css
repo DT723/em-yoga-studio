@@ -1664,7 +1664,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .footerFlex {
-      padding-left: 59px;
+      margin-left: -64px;
       
     }
 }
