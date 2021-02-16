@@ -956,8 +956,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .responsiveRow {
-      display: flex;
       flex-direction: row;
+      margin-left: -30px;
     }
 }
 
