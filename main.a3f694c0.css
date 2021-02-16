@@ -2060,7 +2060,9 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .footerFlex {
-      margin-left: 0px;      
+      margin-left: 0px; 
+      flex-direction: column;
+      align-items: center;     
     }
 }
 
@@ -3274,6 +3276,8 @@ and (min-device-width: 414px)
   and (orientation: landscape) {
     .footerFlex {
       margin-left: -218px; 
+      flex-direction: column;
+      align-items: center;
        
     }
 } 
