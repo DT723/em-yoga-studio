@@ -822,7 +822,6 @@
   and (orientation: portrait) {
     .footerFlex {
     display: flex;
-    width: 100vw;
     margin-left: 40px;
     }
 }
@@ -1177,7 +1176,6 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      width: 100vw;
       margin-left: 20px;
       }
 }
