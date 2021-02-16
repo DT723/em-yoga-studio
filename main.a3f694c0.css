@@ -155,11 +155,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
-  justify-content: space-around;
   width: 100vw;
-  margin-left: 55px;
-  margin-top: 110px;
+  margin-left: 60px;
 }
 
 .footerLeftText1 {
@@ -825,9 +822,8 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
-    .footerFlex {      
-      height: 650px;
-      margin-left: -8px;  
+    .footerFlex {
+
     }
 }
 
@@ -1175,7 +1171,7 @@
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .footerFlex {
+    .footerFlexContent {
       justify-content: center;
     }
 }
