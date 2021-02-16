@@ -1177,7 +1177,8 @@
   and (orientation: landscape) {
     .footerFlex {
       justify-content: center;
-      margin-left: 25px;
+      flex-direction: row;
+      align-items: center;
     }
 }
 
