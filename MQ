@@ -1,0 +1,2838 @@
+/* Media Query */
+/* Tablet Ipad Portrait*/
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .nav { 
+        margin-right: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .navbar-right { 
+       font-size: 15px;
+       margin-right: -20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #firstName1 {
+      padding-top: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .heroTitle {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: row;
+      margin-top: -40px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .heroDescription {
+      font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .responsiveRow {
+      flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .text-center2 {
+        padding-right: 0px;
+        margin-bottom: 0px;
+        margin-top: 25px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .yogaColTop {
+        margin-top: -15px; 
+        padding-bottom: 20px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .aboutYogaImg {
+        padding-left: 168px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #thinkImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 37px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #changeImg {
+        width: 300px;
+        height: 190px; 
+        margin-left: 380px;
+        margin-top: -190px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .servicesCol {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .classButtons {  
+        height: 55px;
+        width: 135px;
+        padding-top: 10px;
+        font-size: 18px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .aboutImgContainer {
+        height: 550px;
+        width: 725px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .sectionContAbout {
+        padding-top: 30px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #heroAbout {
+        height: 500px;
+        width: 725px;
+        margin-top: 9px;
+        margin-left: 13px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .about-images { 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: flex-end;
+     justify-content: center;
+     justify-content: space-evenly; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .yearImg { 
+     height: 260px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .dreamImg { 
+      height: 260px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .pricing-features {
+        width: 300px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .termH1 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .termsDescription {
+        font-size: 18px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .zoomTitle {
+        font-size: 35px;
+        margin-top: 43px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .waiverTitle {
+        font-size: 35px;
+        margin-top: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .waiverCard {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    #waiverBtn {
+        margin-left: 60px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .zoomBtn {
+        font-size: 18px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .tipsCard {
+      margin: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .terms15 {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .subButton {
+        font-size: 19px;
+        margin-left: 0px;
+        margin-top: 5px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .waiverChk {
+        font-size: 18px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .waiverBox {
+        height: 15px;
+        width: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .subContainer {
+      display:flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 768px;
+      height: 700px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerFlex {
+    display: flex;
+    margin-left: 40px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerMarginTop {
+      margin-top: -60px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 5px;
+      font-size: 13px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerTitleMid {
+      margin-top: 23px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .shareLinks{
+      margin-left: -6px;
+      margin-top: -10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLinkMid{
+      margin-bottom: 24px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .fa-linkedin {
+      padding-bottom: 3px;
+      padding-left: 1px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .fa-instagram { 
+        padding-top: 8px;
+    } 
+}
+
+/* Tablet Ipad Landscape*/
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #firstName1 {
+    margin-top: 4px;
+    padding-top: 27
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .heroTitle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #firstName2 {
+      font-size: 57
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .homeDescription{
+      font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .responsiveRow {
+      flex-direction: row;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .navbar-right { 
+     justify-content: space-between;
+     margin-right: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .banner-container { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 200px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .yogaColTop { 
+     margin-top: 0px;
+     margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .aboutYogaImg { 
+     margin-left: 160px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .about-images { 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: center;
+     justify-content: center; 
+     justify-content: space-evenly;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .dreamImg { 
+      height: 193px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .yearImg { 
+      height: 193px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .termH1 { 
+     margin-left: 10px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .terms15 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: nowrap;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .waiverTitle { 
+     margin-top: 0px;
+     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .waiverCard { 
+     margin-right: 0px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .tipsCard { 
+     margin-top: -3px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #waiverBtn { 
+     margin-left: 60px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .servicesCol {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      width: 1024px;
+      height: 600px;
+      margin-bottom: 50px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .pricing-features {
+      width: 208.94px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .cardTitlePricing {
+      margin-top: 0px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .subButton { 
+      font-size: 16px;
+      margin-left: 0px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start;
+      width: 1024px;
+      height: 500px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerFlex {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-left: 25px;
+      }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;
+      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .fa-linkedin {
+      padding-bottom: 9px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .fa-instagram {
+      padding-left: 2px; 
+    }
+}
+
+
+/* SmartPhone iPhone 11 portrait */
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .navbar-toggle {
+        margin-right: 20px;
+        margin-top: 24px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #firstName1 {
+        margin-left: 5px;
+        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .heroTitle {
+       display: flex;
+       justify-content: flex-start;
+       align-items: flex-start;
+       flex-direction: column;
+       flex-wrap: wrap;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #firstName2 {
+      font-size: 50px;
+      margin-top: 220px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .homeDescription {
+        font-size: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveRow {
+        flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .eventDescription1 {
+       font-size: 30px;
+       margin-top: -27px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .eventDescription2 {
+      font-size: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .text-center2 {
+       height: 145px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .homePageBtn {
+       font-size: 15px;
+       padding: 10px 14px;
+    }   
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .banner-container {
+       margin-bottom: 0px;
+       padding-top: 60px;
+       padding-bottom: 20px;
+    }   
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .yogaTitle {
+       margin-top: -17px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutYogaImg {
+       margin-left: 13px;
+       margin-top: 25px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .coachTitle {
+       margin-top: -17px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .testTitle {
+       margin-left: 0px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .thinkAboutImg {
+       height: 100px;
+       width: 160px;
+       margin-left: 15px;
+       margin-top: 20px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .timeForChangeImg {
+       height: 100px;
+       width: 160px; 
+       margin-left: 205px;
+       margin-top: -100px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutHeroImg {
+        height: 289px;
+        width: 414px; 
+        margin-top: 8px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutImgContainer {
+        margin-bottom: -90px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutTitle {
+        margin-left: 8px; 
+        margin-top: 75px; 
+           
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .about-images { 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: flex-end;
+     justify-content: center;
+     justify-content: space-between;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .dreamImg {
+      height: 100px;
+      width: 160px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .yearImg {
+      height: 100px;
+      width: 160px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .servicesCol {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-first {
+        width: 250px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-second {
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-third {
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-fourth {
+      width: 250px;
+      box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .pricing-features {
+      width: 250px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .termsDescription {
+       margin-left: 0px;            
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .termH1 {
+       margin-top: -12px;
+       margin-left: 0px;            
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .tipsCard {
+      margin-bottom: 0px; 
+      margin-left: 0px;
+      margin-top: 70px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .terms15{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;           
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .zoomTitle {
+       font-size: 30px;   
+       margin-top: 40px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .zoomBtn {   
+       margin-top: 8px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .waiverCard {
+       margin-left: 21px;
+       margin-top: 50px;
+       margin-left: 0px;            
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #waiverBtn {
+       margin-left: 9px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .subButton {
+       margin-left: 0px; 
+       margin-top: 5px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 414px;
+      height: 600px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerFlex {
+      margin-left: -64px;
+      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerMarginTop {
+      margin-top: 15px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLeftText1 {
+      margin-top: -25px;
+      margin-left: 0px;
+      font-size: 13px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerTitleMid {
+      margin-top: 25px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLinkMid {
+      margin-bottom: 25px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .shareLinks {
+       padding-left: 5px;  
+       margin-bottom: 7px;
+       margin-left: -8px;
+       margin-top: -6px;
+    }
+}
+
+/* SmartPhone iPhone 11 Landscape */
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .navbar-right {
+       margin-right: -50px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #firstName1 {
+       margin-left: -35px;
+       padding-top: 29px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .heroTitle {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #firstName2 {
+       font-size: 50px;
+       margin-top: 13px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .homeDescription {
+       font-size: 28px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .responsiveRow{
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutHeroImg {
+       height: 500px;
+
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .about-images { 
+     display: flex;
+     flex-direction: row;
+     flex-wrap: nowrap;
+     align-items: flex-end;
+     justify-content: center; 
+     justify-content: space-between;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dreamImg {
+       height: 200px;
+       width: 270px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yearImg {
+       height: 200px;
+       width: 270px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutPara1 {
+       margin-bottom: 50px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutPara2 {
+       margin-top: 30px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .servicesCol {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-primary.pricing-first {
+       height: 300px;
+       width: 400px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-info.pricing-second {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-third {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-fourth {
+       height: 300px;
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .cardTitle15{
+       margin-top: 5px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-features {
+       width: 400px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .termTitle{
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center; 
+       margin-top: -20px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .terms15 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: nowrap;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverCard {
+       margin-top: 100px;
+       margin-right: 45px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverTitle {
+      margin-top: 0px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .waiverChk {
+      margin-top: -20px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #waiverBtn {
+      margin-left: -5px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .zoomTitle {
+      margin-top: 0px;          
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-primary.pricing-first.tipsCard {
+       height: 250px;
+       width: 300px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .pricing-card.pricing-secondary.pricing-fourth.waiverCard {
+       height: 250px;
+       width: 300px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .subContainer {
+      display:flex;
+      justify-content: flex-start;
+      align-items: center; 
+      width: 896px;
+      height: 500px;
+      margin-left:  -37px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerFlex {
+      margin-left: 3px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;
+      
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .shareLinks {
+        margin-top: -12px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .footerTitleMid {
+        margin-top: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .footerTitle {
+        margin-top: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .thinkAboutImg {
+        height: 240px;
+        width: 340px;
+        padding: 8px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .timeForChangeImg {
+        height: 240px;
+        width: 340px;
+        padding: 8px;
+        margin-left: 363px;
+        margin-top: -240px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yogaColTop { 
+        margin-bottom: 20px;
+    } 
+}
+
+/* SmartPhone iPhone 6/7/8 Plus Portrait */
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar-toggle.uarr { 
+        margin-right: 23px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .titleRow {
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #firstName1 { 
+        margin-top: 4px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #firstName2 { 
+        font-size: 36px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .heroImgHome { 
+        width: 414px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .homeDescription { 
+        font-size: 25px;
+        width: 500px;
+        margin-left: -105px;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .responsePad {  
+        margin-left: 108px;
+        font-size: 6px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    #navbar-collapse-uarr { 
+        font-size: 13px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .navbar-nav li a { 
+        padding: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .subTitle { 
+        font-size: 15px;
+        padding-left: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .yogaTitle { 
+        font-size: 43px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .yogaColTop { 
+        margin-top: -30px;
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutYogaImg { 
+        height: 200px;
+        margin-left: 43px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutTitle{ 
+        margin-top: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .testTitle { 
+        font-size: 43px;
+        margin-right: 0px;
+        margin-left: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .yogaColBottom { 
+        margin-top: -55px;
+        margin-left: 0px;
+        padding-right: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .thinkAboutImg { 
+        height: 109px;
+        width: 178px;
+        margin-top: 10px;
+        margin-left: 0px;
+        padding-left: 5px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .timeForChangeImg {
+        height: 109px;
+        width: 178px; 
+        margin-top: -109px; 
+        margin-left: 215px;  
+        padding-right: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .fa-heart-o:before { 
+        font-size: 32px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .fa-comment-o:before { 
+        font-size: 33px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .eventDescription1 { 
+        font-size: 20px; 
+        margin-top: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .eventDescription2 { 
+        font-size: 14px; 
+        
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .homePageBtn { 
+        font-size: 15px; 
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .banner-container { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 170px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .text-center2 {  
+        margin-top: -20px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutImgContainer { 
+        height: 380px;
+        width: 480px;
+        margin-left: -50px;
+        margin-bottom: -45px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutHeroImg { 
+        height: 330px;
+        width: 414px;
+        margin-top: -10px;
+        margin-left: 35px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutPara1 { 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 15px; 
+        margin-bottom: 25px; 
+        height: 135px;      
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutPara2 { 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 15px; 
+        margin-bottom: 25px;      
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .aboutPara3 { 
+        margin-top: -10px;
+        margin-left: 0px;
+        padding-right: 15px; 
+        margin-bottom: 25px;      
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .about-images { 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-end;
+      justify-content: center; 
+      justify-content: space-evenly;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .dreamImg { 
+       height: 109px;
+       width: 178px;       
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .yearImg { 
+        height: 109px;
+        width: 178px;        
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .sectionContAbout { 
+        margin-top: -25px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 5px;        
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .servicesCol {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .serviceTitle { 
+        width: 414px;       
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .pricing-first, .pricing-second, .pricing-third, .pricing-fourth {
+        width: 265px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .pricing-features {
+        width: 265px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .subButton {
+        margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .termTitle {
+        margin-left: 0px;
+        padding-right: 60px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .termH1 {
+        margin-left: 45px;
+        padding-right: 5px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .termsDescription {
+        margin-left: 0px;
+        padding: 0px;
+        width: 350px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .terms15 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: wrap;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .tipsCard {
+        margin-left: 0px;
+        padding-top: 70px;
+        width: 250px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .waiverCard {
+        margin-left: 115px;
+        padding-top: 30px;
+        width: 250px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .waiverTitle {
+       margin-top: 35px;
+    }    
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .waiverBtn {
+        margin-top: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    #waiverBtn {
+        margin-left: -30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .waiverChk {
+        margin-top: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 414px;
+      height: 600px;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+    .btn-container {
+        width: 480px;
+        padding-right: 40px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerFlex {
+      margin-top: 70px;
+      margin-left: -95px;    
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;      
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .footerTitle { 
+        font-size: 16px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .footerClassText { 
+        font-size: 12px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .footerTitleMid { 
+        margin-top: 15px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .shareLinks { 
+        font-size: 10px;
+        padding-top: 2px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .fa { 
+        font-size: 16px;
+    } 
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .fa-instagram { 
+        padding-top: 8px;
+    } 
+}
+
+/* SmartPhone iPhone 6/7/8 Plus landscape */
+
+/* @media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .titleRow {
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+       margin-top: 0px;
+       width: 700px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    #firstName2 {
+        font-size: 36px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .homeDescription {
+        font-size: 28px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    #firstName1 {
+        margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .navbar-toggle {
+        margin-right: 23px;
+        margin-top: 25px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .navbar-collapse {
+        margin-top: 0px;
+        height: 340px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .text-center2 {
+        margin-left: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .responsive {
+        margin-left: 25px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .footerLeftText1 {
+      margin-top: -27px;
+      margin-left: 0px;
+      font-size: 13px;      
+    }
+} 
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutYogaPara1 {
+        margin-left: 30px;
+        margin-right: 30px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutYogaPara4 {
+        margin-left: 30px;
+        margin-right: 30px;       
+    }
+}
+
+@media only screen 
+and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutYogaImg {
+        margin-left: 180px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutHeroImg {
+        margin-top: 9px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .coachPara3 {
+        margin-left: 30px;
+        margin-right: 30px;
+        padding-bottom: 25px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .coachPara4 {
+        margin-left: 30px;
+        margin-right: 30px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .thinkAboutImg {
+        height: 200px;
+        width: 250px; 
+        margin-left: 70px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .timeForChangeImg {
+      height: 200px;
+      width: 250px;
+      margin-left: 380px;
+      margin-top: -200px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutPara1 {
+      margin-left: 30px;
+      margin-right: 30px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .aboutPara4 {
+       margin-left: 30px;
+       padding-right: 75px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+    .about-images { 
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: flex-end;
+      justify-content: center; 
+      justify-content: space-evenly;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .dreamImg {
+        height: 200px;
+        width: 250px;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .yearImg {
+       height: 200px;
+       width: 250px;     
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-first {
+        height: 300px;
+        box-shadow: 3px 3px 8px black;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-second {
+        height: 300px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-third {
+        height: 300px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-fourth { 
+        height: 300px;
+        box-shadow: 3px 3px 8px black;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-features {
+        width: 270px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .classButtons {
+      width: 112px;         
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .servicesCol {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .pricing-features {
+        width: 400px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .termH1 {
+        margin-left: 0px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .termsDescription {
+        margin-left: 40px;
+        margin-right: 30px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .zoomTitle { 
+        margin-top: 0px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    #waiverBtn{
+      margin-left: 0px;    
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .responsiveCheck {
+        padding-left: 22px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .subButton {
+        margin-left: 0px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .terms15 {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: row; 
+       flex-wrap: nowrap;   
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .tipsCard {
+        margin-left: 0px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .waiverCard {
+        margin-left: 0px; 
+        margin-right: -10px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .subContainer {
+      display:flex;
+      justify-content: center;
+      align-items: flex-start; 
+      width: 736px;
+      height: 600px; 
+      margin-left: 0px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .footerFlex {
+      margin-left: -218px; 
+      flex-direction: column;
+      align-items: center;
+       
+    }
+}
+
