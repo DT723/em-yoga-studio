@@ -44,39 +44,35 @@
 }
 
 #firstName1 {
-    font-family: open sans, 'Poppins';
     color: #0f180f;
     font-size: 17px;
 }
 
-#firstName2 {
-    font-family: open sans, 'Poppins';
-    color: #a5cab3;
-    font-size: 60px;
-    opacity: 1;
-    text-shadow: 1px 1px 4px rgb(3, 17, 1);
-    margin-top: 60px;
-}
-
-.heroTitle {
+.containerTitleFlex {
     display: flex;
-    display: inline-block;
-    flex-wrap: nowrap;
-    color: #a5cab3;
-    font-size: 35px;
-    opacity: 1;
-    text-shadow: 1px 1px 4px rgb(3, 17, 1);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
 }
 
-.homeDescription {
-    margin-right: 9px;
+
+#heroTitle {
+    color: #a5cab3;
+    font-style: italic;
+    
+}
+
+#heroDescription {
+    color: #a5cab3;
+    margin-left: 3px;
+    margin-top: -10px;
+    font-size: 2vw;
 }
 
 .responsiveRow {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
 }
 
 .col-container1 {
@@ -87,30 +83,6 @@
 .col-container2 {
     flex: 1;
     padding: 0 50px;
-}
-
-.signature {
-    color: #a5cab3;
-    margin-top: -20px;
-}
-
-.white-text-container h2 {
-    text-shadow: none;
-    color: black;
-    font-style: italic;
-}
-
-.white-text-container p {
-    text-shadow: none;
-    color: black;
-    font-style: italic;
-}
-
-.eventDescription2 {
-    font-size: 18px;
-    font-style: italic;
-    margin-top: -12px;
-    text-shadow: none;
 }
 
 .subTitle {
@@ -157,15 +129,14 @@
 }
 
 /* .containerFooter {
-    width: 100vw;
+    width: auto;
 } */
 
 .footerFlex {
     display: flex;
-    margin-left: 0px;
-    justify-content: center;
+    margin-left: 50px;
     margin-top: 80px;
-    margin-left: 80px;
+    width: 100vw;
 }
 
 .footerLeftText1 {
@@ -266,7 +237,7 @@
     align-items: center;
     width: 208.94px;
     margin-top: 5px;
-    }
+}
 
 .classButtons {
     width: 108px;
@@ -291,6 +262,21 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;   
+}
+
+#bannerTitle {
+    color: rgb(68, 66, 66);
+    text-shadow: none;
+    font-style: italic;
+}
+
+#bannerDescription {
+    color: rgb(68, 66, 66);
+    text-shadow: none;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -15px;
+    margin-bottom: 30px;
 }
 
 .banner-container {
@@ -450,28 +436,6 @@
 }
 
 @media only screen 
-  and (min-device-width: 876px)
-  and (max-device-width: 1196px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .homeDescription{ 
-       width: 550px;
-       margin-right: -97px;   
-    }
-}
-
-@media only screen 
-  and (min-device-width: 766px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .heroTitle{ 
-       margin-left: 60px;
-       margin-top: 35px;  
-    }
-}
-
-@media only screen 
   and (min-device-width: 766px)
   and (max-device-width: 876px)
   and (-webkit-min-device-pixel-ratio: 2)
@@ -497,11 +461,31 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerFlex{ 
-       flex-direction: column;
-       justify-content: flex-start;
-       margin: 0px;
+       margin-left: -207px;
 
     }
 }
+
+@media only screen 
+  and (min-device-width: 765px)
+  and (max-device-width: 876px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveRow{ 
+       flex-direction: column;  
+    }
+}
+
+@media only screen 
+  and (min-device-width: 765px)
+  and (max-device-width: 876px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerFlex{ 
+       margin-left: -207px;
+
+    }
+}
+
 
 
