@@ -2143,9 +2143,9 @@
     } 
 }
 
-/* SmartPhone iPhone 6/7/8 Plus Portrait*/
+/* SmartPhone iPhone 6/7/8 Plus Portrait */
 
-/* @media only screen 
+@media only screen 
   and (min-device-width: 414px)
   and (max-device-width: 736px) 
   and (-webkit-min-device-pixel-ratio: 3)
@@ -3277,5 +3277,5 @@ and (min-device-width: 414px)
       align-items: center;
        
     }
-} */
+}
 
