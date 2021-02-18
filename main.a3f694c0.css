@@ -294,7 +294,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
 
 .terms15 {
@@ -425,7 +424,7 @@
 }
 
 .aboutYogaImg {
-    margin-left: 195px;
+    margin: 0px;
 }
 
 .about-images {
@@ -435,8 +434,12 @@
     align-items: center;
 }
 
-.section-container.imgContainer {
-    margin-top: -100px;
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: -90px;
+    
 }
 
 .aboutHeroImg {
@@ -495,7 +498,27 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerFlex{ 
-       margin-left: -30px;
+       margin-left: -50px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .thinkAboutImg{ 
+       margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .about-images{ 
+       flex-direction: column;
     }
 }
 
@@ -505,7 +528,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .aboutHeroImg{ 
-       height: 325px;
+       height: 300px;
     }
 }
 
@@ -587,7 +610,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerFlex{ 
-       margin-left: 35px;
+       margin-left: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutHeroImg{ 
+       height: 500px;
     }
 }
 
