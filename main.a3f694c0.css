@@ -508,7 +508,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .thinkAboutImg{ 
-       margin-bottom: 20px;
+       margin-bottom: 10px;
     }
 }
 
@@ -610,7 +610,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerFlex{ 
-       margin-left: 10px;
+       margin-left: 20px;
     }
 }
 
