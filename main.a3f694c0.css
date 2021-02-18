@@ -13,6 +13,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: 100%;
 }
 
 .navbar-fixed-top {
@@ -50,23 +51,26 @@
 
 .containerTitleFlex {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: flex-start; 
+    width: 100vw;
 }
-
 
 #heroTitle {
     color: #a5cab3;
     font-style: italic;
-    
+    font-size: 70px;       
+}
+
+.signature {
+    font-size: 40px;
 }
 
 #heroDescription {
     color: #a5cab3;
     margin-left: 3px;
-    margin-top: -10px;
-    font-size: 2vw;
+    margin-top: -30px;
+    font-size: 40px;
 }
 
 .responsiveRow {
@@ -286,12 +290,11 @@
     background-color: #a5cab3;
 }
 
-.termH1 {
-    margin-left: -30px;
-}
-
 .termTitle {
-    margin-bottom: -60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .terms15 {
@@ -365,7 +368,6 @@
 #waiverBtn {
     color: black;
     background: white;
-    margin-right: -99px;
 }
 
 .zoomBtn {
@@ -426,6 +428,13 @@
     margin-left: 195px;
 }
 
+.about-images {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .section-container.imgContainer {
     margin-top: -100px;
 }
@@ -434,6 +443,213 @@
     height: 651px;
     width: 1896px;
 }
+
+
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .containerTitleFlex{ 
+       flex-direction: column;
+       margin-left: 0px; 
+       margin-top: 80px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #heroTitle{ 
+       font-size: 40px;
+       margin-bottom: 5px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .signature{ 
+       font-size: 25px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responsiveRow{ 
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerFlex{ 
+       margin-left: -30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutHeroImg{ 
+       height: 325px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .sectionContAbout{ 
+       margin-left: 15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .dreamImg{ 
+       margin-bottom: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .waiverCard{ 
+       margin-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .subContainer{ 
+       width: 414px;
+       margin-top: 20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #heroTitle{ 
+       font-size: 45px;
+       margin-bottom: 4px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .signature{ 
+       font-size: 30px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .responsiveRow{ 
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .footerFlex{ 
+       margin-left: 35px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .about-images{ 
+       flex-direction: row;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dreamImg{ 
+       height: 200px;
+       width: 250px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yearImg{ 
+        height: 200px;
+        width: 250px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #waiverBtn{ 
+        margin-left: 45px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .subContainer{ 
+       width: 896px;
+       margin-top: 20px;
+    }
+}
+
+
+
+
+
+
+
 
 @media only screen 
   and (min-device-width: 766px)
