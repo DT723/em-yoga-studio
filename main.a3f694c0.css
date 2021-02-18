@@ -610,7 +610,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .footerFlex{ 
-       margin-left: 20px;
+       margin-left: 10px;
     }
 }
 
@@ -674,6 +674,7 @@
     .subContainer{ 
        width: 896px;
        margin-top: 20px;
+       margin-left: -20px;
     }
 }
 
