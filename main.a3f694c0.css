@@ -430,16 +430,15 @@
 .about-images {
     display: flex;
     justify-content: center;
-    justify-content: space-between;
     align-items: center;
 }
 
 .imgContainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: row;
-    margin-top: -90px;
-    
+    margin-top: -90px;   
 }
 
 .aboutHeroImg {
@@ -507,8 +506,31 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
+    .coachTitle{ 
+       margin-bottom: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
     .thinkAboutImg{ 
-       margin-bottom: 10px;
+       margin-bottom: 20px;
+       margin-top: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .imgContainer{ 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;       
     }
 }
 
@@ -519,6 +541,8 @@
   and (orientation: portrait) { 
     .about-images{ 
        flex-direction: column;
+       justify-content: center;
+       align-items: center;       
     }
 }
 
