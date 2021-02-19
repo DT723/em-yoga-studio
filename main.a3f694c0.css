@@ -446,8 +446,6 @@
     width: 1896px;
 }
 
-
-
 @media only screen 
   and (min-device-width: 414px)
   and (max-device-width: 896px)
@@ -497,7 +495,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerFlex{ 
-       margin-left: -50px;
+       margin-left: -33px;
     }
 }
 
@@ -530,7 +528,31 @@
     .imgContainer{ 
        flex-direction: column;
        justify-content: center;
-       align-items: center;       
+       align-items: center;
+       padding-left: 30px;
+       padding-right: 30px;       
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .yogaColTop{ 
+       padding-left: 30px;
+       padding-right: 30px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .yogaColBottom{ 
+        padding-left: 30px;
+        padding-right: 30px;      
     }
 }
 
@@ -563,6 +585,8 @@
   and (orientation: portrait) { 
     .sectionContAbout{ 
        margin-left: 15px;
+       padding-right: 15px;
+       padding-left: 15px;
     }
 }
 
@@ -594,6 +618,8 @@
     .subContainer{ 
        width: 414px;
        margin-top: 20px;
+       padding-left: 15px;
+       padding-right: 15px;
     }
 }
 
@@ -698,68 +724,10 @@
     .subContainer{ 
        width: 896px;
        margin-top: 20px;
-       margin-left: -20px;
+       margin-left: -10px;
+       padding-left: 20px;
+       padding-right: 20px;
     }
 }
-
-
-
-
-
-
-
-
-@media only screen 
-  and (min-device-width: 766px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .navbar-toggle{ 
-       margin-right: 20px;  
-    }
-}
-
-@media only screen 
-  and (min-device-width: 766px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .responsiveRow{ 
-       flex-direction: column;  
-    }
-}
-
-@media only screen 
-  and (min-device-width: 766px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerFlex{ 
-       margin-left: -207px;
-
-    }
-}
-
-@media only screen 
-  and (min-device-width: 765px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .responsiveRow{ 
-       flex-direction: column;  
-    }
-}
-
-@media only screen 
-  and (min-device-width: 765px)
-  and (max-device-width: 876px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .footerFlex{ 
-       margin-left: -207px;
-
-    }
-}
-
 
 
