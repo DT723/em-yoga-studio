@@ -721,7 +721,6 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .subContainer{ 
-       width: 896px;
        margin-top: 20px;
        margin-left: -10px;
        padding-left: 20px;
