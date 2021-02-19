@@ -169,7 +169,6 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
-    width: 1250px;
     height: 500px;
 }
 
@@ -690,8 +689,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .dreamImg{ 
-       height: 200px;
-       width: 250px;
+       height: 250px;
+       width: 400px;
     }
 }
 
@@ -701,8 +700,8 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
     .yearImg{ 
-        height: 200px;
-        width: 250px;
+        height: 250px;
+        width: 400px;
     }
 }
 
