@@ -70,23 +70,12 @@
     color: #a5cab3;
     margin-left: 3px;
     margin-top: -30px;
-    font-size: 40px;
 }
 
 .responsiveRow {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-}
-
-.col-container1 {
-    flex: 1;
-    padding: 0 50px;
-} 
-
-.col-container2 {
-    flex: 1;
-    padding: 0 50px;
 }
 
 .subTitle {
@@ -134,9 +123,12 @@
 
 .footerFlex {
     display: flex;
-    margin-left: 50px;
-    margin-top: 80px;
-    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerLeft, .footerMid, .footerRight {
+    width: 350px;
 }
 
 .footerLeftText1 {
@@ -435,43 +427,12 @@
 
 .aboutHeroImg {
     height: 651px;
-    width: 1896px;
+    width: 100vw;
 }
 
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .containerTitleFlex{ 
-       flex-direction: column;
-       margin-left: 0px; 
-       margin-top: 80px; 
-    }
-}
 
-@media only screen 
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .terms15{ 
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-       padding-left: 0px;
-    }
-}
+/* iPhone 11 Portrait */
 
-@media only screen 
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .tipsCard{ 
-       margin-bottom: 30px;
-    }
-}
 
 @media only screen 
   and (min-device-width: 414px)
@@ -480,7 +441,7 @@
   and (orientation: portrait) { 
     #heroTitle{ 
        font-size: 40px;
-       margin-bottom: 5px; 
+       margin-top: 60px; 
     }
 }
 
@@ -490,7 +451,17 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .signature{ 
-       font-size: 25px; 
+       font-size: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #heroDescription{ 
+       margin-top: -15px;
     }
 }
 
@@ -510,7 +481,10 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .footerFlex{ 
-       margin-left: -33px;
+       flex-direction: column;
+       justify-content: center;
+       width: 414px;
+       align-content: center;
     }
 }
 
@@ -588,20 +562,8 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .aboutHeroImg{ 
-       height: 300px;
-    }
-}
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
     .sectionContAbout{ 
-       margin-left: 15px;
-       padding-right: 15px;
-       padding-left: 15px;
+       
     }
 }
 
@@ -611,7 +573,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
     .dreamImg{ 
-       margin-bottom: 20px;
+       margin-bottom: 30px;
     }
 }
 
@@ -670,6 +632,142 @@
     }
 }
 
+
+/* iPhone 10 Portrait */
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #heroTitle{ 
+       font-size: 40px;
+       margin-top: 60px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .signature{ 
+       font-size: 27px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    #heroDescription{ 
+       margin-left: 0px;
+       margin-top: -20px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .footerFlex{ 
+       margin-left: -15px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .imgContainer{ 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-left: 30px;
+       padding-right: 30px;        
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .thinkAboutImg{ 
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .classDescription{ 
+       padding: 0 10px;
+       margin-left: 8px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .terms15{ 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .tipsCard{ 
+       margin-bottom: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .aboutHeroImg{ 
+       height: 260px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .about-images{ 
+       flex-direction: column;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .dreamImg{ 
+       margin-bottom: 30px;
+    }
+}
+
+/* iPhone 11 Landscape */
+
 @media only screen 
   and (min-device-width: 414px)
   and (max-device-width: 896px)
@@ -677,7 +775,6 @@
   and (orientation: landscape) { 
     #heroTitle{ 
        font-size: 45px;
-       margin-bottom: 4px;
     }
 }
 
@@ -688,6 +785,16 @@
   and (orientation: landscape) { 
     .signature{ 
        font-size: 30px; 
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #heroDescription{ 
+       margin-top: -22px;
     }
 }
 
@@ -718,6 +825,16 @@
   and (orientation: landscape) { 
     .aboutHeroImg{ 
        height: 500px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .sectionContAbout{ 
+           
     }
 }
 
@@ -763,6 +880,116 @@
        margin-left: -10px;
        padding-left: 20px;
        padding-right: 20px;
+    }
+}
+
+/* iPhone 10 Landscape */
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #heroTitle{ 
+       font-size: 40px;
+       margin-top: 10px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .signature{ 
+       font-size: 27px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #heroDescription{ 
+       margin-left: 3px;
+       margin-top: -3px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .terms15{ 
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding-left: 0px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .tipsCard{ 
+       margin-bottom: 30px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .aboutHeroImg{ 
+       height: 400px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .sectionContAbout{ 
+       padding-left: 40px;
+       padding-right: 40px;      
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .about-images{ 
+       flex-direction: row;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .dreamImg{ 
+       height: 250px;
+       width: 300px;
+    }
+}
+
+@media only screen 
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .yearImg{ 
+        height: 250px;
+        width: 300px;
     }
 }
 
