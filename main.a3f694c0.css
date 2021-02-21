@@ -670,6 +670,30 @@
     .tipsCard{ 
         margin-bottom: 30px;
     }
+    .imgContainer{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;        
+    }
+    .thinkAboutImg{ 
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+    .timeForChangeImg{
+        margin-bottom: -20px;
+    }
+    .about-images{ 
+        flex-direction: column;
+    }
+    .dreamImg{ 
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .yearImg{
+        margin-bottom: 15px;
+    }
 }    
 
 
@@ -692,6 +716,7 @@
     .navbar-default .navbar-nav li a{
         font-size: .95em;
     }
+    
 }   
     
        
