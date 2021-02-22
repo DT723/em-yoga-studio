@@ -56,19 +56,16 @@
 }
 
 #heroTitle {
-    color: #a5cab3;  
+    color: #a5cab3;
+    font-size: 60px; 
+    font-style: italic;
+    margin-bottom: 0px; 
 } 
 
-.responseTitle {    
-    font-style: italic;
-    font-size: 60px; 
-    margin-bottom: 0px;      
-}
-
-.responseDescription {
+#responseDescription {
     font-size: 40px;
     color: #a5cab3;
-    margin-left: 3px;
+    margin-left: 5px;
     margin-top: 0px;
 }
 
@@ -268,12 +265,6 @@
     background-color: #a5cab3;
 }
 
-.classInfoContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .terms15 {
    display: flex;
    justify-content: center;
@@ -432,49 +423,6 @@
     width: 100vw;
 }
 
-/* iPhone 11 Landscape */
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    .responseTitle{ 
-       font-size: 45px;
-    }
-    .responseDescription{ 
-        font-size: 30px;
-        margin-top: -22px;
-    }
-     .responsiveRow{ 
-        flex-direction: column;
-    }
-    .aboutHeroImg{ 
-        height: 500px;
-    }
-     .about-images{ 
-        flex-direction: row;
-    }
-     .dreamImg{ 
-        height: 250px;
-        width: 400px;
-    }
-    .yearImg{ 
-        height: 250px;
-        width: 400px;
-    }
-    .subContainer{ 
-        margin-top: 20px;
-        margin-left: -10px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .thinkAboutImg{
-        margin-left: 0px;
-    } 
-}
-
-
 
 /* iPhone 11 Portrait */
 
@@ -483,11 +431,13 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .responseTitle{ 
-       font-size: 40px;
-       margin-top: 60px; 
-    }
-    .signature{
+    #heroTitle{
+        font-size: 50px; 
+        font-style: italic;
+        margin-bottom: 15px; 
+        margin-top: 70px;
+    }    
+    #responseDescription{
         font-size: 30px;
     }
     .responsiveRow{ 
@@ -545,6 +495,53 @@
 
 }
 
+/* iPhone 11 Landscape */
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 896px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    #heroTitle{ 
+       font-size: 42px;
+    }
+    #responseDescription{ 
+        font-size: 32px;
+        margin-top: -22px;
+    }
+    .responsiveRow{ 
+        flex-direction: column;
+    }
+    .aboutHeroImg{ 
+        height: 500px;
+    }
+     .about-images{ 
+        flex-direction: row;
+    }
+     .dreamImg{ 
+        height: 250px;
+        width: 400px;
+    }
+    .yearImg{ 
+        height: 250px;
+        width: 400px;
+    }
+    .subContainer{ 
+        margin-top: 20px;
+        margin-left: -10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .thinkAboutImg{
+        margin-left: 0px;
+    } 
+    .terms15{
+        margin-left: -15px;
+        padding: 0px;
+    }
+}
+
+
 /* iPhone 10 Landscape */
 
 @media only screen 
@@ -552,14 +549,11 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    .responseTitle{ 
-       font-size: 40px;
-       margin-top: 10px;
+    #heroTitle{ 
+        font-size: 44px;
     }
-    .signature{ 
-        font-size: 27px;
-        margin-left: 3px;
-        margin-top: -3px;
+     #responseDescription{ 
+         font-size: 30px;
     }
     .terms15{ 
         flex-direction: column;
@@ -598,14 +592,12 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .responseTitle{ 
-       font-size: 40px;
-       margin-top: 60px;
+    #heroTitle{ 
+        font-size: 42px;
+        margin-top: 50px;
     }
-    .signature{ 
-        font-size: 27px;
-        margin-left: 0px;
-        margin-top: -20px;      
+    #responseDescription{ 
+         font-size: 30px;
     }
     .imgContainer{ 
         flex-direction: column;
@@ -674,11 +666,11 @@
   and (max-device-width: 653px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    .responseTitle{ 
+    #heroTitle{ 
         font-size: 35px;
-        margin-top: 90px;
+        margin-top: 45px;
     }
-    .signature{ 
+    #responseDescription{ 
          font-size: 25px;
     }
     #heroDescription{ 
@@ -731,6 +723,13 @@
   and (max-device-width: 653px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+    #heroTitle{ 
+        font-size: 40px;
+        margin-top: 0px;
+    }
+    #responseDescription{ 
+         font-size: 25px;
+    }    
     .thinkAboutImg{ 
         height: 200px;
         width: 260px;
