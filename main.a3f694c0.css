@@ -300,6 +300,11 @@
     color: white;
 }
 
+.styleBanner {
+   outline-style: double;
+   border-width: 5px;
+   outline-offset: -15px;
+}
 .waiverTitle {
     margin-bottom: 27px;
 }
