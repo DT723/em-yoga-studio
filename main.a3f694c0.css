@@ -56,19 +56,20 @@
 }
 
 #heroTitle {
-    color: #a5cab3;
+    color: #a5cab3;  
+} 
+
+.responseTitle {    
     font-style: italic;
-    font-size: 70px;       
+    font-size: 60px; 
+    margin-bottom: 0px;      
 }
 
-.signature {
+.responseDescription {
     font-size: 40px;
-}
-
-#heroDescription {
     color: #a5cab3;
     margin-left: 3px;
-    margin-top: -30px;
+    margin-top: 0px;
 }
 
 .responsiveRow {
@@ -121,7 +122,7 @@
 }
 
 .footerLeftText1 {
-     margin-top: -30px;
+    margin-top: -35px;
     font-size: 13px;
 }
 
@@ -168,7 +169,8 @@
 }
 
 .shareLinks {
-    padding-top: 8px;
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
 
 .link-like-text:hover {
@@ -396,6 +398,17 @@
     color: #368353;
 }
 
+.thinkAboutImg {
+    height: 250px;
+    width: 330px;
+    margin-left: 15px;
+}
+
+.timeForChangeImg {
+    height: 250px;
+    width: 330px;
+}
+
 .aboutYogaImg {
     margin: 0px;
 }
@@ -426,13 +439,11 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #heroTitle{ 
+    .responseTitle{ 
        font-size: 45px;
     }
-    .signature{ 
-        font-size: 30px; 
-    }
-     #heroDescription{ 
+    .responseDescription{ 
+        font-size: 30px;
         margin-top: -22px;
     }
      .responsiveRow{ 
@@ -457,6 +468,9 @@
         margin-left: -10px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .thinkAboutImg{
+        margin-left: 0px;
     } 
 }
 
@@ -469,16 +483,12 @@
   and (max-device-width: 896px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    #heroTitle{ 
+    .responseTitle{ 
        font-size: 40px;
        margin-top: 60px; 
     }
     .signature{
         font-size: 30px;
-    } 
-
-    #heroDescription{ 
-        margin-top: -15px;
     }
     .responsiveRow{ 
         flex-direction: column;
@@ -489,13 +499,12 @@
     .thinkAboutImg{ 
         margin-bottom: 20px;
         margin-top: 10px;
+        margin-left: 0px;
     }
     .imgContainer{ 
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;       
+        align-items: center;       
     }
     .yogaColTop{ 
         padding-left: 30px;
@@ -543,14 +552,12 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
-    #heroTitle{ 
+    .responseTitle{ 
        font-size: 40px;
        margin-top: 10px;
     }
     .signature{ 
         font-size: 27px;
-    }
-    #heroDescription{ 
         margin-left: 3px;
         margin-top: -3px;
     }
@@ -591,27 +598,24 @@
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    #heroTitle{ 
+    .responseTitle{ 
        font-size: 40px;
        margin-top: 60px;
     }
     .signature{ 
         font-size: 27px;
-    }
-    #heroDescription{ 
         margin-left: 0px;
-        margin-top: -20px;
+        margin-top: -20px;      
     }
     .imgContainer{ 
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;        
+        align-items: center;       
     }
     .thinkAboutImg{ 
         margin-bottom: 20px;
         margin-top: 10px;
+        margin-left: 0px;
     }
     .classDescription{ 
         padding: 0 10px;
@@ -637,14 +641,121 @@
     }
 }
 
-/* iPhone 5/SE Landscape */
+/* iPhone 6/7/8 Plus */
+
+@media only screen 
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .imgContainer{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;       
+    }
+    .thinkAboutImg{ 
+        margin-bottom: 30px;
+        margin-top: -15px;
+        margin-left: 0px;
+        width: 300px;        
+    }
+    .timeForChangeImg{
+        margin-bottom: -20px;
+        width: 300px;       
+    }
+}
+
+
+
+/* Galaxy Fold Portrait */
+
+@media only screen 
+  and (min-device-width: 280px)
+  and (max-device-width: 653px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .responseTitle{ 
+        font-size: 35px;
+        margin-top: 90px;
+    }
+    .signature{ 
+         font-size: 25px;
+    }
+    #heroDescription{ 
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    .aboutHeroImg{
+        height: 250px;
+    }
+    .terms15{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    .tipsCard{ 
+        margin-bottom: 30px;
+    }
+    .imgContainer{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;       
+    }
+    .thinkAboutImg{ 
+        margin-bottom: 30px;
+        margin-top: -15px;
+        margin-left: 0px;
+        height: 200px;
+    }
+    .timeForChangeImg{
+        margin-bottom: -20px;
+        height: 200px;
+    }
+    .about-images{ 
+        flex-direction: column;
+    }
+    .dreamImg{ 
+        margin-bottom: 30px;
+        margin-top: 15px;
+    }
+    .yearImg{
+        margin-bottom: 15px;
+    }
+}
+
+/* Galaxy Fold Landscape */
+
+@media only screen 
+  and (min-device-width: 280px)
+  and (max-device-width: 653px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .thinkAboutImg{ 
+        height: 200px;
+        width: 260px;
+    }
+    .timeForChangeImg{
+        height: 200px;
+        width: 260px;
+    }
+    .dreamImg{ 
+        height: 200px;
+    }
+    .yearImg{
+        height: 200px;
+    }  
+}
+
+
+/* iPhone 5/SE Portrait */
 
 @media only screen 
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) { 
-    #heroTitle{ 
+    .responseTitle{ 
         font-size: 30px;
         margin-top: 90px;
     }
@@ -696,6 +807,7 @@
     }
 }    
 
+/* iPhone 5/SE Landscape */
 
 @media only screen 
   and (min-device-width: 320px)
@@ -717,6 +829,8 @@
         font-size: .95em;
     }
     
-}   
+}
+
+      
     
        
