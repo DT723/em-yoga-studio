@@ -264,12 +264,11 @@
     background-color: #a5cab3;
 }
 
-.terms15 {
-   display: flex;
-   justify-content: center;
-   align-content: center;
-   padding-left: 50px;
-}
+.terms15{
+    display: flex;
+    justify-content: center;
+    margin-left: 55px;
+} 
 
 .tipsCard{
     background-image: linear-gradient(to right, #b18a81, #b1776c, #743528);
@@ -394,14 +393,14 @@
 }
 
 .thinkAboutImg {
-    height: 250px;
-    width: 330px;
+    height: 220px;
+    width: 300px;
     margin-left: 15px;
 }
 
 .timeForChangeImg {
-    height: 250px;
-    width: 330px;
+    height: 220px;
+    width: 300px;
 }
 
 .aboutYogaImg {
@@ -413,7 +412,14 @@
     justify-content: center;
     align-items: center;
 }
-
+.dreamImg {
+    height: 230px;
+    width: 330px;
+}
+.yearImg {
+    height: 230px;
+    width: 330px; 
+}
 .imgContainer {
     display: flex;
     justify-content: center;
@@ -421,338 +427,130 @@
     flex-direction: row;
     margin-top: -90px;   
 }
-
-.aboutHeroImg {
-    height: 651px;
-    width: 100vw;
+.img-fluid {
+    height: auto;
+    max-width: 100%;
+    margin-top: -50px;
 }
 
 
-/* iPhone 11 Portrait */
+/* ||||||||||Mobile|||||||||| */
 
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    #heroTitle{
-        font-size: 50px; 
-        font-style: italic;
-        margin-bottom: 15px; 
+@media screen
+  and (min-device-width: 280px)
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #heroTitle{ 
+        font-size: 40px;
         margin-top: 70px;
+    }
+    #responseDescription{ 
+        font-size: 28px;
+    }
+    .navbar-nav li a{
+        padding: 10px;
+    }
+    .navbar-default .navbar-nav li a{
+        font-size: .88em;
     }    
-    #responseDescription{
-        font-size: 30px;
-    }
-    .responsiveRow{ 
-        flex-direction: column;
-    }
-    .coachTitle{ 
-        margin-bottom: 30px;
-    }
-    .thinkAboutImg{ 
-        margin-bottom: 20px;
-        margin-top: 10px;
-        margin-left: 0px;
+    .aboutYogaImg{
+        height: 220px;
+        width: 300px;
     }
     .imgContainer{ 
-        flex-direction: column;
         justify-content: center;
         align-items: center;       
     }
-    .yogaColTop{ 
-        padding-left: 30px;
-        padding-right: 30px;      
+    .thinkAboutImg{ 
+        margin-left: 0px;
+        height: 210px;
+        width: 260px;      
     }
-    .yogaColBottom{ 
-        padding-left: 30px;
-        padding-right: 30px;      
+    .timeForChangeImg{
+        height: 210px;
+        width: 260px;
     }
     .about-images{ 
         flex-direction: column;
-        justify-content: center;
-        align-items: center;       
+    }
+    .aboutTitle {
+        margin-top: -30px;
     }
     .dreamImg{ 
         margin-bottom: 30px;
+        margin-top: 15px;
+        height: 180px;
+        width: 225px;
     }
-    .classDescription{ 
-        padding: 0 10px;
-        margin-left: 9px;
+    .yearImg{
+        margin-bottom: 15px;
+        height: 180px;
+        width: 225px;
     }
     .terms15{ 
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         padding-left: 0px;
     }
     .tipsCard{ 
         margin-bottom: 30px;
     }
-    .waiverCard{ 
-        margin-left: 0px;
-    }
-    .subContainer{ 
-        width: 414px;
-        margin-top: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
+    .terms15{
+        margin-left: -20px;
+    }    
 }
+    
 
-/* iPhone 11 Landscape */
 
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 896px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+/* ||||||||TABLET|||||||| */
+
+@media screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1080px)
+  and (-webkit-min-device-pixel-ratio: 2) {
     #heroTitle{ 
-       font-size: 42px;
+        font-size: 50px;
+        margin-top: 30px;
     }
     #responseDescription{ 
         font-size: 32px;
-        margin-top: -22px;
-    }
-    .responsiveRow{ 
-        flex-direction: column;
-    }
-    .aboutHeroImg{ 
-        height: 500px;
-    }
-     .about-images{ 
-        flex-direction: row;
-    }
-     .dreamImg{ 
-        height: 250px;
-        width: 400px;
-    }
-    .yearImg{ 
-        height: 250px;
-        width: 400px;
-    }
-    .subContainer{ 
-        margin-top: 20px;
-        margin-left: -10px;
-        padding-left: 20px;
-        padding-right: 20px;
     }
     .thinkAboutImg{
         margin-left: 0px;
-    } 
-    .terms15{
-        margin-left: -15px;
-        padding: 0px;
-    }
-}
-
-
-/* iPhone 10 Landscape */
-
-@media only screen 
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: landscape) { 
-    #heroTitle{ 
-        font-size: 44px;
-    }
-     #responseDescription{ 
-         font-size: 30px;
-    }
-    .terms15{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0px;
-    }
-    .tipsCard{ 
-        margin-bottom: 30px;
-    }
-    .aboutHeroImg{ 
-        height: 400px;
-    }
-    .sectionContAbout{ 
-        padding-left: 40px;
-        padding-right: 40px;      
-    }
-    .about-images{ 
-        flex-direction: row;
-    }
-    .dreamImg{ 
-        height: 250px;
-        width: 300px;
-    }
-    .yearImg{ 
-        height: 250px;
-        width: 300px;
-    }
-}
-
-
-/* iPhone 10 Portrait */
-
-@media only screen 
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) { 
-    #heroTitle{ 
-        font-size: 42px;
-        margin-top: 50px;
-    }
-    #responseDescription{ 
-         font-size: 30px;
-    }
-    .imgContainer{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;       
-    }
-    .thinkAboutImg{ 
-        margin-bottom: 20px;
-        margin-top: 10px;
-        margin-left: 0px;
-    }
-    .classDescription{ 
-        padding: 0 10px;
-        margin-left: 8px;
-    }
-    .terms15{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0px;
-    }
-    .tipsCard{ 
-        margin-bottom: 30px;
-    }
-    .aboutHeroImg{ 
-        height: 260px;
-    }
-    .about-images{ 
-        flex-direction: column;
-    }
-    .dreamImg{ 
-        margin-bottom: 30px;
-    }
-}
-
-
-/* iPhone 6/7/8 Plus */
-
-@media only screen 
-  and (min-device-width: 414px)
-  and (max-device-width: 736px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-    .imgContainer{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;       
-    }
-    .thinkAboutImg{ 
-        margin-bottom: 30px;
-        margin-top: -15px;
-        margin-left: 0px;
-        width: 300px;        
+        height: 220px;
+        width: 290px;      
     }
     .timeForChangeImg{
-        margin-bottom: -20px;
-        width: 300px;       
-    }
-}
-
-/* Galaxy Note 9 */
-
-@media only screen 
-  and (min-device-width: 360px)
-  and (max-device-width: 740px)
-  and (-webkit-min-device-pixel-ratio: 4)
-  and (orientation: portrait) {
-    #heroTitle{ 
-        font-size: 38px;
-        margin-top: 50px;
-    }
-    #responseDescription{ 
-        font-size: 30px;
-    }
-}
-
-
-/* Galaxy Fold Portrait */
-
-@media only screen 
-  and (min-device-width: 280px)
-  and (max-device-width: 653px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    #heroTitle{ 
-        font-size: 35px;
-        margin-top: 45px;
-    }
-    #responseDescription{ 
-         font-size: 25px;
-    }
-    #heroDescription{ 
-        margin-left: 0px;
-        margin-top: -20px;
-    }
-    .aboutHeroImg{
-        height: 250px;
-    }
-    .terms15{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 0px;
-    }
-    .tipsCard{ 
-        margin-bottom: 30px;
-    }
-    .imgContainer{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;       
-    }
-    .thinkAboutImg{ 
-        margin-bottom: 30px;
-        margin-top: -15px;
-        margin-left: 0px;
-        height: 200px;
-    }
-    .timeForChangeImg{
-        margin-bottom: -20px;
-        height: 200px;
-    }
-    .about-images{ 
-        flex-direction: column;
+        height: 220px;
+        width: 290px;
     }
     .dreamImg{ 
-        margin-bottom: 30px;
-        margin-top: 15px;
+        height: 220px;
+        width: 290px;
     }
     .yearImg{
-        margin-bottom: 15px;
+        height: 220px;
+        width: 290px;
+    }
+    .terms15{ 
+        justify-content: center;
+        align-content: center;
+        margin-left: -10px;
     }
 }
 
-/* Galaxy Fold Landscape */
 
-@media only screen 
-  and (min-device-width: 280px)
-  and (max-device-width: 653px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
-    #heroTitle{ 
-        font-size: 40px;
-        margin-top: 0px;
-    }
-    #responseDescription{ 
-         font-size: 25px;
-    }    
-    .thinkAboutImg{ 
+
+/* |||||||DESKTOP||||||| */
+
+@media screen
+  and (min-device-width: 1081px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .thinkAboutImg{
+        margin-left: 20px;
         height: 200px;
-        width: 260px;
+        width: 260px;      
     }
     .timeForChangeImg{
         height: 200px;
@@ -760,94 +558,17 @@
     }
     .dreamImg{ 
         height: 200px;
+        width: 260px;
     }
     .yearImg{
         height: 200px;
-    }  
-}
-
-
-/* iPhone 5/SE Portrait */
-
-@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) { 
-    .responseTitle{ 
-        font-size: 30px;
-        margin-top: 90px;
-    }
-    .signature{ 
-         font-size: 25px;
-    }
-    #heroDescription{ 
-        margin-left: 0px;
-        margin-top: -20px;
-    }
-    #navbar-collapse-uarr{ 
-       height: 350px;
-    }
-    .aboutHeroImg{
-        height: 250px;
+        width: 260px;
     }
     .terms15{ 
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
-        padding-left: 0px;
+        align-content: center;
+        margin-left: 0px;
     }
-    .tipsCard{ 
-        margin-bottom: 30px;
-    }
-    .imgContainer{ 
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-left: 30px;
-        padding-right: 30px;        
-    }
-    .thinkAboutImg{ 
-        margin-bottom: 30px;
-        margin-top: 0px;
-    }
-    .timeForChangeImg{
-        margin-bottom: -20px;
-    }
-    .about-images{ 
-        flex-direction: column;
-    }
-    .dreamImg{ 
-        margin-bottom: 30px;
-        margin-top: 15px;
-    }
-    .yearImg{
-        margin-bottom: 15px;
-    }
-}    
-
-/* iPhone 5/SE Landscape */
-
-@media only screen 
-  and (min-device-width: 320px)
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) {
-    .dreamImg{ 
-        height: 180px;
-        width: 250px;
-    }
-    .yearImg{ 
-        height: 180px;
-        width: 250px;
-    }
-    .navbar-nav li a{
-        padding: 14px;
-    }
-    .navbar-default .navbar-nav li a{
-        font-size: .95em;
-    }
-    
 }
 
       
