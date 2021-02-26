@@ -434,6 +434,74 @@
 }
 
 
+/* |||||||DESKTOP||||||| */
+
+@media screen
+  and (min-device-width: 1081px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .thinkAboutImg{
+        margin-left: 20px;
+        height: 200px;
+        width: 260px;      
+    }
+    .timeForChangeImg{
+        height: 200px;
+        width: 260px;
+    }
+    .dreamImg{ 
+        height: 200px;
+        width: 260px;
+    }
+    .yearImg{
+        height: 200px;
+        width: 260px;
+    }
+    .terms15{ 
+        justify-content: center;
+        align-content: center;
+        margin-left: 0px;
+    }
+}
+
+
+/* ||||||||TABLET|||||||| */
+
+@media screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1080px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #heroTitle{ 
+        font-size: 50px;
+        margin-top: 30px;
+    }
+    #responseDescription{ 
+        font-size: 32px;
+    }    
+    .thinkAboutImg{
+        margin-left: 0px;
+        height: 220px;
+        width: 290px;      
+    }
+    .timeForChangeImg{
+        height: 220px;
+        width: 290px;
+    }
+    .dreamImg{ 
+        height: 220px;
+        width: 290px;
+    }
+    .yearImg{
+        height: 220px;
+        width: 290px;
+    }
+    .terms15{ 
+        justify-content: center;
+        align-content: center;
+        margin-left: -10px;
+    }
+}
+
+
 /* ||||||||||Mobile|||||||||| */
 
 @media screen
@@ -503,73 +571,10 @@
     
 
 
-/* ||||||||TABLET|||||||| */
-
-@media screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1080px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    #heroTitle{ 
-        font-size: 50px;
-        margin-top: 30px;
-    }
-    #responseDescription{ 
-        font-size: 32px;
-    }
-    .thinkAboutImg{
-        margin-left: 0px;
-        height: 220px;
-        width: 290px;      
-    }
-    .timeForChangeImg{
-        height: 220px;
-        width: 290px;
-    }
-    .dreamImg{ 
-        height: 220px;
-        width: 290px;
-    }
-    .yearImg{
-        height: 220px;
-        width: 290px;
-    }
-    .terms15{ 
-        justify-content: center;
-        align-content: center;
-        margin-left: -10px;
-    }
-}
 
 
 
-/* |||||||DESKTOP||||||| */
 
-@media screen
-  and (min-device-width: 1081px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    .thinkAboutImg{
-        margin-left: 20px;
-        height: 200px;
-        width: 260px;      
-    }
-    .timeForChangeImg{
-        height: 200px;
-        width: 260px;
-    }
-    .dreamImg{ 
-        height: 200px;
-        width: 260px;
-    }
-    .yearImg{
-        height: 200px;
-        width: 260px;
-    }
-    .terms15{ 
-        justify-content: center;
-        align-content: center;
-        margin-left: 0px;
-    }
-}
 
       
     
