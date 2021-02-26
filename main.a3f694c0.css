@@ -458,12 +458,14 @@
     }
     .imgContainer{ 
         justify-content: center;
-        align-items: center;       
+        align-items: center;
+        flex-direction: column;       
     }
     .thinkAboutImg{ 
         margin-left: 0px;
         height: 210px;
-        width: 260px;      
+        width: 260px;
+        margin-bottom: 20px;      
     }
     .timeForChangeImg{
         height: 210px;
@@ -478,13 +480,13 @@
     .dreamImg{ 
         margin-bottom: 30px;
         margin-top: 15px;
-        height: 180px;
-        width: 225px;
+        height: 210px;
+        width: 260px
     }
     .yearImg{
         margin-bottom: 15px;
-        height: 180px;
-        width: 225px;
+        height: 210px;
+        width: 260px
     }
     .terms15{ 
         flex-direction: column;
@@ -498,7 +500,7 @@
     }   
 }
 
-/* |||||Mobile - Portrait||||||||| */
+/* |||||Mobile - Landscape||||||||| */
 
 @media screen
   and (min-device-width: 280px)
@@ -507,7 +509,7 @@
   and (orientation: landscape) {
     #heroTitle{ 
         font-size: 40px;
-        margin-top: -5px;
+        margin-top: 20px;
     }
     #responseDescription{ 
         font-size: 28px;
@@ -538,13 +540,13 @@
     .dreamImg{ 
         margin-bottom: 30px;
         margin-top: 15px;
-        height: 180px;
-        width: 225px;
+        height: 210px;
+        width: 260px;
     }
     .yearImg{
         margin-bottom: 15px;
-        height: 180px;
-        width: 225px;
+        height: 210px;
+        width: 260px;
     }
     .terms15{ 
         flex-direction: column;
@@ -558,15 +560,16 @@
     }   
 }
 
-/* ||||||||TABLET|||||||| */
+||||||||TABLET||||||||
 
-/* @media screen
-  and (min-device-width: 768px)
+@media screen
+  and (min-device-width: 700px)
   and (max-device-width: 1080px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #heroTitle{ 
-        font-size: 50px;
-        margin-top: 30px;
+        font-size: 45px;
+        margin-top: 20px;
     }
     #responseDescription{ 
         font-size: 32px;
@@ -593,7 +596,7 @@
         align-content: center;
         margin-left: -10px;
     }
-} */
+}
 
  
 /* |||||||DESKTOP||||||| */
