@@ -435,12 +435,13 @@
 }
 
 
-/* ||||||||||Mobile|||||||||| */
+/* |||||Mobile - Portrait||||||||| */
 
 @media screen
   and (min-device-width: 280px)
-  and (max-device-width: 767px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (max-device-width: 699px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
     #heroTitle{ 
         font-size: 40px;
         margin-top: 70px;
@@ -497,9 +498,69 @@
     }   
 }
 
-/* ||||||||TABLET|||||||| */
+/* |||||Mobile - Portrait||||||||| */
 
 @media screen
+  and (min-device-width: 280px)
+  and (max-device-width: 699px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #heroTitle{ 
+        font-size: 40px;
+        margin-top: -5px;
+    }
+    #responseDescription{ 
+        font-size: 28px;
+    }
+    .navbar-nav li a{
+        padding: 10px;
+    }    
+    .aboutYogaImg{
+        height: 220px;
+        width: 300px;
+    }
+    .imgContainer{ 
+        justify-content: center;
+        align-items: center;       
+    }
+    .thinkAboutImg{ 
+        margin-left: 0px;
+        height: 210px;
+        width: 260px;      
+    }
+    .timeForChangeImg{
+        height: 210px;
+        width: 260px;
+    }
+    .aboutTitle {
+        margin-top: -30px;
+    }
+    .dreamImg{ 
+        margin-bottom: 30px;
+        margin-top: 15px;
+        height: 180px;
+        width: 225px;
+    }
+    .yearImg{
+        margin-bottom: 15px;
+        height: 180px;
+        width: 225px;
+    }
+    .terms15{ 
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+        margin-left: -20px;
+    }
+    .tipsCard{ 
+        margin-bottom: 30px;
+    }   
+}
+
+/* ||||||||TABLET|||||||| */
+
+/* @media screen
   and (min-device-width: 768px)
   and (max-device-width: 1080px)
   and (-webkit-min-device-pixel-ratio: 2) {
@@ -532,12 +593,12 @@
         align-content: center;
         margin-left: -10px;
     }
-}
+} */
 
  
 /* |||||||DESKTOP||||||| */
 
-@media screen
+/* @media screen
   and (min-device-width: 1081px)
   and (-webkit-min-device-pixel-ratio: 2) {
     .thinkAboutImg{
@@ -562,7 +623,7 @@
         align-content: center;
         margin-left: 0px;
     }
-}
+} */
 
 
 
