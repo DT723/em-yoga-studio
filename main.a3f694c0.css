@@ -17,20 +17,17 @@
 
 .navbar-fixed-top {
     background-color: #a5cab3;
-    border-bottom: 0px;
-    height: 90px;
+    border-bottom: 0px;   
 }
 
 .navbar-default .navbar-nav li a {
     color: #0f180f;
-    font-size: 1em;
 }
 
 .navbar-default .navbar-nav li a:hover {
     color: #344e38;
     opacity: 0.66;
     text-decoration: underline;
-    font-size: 1em;
 }
 
 .navbar-nav li a{
