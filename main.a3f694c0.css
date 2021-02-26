@@ -560,7 +560,7 @@
     }   
 }
 
-||||||||TABLET||||||||
+/* ||||||||TABLET - Portrait||||||| */
 
 @media screen
   and (min-device-width: 700px)
@@ -568,11 +568,11 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     #heroTitle{ 
-        font-size: 45px;
-        margin-top: 20px;
+        font-size: 55px;
+        margin-top: 70px;
     }
     #responseDescription{ 
-        font-size: 32px;
+        font-size: 35px;
     }    
     .thinkAboutImg{
         margin-left: 0px;
@@ -598,12 +598,57 @@
     }
 }
 
+/* ||||||||TABLET - Landscape||||||| */
+
+@media screen
+  and (min-device-width: 700px)
+  and (max-device-width: 1080px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    #heroTitle{ 
+        font-size: 55px;
+        margin-top: 70px;
+    }
+    #responseDescription{ 
+        font-size: 35px;
+    }    
+    .thinkAboutImg{
+        margin-left: 0px;
+        height: 220px;
+        width: 290px;      
+    }
+    .timeForChangeImg{
+        height: 220px;
+        width: 290px;
+    }
+    .dreamImg{ 
+        height: 220px;
+        width: 290px;
+    }
+    .yearImg{
+        height: 220px;
+        width: 290px;
+    }
+    .terms15{ 
+        justify-content: center;
+        align-content: center;
+        margin-left: 15px;
+    }
+}
+
  
 /* |||||||DESKTOP||||||| */
 
-/* @media screen
+@media screen
   and (min-device-width: 1081px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    #heroTitle{ 
+        font-size: 60px;
+        margin-top: 0px;
+    }
+    #responseDescription{ 
+        font-size: 40px;
+    }    
     .thinkAboutImg{
         margin-left: 20px;
         height: 200px;
@@ -624,9 +669,9 @@
     .terms15{ 
         justify-content: center;
         align-content: center;
-        margin-left: 0px;
+        margin-left: 15px;
     }
-} */
+}
 
 
 
