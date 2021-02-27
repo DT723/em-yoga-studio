@@ -607,7 +607,7 @@
   and (orientation: landscape) {
     #heroTitle{ 
         font-size: 55px;
-        margin-top: 70px;
+        margin-top: 0px;
     }
     #responseDescription{ 
         font-size: 35px;
