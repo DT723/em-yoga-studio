@@ -161,9 +161,10 @@
     margin-top: -10px;
 }
 
-.shareLinks {
+.social-round-icon {
     padding-top: 0px;
     padding-bottom: 5px;
+    padding-left: 1px;
 }
 
 .link-like-text:hover {
